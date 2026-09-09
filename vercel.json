@@ -3,8 +3,10 @@
   "rewrites": [
     { "source": "/ogc/(.*)", "destination": "https://bhusync-api-25dk.onrender.com/ogc/$1" },
     { "source": "/api/(.*)", "destination": "https://bhusync-api-25dk.onrender.com/api/$1" },
+    { "source": "/mobile-pwa/(.*)", "destination": "/mobile-pwa/$1" },
     { "source": "/mobile/(.*)", "destination": "/mobile-pwa/$1" },
     { "source": "/mobile", "destination": "/mobile-pwa/index.html" },
+    { "source": "/mobile/", "destination": "/mobile-pwa/index.html" },
     { "source": "/(.*)", "destination": "/frontend/$1" }
   ]
 }
