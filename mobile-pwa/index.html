@@ -4,111 +4,150 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="BhuSynch AI Mobile Ground-Truthing PWA — Encrypted OGC GeoPackage field data collection for cadastral survey verification.">
-    <meta name="theme-color" content="#0a0e1a">
+    <meta name="theme-color" content="#2B1810">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>BhuSynch AI — Field Survey PWA</title>
     <base href="/mobile/">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230a0e1a'/><text x='50%25' y='65%25' dominant-baseline='middle' text-anchor='middle' font-size='20'>📍</text></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%235A3825'/><path d='M8 16L16 8L24 16L16 24Z' fill='white' opacity='0.9'/><path d='M12 16L16 12L20 16L16 20Z' fill='%23C59B27'/></svg>">
     <link rel="manifest" href="manifest.json">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/mobile.css?v=20260909_live">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/mobile.css?v=20260909_lucky">
 </head>
 <body>
-    <!-- App Shell -->
-    <header id="pwa-header" class="pwa-header">
-        <div class="pwa-brand">
-            <span class="pwa-logo">📍</span>
-            <h1>BhuSynch Field</h1>
-        </div>
-        <div class="pwa-status">
-            <span id="sync-indicator" class="sync-indicator offline" title="Sync Status">⚫</span>
-            <span id="gps-indicator" class="gps-indicator" title="GPS Status">📡</span>
-        </div>
-    </header>
+    <div class="app-shell-container">
+        <!-- App Header (Matching Website's Deep Earth Brown & Gold Header) -->
+        <header id="pwa-header" class="pwa-header">
+            <div class="pwa-brand">
+                <div class="pwa-logo" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 32 32" fill="none">
+                        <path d="M8 16L16 8L24 16L16 24Z" fill="#FAF8F5"/>
+                        <path d="M12 16L16 12L20 16L16 20Z" fill="#C59B27"/>
+                    </svg>
+                </div>
+                <div class="pwa-brand-text">
+                    <h1>BhuSynch Field</h1>
+                    <span class="pwa-sub">Ground-Truthing Cadastre</span>
+                </div>
+            </div>
+            <div class="pwa-status">
+                <span id="sync-indicator" class="sync-badge online" title="Sync Status">
+                    <span class="dot"></span> Online
+                </span>
+                <span id="gps-indicator" class="crs-pill" title="Geodetic Reference">EPSG:7755</span>
+            </div>
+        </header>
 
-    <main id="pwa-main" class="pwa-main">
-        <!-- Tab Navigation -->
+        <!-- Tab Navigation (Website-Style Pill Tabs) -->
         <nav id="tab-nav" class="tab-nav">
             <button class="tab-btn active" data-tab="survey" id="tab-survey">🗺️ Survey</button>
             <button class="tab-btn" data-tab="capture" id="tab-capture">📸 Capture</button>
             <button class="tab-btn" data-tab="queue" id="tab-queue">📋 Queue</button>
         </nav>
 
-        <!-- Survey Tab -->
-        <section id="section-survey" class="tab-content active">
-            <div id="mobile-map-container" class="mobile-map">
-                <div class="map-placeholder">
-                    <p>🗺️ MapLibre GL — Loading offline tiles...</p>
-                    <p class="map-coords" id="current-coords">Lat: --, Lng: --</p>
-                    <p class="map-accuracy" id="gps-accuracy">Accuracy: -- m</p>
-                </div>
-            </div>
-            <div class="survey-actions">
-                <button id="btn-mark-vertex" class="action-btn primary-action">📌 Mark Vertex</button>
-                <button id="btn-close-polygon" class="action-btn secondary-action">🔷 Close Polygon</button>
-                <button id="btn-take-photo" class="action-btn accent-action">📸 Photo Evidence</button>
-            </div>
-            <div id="vertex-count" class="vertex-counter">
-                <span>Vertices recorded: <strong id="v-count">0</strong></span>
-                <span>CRS: EPSG:7755</span>
-            </div>
-        </section>
-
-        <!-- Capture Tab -->
-        <section id="section-capture" class="tab-content">
-            <div id="camera-container" class="camera-container">
-                <video id="camera-preview" class="camera-preview" autoplay playsinline></video>
-                <canvas id="camera-canvas" class="camera-canvas" style="display:none;"></canvas>
-                <div class="camera-overlay">
-                    <div class="camera-crosshair"></div>
-                    <div class="camera-metadata">
-                        <span id="capture-timestamp">--</span>
-                        <span id="capture-gps">GPS: --</span>
+        <main id="pwa-main" class="pwa-main">
+            <!-- ── Survey Tab ── -->
+            <section id="section-survey" class="tab-content active">
+                <div class="mobile-map-card">
+                    <div id="mobile-map-container" class="mobile-map">
+                        <div class="map-placeholder">
+                            <span class="map-status-pill">📡 CORS RNC1 RTK Fixed</span>
+                            <p style="font-size: 0.8rem; color: #57534E; margin-top: 4px;">MapLibre GL Vector Cadastre Layer</p>
+                        </div>
+                    </div>
+                    <div class="coords-hud">
+                        <div>
+                            <div style="font-size: 0.65rem; color: #857F77; text-transform: uppercase; font-weight: 700; letter-spacing: 0.04em;">Current Position</div>
+                            <span class="map-coords" id="current-coords">85.3167° E, 23.3785° N</span>
+                        </div>
+                        <div>
+                            <span class="map-accuracy" id="gps-accuracy">🎯 ± 0.04 m</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="capture-actions">
-                <button id="btn-shutter" class="shutter-btn">📸</button>
-            </div>
-            <div id="captured-images" class="captured-gallery">
-                <!-- Thumbnails populate here -->
-            </div>
-        </section>
 
-        <!-- Queue Tab -->
-        <section id="section-queue" class="tab-content">
-            <div class="queue-header">
-                <h2>Sync Queue</h2>
-                <button id="btn-sync-all" class="sync-btn">🔄 Sync All</button>
-            </div>
-            <div id="sync-queue-list" class="sync-queue">
-                <div class="queue-item pending">
-                    <div class="queue-icon">🔶</div>
-                    <div class="queue-info">
-                        <span class="queue-title">Parcel Survey — Khasra 142/3</span>
-                        <span class="queue-detail">12 vertices, 3 photos · 2.4 MB</span>
-                    </div>
-                    <span class="queue-status">Pending</span>
+                <div class="survey-actions">
+                    <button id="btn-mark-vertex" class="action-btn primary-action">
+                        <span>📌</span> Mark Vertex
+                    </button>
+                    <button id="btn-close-polygon" class="action-btn secondary-action">
+                        <span>🔷</span> Close Polygon
+                    </button>
+                    <button id="btn-take-photo" class="action-btn accent-action">
+                        <span>📸</span> Evidence
+                    </button>
                 </div>
-                <div class="queue-item synced">
-                    <div class="queue-icon">✅</div>
-                    <div class="queue-info">
-                        <span class="queue-title">Parcel Survey — Khasra 88/1</span>
-                        <span class="queue-detail">8 vertices, 1 photo · 1.1 MB</span>
-                    </div>
-                    <span class="queue-status">Synced</span>
-                </div>
-            </div>
-            <div class="storage-info">
-                <span>📦 Offline Storage: <strong id="storage-used">3.5 MB</strong> / 50 MB</span>
-                <div class="storage-bar"><div class="storage-fill" style="width: 7%"></div></div>
-            </div>
-        </section>
-    </main>
 
+                <div id="vertex-count" class="vertex-counter">
+                    <span>Vertices recorded: <strong id="v-count">0</strong></span>
+                    <span class="crs-tag">Survey of India RNC1</span>
+                </div>
+            </section>
+
+            <!-- ── Capture Tab ── -->
+            <section id="section-capture" class="tab-content">
+                <div class="camera-container">
+                    <video id="camera-preview" class="camera-preview" autoplay playsinline></video>
+                    <canvas id="camera-canvas" class="camera-canvas" style="display:none;"></canvas>
+                    <div class="camera-overlay">
+                        <div class="camera-crosshair"></div>
+                        <div class="camera-metadata">
+                            <span id="capture-timestamp">2026-09-09 20:58 UTC</span>
+                            <span id="capture-gps">GPS: 85.3167° E, 23.3785° N</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="capture-actions">
+                    <button id="btn-shutter" class="shutter-btn" title="Capture Photo">📸</button>
+                </div>
+                <div id="captured-images" class="captured-gallery">
+                    <!-- Thumbnails populate here -->
+                </div>
+            </section>
+
+            <!-- ── Queue Tab ── -->
+            <section id="section-queue" class="tab-content">
+                <div class="queue-header">
+                    <h2>Offline Sync Queue</h2>
+                    <button id="btn-sync-all" class="sync-btn">🔄 Sync All</button>
+                </div>
+                <div id="sync-queue-list" class="sync-queue">
+                    <div class="queue-item pending">
+                        <div class="queue-icon">🔶</div>
+                        <div class="queue-info">
+                            <span class="queue-title">Parcel Survey — Khasra 201 (Piska More)</span>
+                            <span class="queue-detail">16 vertices, 2 photos · 1.8 MB</span>
+                        </div>
+                        <span class="queue-status">Pending Sync</span>
+                    </div>
+                    <div class="queue-item synced">
+                        <div class="queue-icon">✅</div>
+                        <div class="queue-info">
+                            <span class="queue-title">Parcel Survey — Khasra 202 (Hehal ST Raiyat)</span>
+                            <span class="queue-detail">14 vertices, 3 photos · 2.4 MB</span>
+                        </div>
+                        <span class="queue-status">Merkle Verified</span>
+                    </div>
+                </div>
+                <div class="storage-info">
+                    <div style="display: flex; justify-content: space-between;">
+                        <span>📦 Local OGC GeoPackage Cache:</span>
+                        <strong id="storage-used">4.2 MB / 50 MB</strong>
+                    </div>
+                    <div class="storage-bar"><div class="storage-fill" style="width: 8.4%"></div></div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Bottom Link to Desktop 3D Web-GIS Console -->
+        <footer class="desktop-link-banner">
+            Switched to field unit? <a href="/frontend/index.html">Open Full 3D Web-GIS Console →</a>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
     <script src="js/pwa-app.js"></script>
     <script src="js/offline-sync.js"></script>
     <script src="js/camera-capture.js"></script>
