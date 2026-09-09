@@ -1,0 +1,476 @@
+{
+  "type": "FeatureCollection",
+  "name": "Rishra_Hooghly_Dispute_Cases",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "conflict-ris-101",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.347525,
+              22.723175
+            ],
+            [
+              88.348125,
+              22.723265
+            ],
+            [
+              88.348075,
+              22.723665
+            ],
+            [
+              88.347485,
+              22.723585
+            ],
+            [
+              88.347525,
+              22.723175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "conflict_id": "CONF-WB-HGL-RIS-101",
+        "ulpin": "191472333477",
+        "dag_no": 101,
+        "khatian_no": 201,
+        "mouza": "Rishra",
+        "conflict_type": "GT Road PWD Right-of-Way Commercial Encroachment",
+        "severity": "Critical",
+        "statutory_act": "PWD West Bengal Roads Act",
+        "disputed_area_sqm": 101.53,
+        "disputed_area_katha": 1.52,
+        "primary_owner": "Aditya Birla Nuvo / Jayshree Textiles Ltd",
+        "secondary_claimant": "Adjacent Plot Holder / PWD Highway Authority",
+        "recommended_action": "Execute Quasi-Judicial Adjudication with IT Act 2000 DSC Sign",
+        "status": "Pending_Hearing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "conflict-ris-106",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.348275,
+              22.723805
+            ],
+            [
+              88.34887499999999,
+              22.723895000000002
+            ],
+            [
+              88.34882499999999,
+              22.724295
+            ],
+            [
+              88.348235,
+              22.724215
+            ],
+            [
+              88.348275,
+              22.723805
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "conflict_id": "CONF-WB-HGL-RIS-106",
+        "ulpin": "191472393484",
+        "dag_no": 106,
+        "khatian_no": 206,
+        "mouza": "Rishra",
+        "conflict_type": "Adjacent Dag Boundary Encroachment (Physical Fence Mismatch)",
+        "severity": "Warning",
+        "statutory_act": "WB Land Reforms Act Sec 50",
+        "disputed_area_sqm": 88.38,
+        "disputed_area_katha": 1.32,
+        "primary_owner": "Tarapada Mukherjee & Brothers",
+        "secondary_claimant": "Adjacent Plot Holder / PWD Highway Authority",
+        "recommended_action": "Execute Quasi-Judicial Adjudication with IT Act 2000 DSC Sign",
+        "status": "Pending_Hearing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "conflict-ris-115",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.349125,
+              22.724985
+            ],
+            [
+              88.34972499999999,
+              22.725075
+            ],
+            [
+              88.34967499999999,
+              22.725475000000003
+            ],
+            [
+              88.349085,
+              22.725395
+            ],
+            [
+              88.349125,
+              22.724985
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "conflict_id": "CONF-WB-HGL-RIS-115",
+        "ulpin": "191472513493",
+        "dag_no": 115,
+        "khatian_no": 215,
+        "mouza": "Rishra",
+        "conflict_type": "Hooghly River Inter-Tidal High Water Buffer Infringement",
+        "severity": "Critical",
+        "statutory_act": "National Green Tribunal / WBIWD Act",
+        "disputed_area_sqm": 89.11,
+        "disputed_area_katha": 1.33,
+        "primary_owner": "Aditya Birla Nuvo / Jayshree Textiles Ltd",
+        "secondary_claimant": "Adjacent Plot Holder / PWD Highway Authority",
+        "recommended_action": "Execute Quasi-Judicial Adjudication with IT Act 2000 DSC Sign",
+        "status": "Pending_Hearing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "conflict-ris-120",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.343975,
+              22.720415
+            ],
+            [
+              88.34457499999999,
+              22.720505000000003
+            ],
+            [
+              88.34452499999999,
+              22.720905000000002
+            ],
+            [
+              88.343935,
+              22.720825
+            ],
+            [
+              88.343975,
+              22.720415
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "conflict_id": "CONF-WB-HGL-RIS-120",
+        "ulpin": "191472053441",
+        "dag_no": 120,
+        "khatian_no": 220,
+        "mouza": "Morepukur",
+        "conflict_type": "Partition Dispute Among Co-Sharers (Unrecorded Dag Division)",
+        "severity": "Warning",
+        "statutory_act": "Hindu Succession Act / Mutation Dispute",
+        "disputed_area_sqm": 93.49,
+        "disputed_area_katha": 1.4,
+        "primary_owner": "Tarapada Mukherjee & Brothers",
+        "secondary_claimant": "Adjacent Plot Holder / PWD Highway Authority",
+        "recommended_action": "Execute Quasi-Judicial Adjudication with IT Act 2000 DSC Sign",
+        "status": "Pending_Hearing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "conflict-ris-125",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.342225,
+              22.721275
+            ],
+            [
+              88.34282499999999,
+              22.721365000000002
+            ],
+            [
+              88.34277499999999,
+              22.721765
+            ],
+            [
+              88.342185,
+              22.721685
+            ],
+            [
+              88.342225,
+              22.721275
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "conflict_id": "CONF-WB-HGL-RIS-125",
+        "ulpin": "191472143424",
+        "dag_no": 125,
+        "khatian_no": 225,
+        "mouza": "Morepukur",
+        "conflict_type": "GT Road PWD Right-of-Way Commercial Encroachment",
+        "severity": "Critical",
+        "statutory_act": "PWD West Bengal Roads Act",
+        "disputed_area_sqm": 80.59,
+        "disputed_area_katha": 1.2,
+        "primary_owner": "Subir Kumar Sen",
+        "secondary_claimant": "Adjacent Plot Holder / PWD Highway Authority",
+        "recommended_action": "Execute Quasi-Judicial Adjudication with IT Act 2000 DSC Sign",
+        "status": "Pending_Hearing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "conflict-ris-129",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.342325,
+              22.721825
+            ],
+            [
+              88.342925,
+              22.721915000000003
+            ],
+            [
+              88.34287499999999,
+              22.722315000000002
+            ],
+            [
+              88.342285,
+              22.722235
+            ],
+            [
+              88.342325,
+              22.721825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "conflict_id": "CONF-WB-HGL-RIS-129",
+        "ulpin": "191472203425",
+        "dag_no": 129,
+        "khatian_no": 229,
+        "mouza": "Morepukur",
+        "conflict_type": "Adjacent Dag Boundary Encroachment (Physical Fence Mismatch)",
+        "severity": "Warning",
+        "statutory_act": "WB Land Reforms Act Sec 50",
+        "disputed_area_sqm": 84.48,
+        "disputed_area_katha": 1.26,
+        "primary_owner": "Aditya Birla Nuvo / Jayshree Textiles Ltd",
+        "secondary_claimant": "Adjacent Plot Holder / PWD Highway Authority",
+        "recommended_action": "Execute Quasi-Judicial Adjudication with IT Act 2000 DSC Sign",
+        "status": "Pending_Hearing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "conflict-ris-134",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.353675,
+              22.717255
+            ],
+            [
+              88.354275,
+              22.717345
+            ],
+            [
+              88.354225,
+              22.717745
+            ],
+            [
+              88.353635,
+              22.717665
+            ],
+            [
+              88.353675,
+              22.717255
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "conflict_id": "CONF-WB-HGL-RIS-134",
+        "ulpin": "191471743538",
+        "dag_no": 134,
+        "khatian_no": 234,
+        "mouza": "Rishra",
+        "conflict_type": "Hooghly River Inter-Tidal High Water Buffer Infringement",
+        "severity": "Critical",
+        "statutory_act": "National Green Tribunal / WBIWD Act",
+        "disputed_area_sqm": 98.85,
+        "disputed_area_katha": 1.48,
+        "primary_owner": "Tarapada Mukherjee & Brothers",
+        "secondary_claimant": "Adjacent Plot Holder / PWD Highway Authority",
+        "recommended_action": "Execute Quasi-Judicial Adjudication with IT Act 2000 DSC Sign",
+        "status": "Pending_Hearing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "conflict-ris-139",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.354425,
+              22.717885
+            ],
+            [
+              88.355025,
+              22.717975000000003
+            ],
+            [
+              88.354975,
+              22.718375
+            ],
+            [
+              88.354385,
+              22.718295
+            ],
+            [
+              88.354425,
+              22.717885
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "conflict_id": "CONF-WB-HGL-RIS-139",
+        "ulpin": "191471803546",
+        "dag_no": 139,
+        "khatian_no": 239,
+        "mouza": "Rishra",
+        "conflict_type": "Partition Dispute Among Co-Sharers (Unrecorded Dag Division)",
+        "severity": "Warning",
+        "statutory_act": "Hindu Succession Act / Mutation Dispute",
+        "disputed_area_sqm": 85.7,
+        "disputed_area_katha": 1.28,
+        "primary_owner": "Subir Kumar Sen",
+        "secondary_claimant": "Adjacent Plot Holder / PWD Highway Authority",
+        "recommended_action": "Execute Quasi-Judicial Adjudication with IT Act 2000 DSC Sign",
+        "status": "Pending_Hearing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "conflict-ris-143",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.354525,
+              22.718435
+            ],
+            [
+              88.355125,
+              22.718525
+            ],
+            [
+              88.355075,
+              22.718925000000002
+            ],
+            [
+              88.354485,
+              22.718845
+            ],
+            [
+              88.354525,
+              22.718435
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "conflict_id": "CONF-WB-HGL-RIS-143",
+        "ulpin": "191471863547",
+        "dag_no": 143,
+        "khatian_no": 243,
+        "mouza": "Rishra",
+        "conflict_type": "GT Road PWD Right-of-Way Commercial Encroachment",
+        "severity": "Critical",
+        "statutory_act": "PWD West Bengal Roads Act",
+        "disputed_area_sqm": 80.1,
+        "disputed_area_katha": 1.2,
+        "primary_owner": "Aditya Birla Nuvo / Jayshree Textiles Ltd",
+        "secondary_claimant": "Adjacent Plot Holder / PWD Highway Authority",
+        "recommended_action": "Execute Quasi-Judicial Adjudication with IT Act 2000 DSC Sign",
+        "status": "Pending_Hearing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "conflict-ris-148",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.355275,
+              22.719065
+            ],
+            [
+              88.355875,
+              22.719155
+            ],
+            [
+              88.355825,
+              22.719555000000003
+            ],
+            [
+              88.355235,
+              22.719475
+            ],
+            [
+              88.355275,
+              22.719065
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "conflict_id": "CONF-WB-HGL-RIS-148",
+        "ulpin": "191471923554",
+        "dag_no": 148,
+        "khatian_no": 248,
+        "mouza": "Rishra",
+        "conflict_type": "Adjacent Dag Boundary Encroachment (Physical Fence Mismatch)",
+        "severity": "Warning",
+        "statutory_act": "WB Land Reforms Act Sec 50",
+        "disputed_area_sqm": 91.3,
+        "disputed_area_katha": 1.36,
+        "primary_owner": "Tarapada Mukherjee & Brothers",
+        "secondary_claimant": "Adjacent Plot Holder / PWD Highway Authority",
+        "recommended_action": "Execute Quasi-Judicial Adjudication with IT Act 2000 DSC Sign",
+        "status": "Pending_Hearing"
+      }
+    }
+  ]
+}

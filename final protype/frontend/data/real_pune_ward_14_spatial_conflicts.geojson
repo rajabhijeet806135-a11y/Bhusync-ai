@@ -1,0 +1,76 @@
+{
+  "type": "FeatureCollection",
+  "name": "BhuSynch_Spatial_Conflicts_Catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-2026-0001",
+        "ulpin": "27010410010002",
+        "khasra_no": "118/2",
+        "conflict_type": "CASE_B_ROW_ENCROACHMENT",
+        "severity": "CRITICAL",
+        "legal_area_sqm": 530.00,
+        "observed_area_sqm": 558.40,
+        "discrepancy_area_sqm": 28.40,
+        "encroachment_into_public_land_sqm": 8.40,
+        "violation_layer": "Pune Municipal Corporation 12m DP Road Right-of-Way",
+        "evidence_graph": {
+          "primary_evidence": "SoI 5cm Drone ORI (2026)",
+          "height_evidence": "nDSM indicates 2.4m permanent brick compound wall built across DP road line",
+          "legal_map": "Kalianpur 1937 Sajra sheet shows straight road corridor without indentation",
+          "ror_area_match": false
+        },
+        "recommended_action": "ISSUE_ANTI_ENCROACHMENT_NOTICE",
+        "adjudication_status": "PENDING_REVENUE_OFFICER_REVIEW"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.856700, 18.520100],
+            [73.856720, 18.520100],
+            [73.856720, 18.520260],
+            [73.856700, 18.520260],
+            [73.856700, 18.520100]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "conflict_id": "CONF-2026-0002",
+        "ulpin": "27010410010005",
+        "khasra_no": "120/A",
+        "conflict_type": "CASE_B_WATERBODY_INTRUSION",
+        "severity": "HIGH",
+        "legal_area_sqm": 840.00,
+        "observed_area_sqm": 895.00,
+        "discrepancy_area_sqm": 55.00,
+        "encroachment_into_public_land_sqm": 22.50,
+        "violation_layer": "Gair Mumkin Nallah (Natural Drainage Buffer)",
+        "evidence_graph": {
+          "primary_evidence": "SoI 5cm Drone ORI + CartoDEM slope analysis",
+          "height_evidence": "Land filling of 1.2m depth detected over historical nallah basin",
+          "legal_map": "Revenue Musavi sheet marks parcel boundary 5 meters away from high-flood level mark",
+          "ror_area_match": false
+        },
+        "recommended_action": "ENFORCEMENT_LOCK_AND_DEMOLITION_SURVEY",
+        "adjudication_status": "LOCKED_FOR_TRANSACTIONS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.856520, 18.520650],
+            [73.856550, 18.520650],
+            [73.856550, 18.520980],
+            [73.856520, 18.520980],
+            [73.856520, 18.520650]
+          ]
+        ]
+      }
+    }
+  ]
+}

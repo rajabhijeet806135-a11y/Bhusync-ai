@@ -1,0 +1,1084 @@
+[
+  {
+    "filename": "indian_states_all.geojson",
+    "size_kb": 12067.2,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 35,
+    "geom_types": [
+      "MultiPolygon",
+      "Polygon"
+    ],
+    "bbox": [
+      68.1862,
+      6.7543,
+      97.4152,
+      35.5013
+    ],
+    "sample_properties": [
+      "ID_0",
+      "ISO",
+      "NAME_0",
+      "ID_1",
+      "NAME_1",
+      "NL_NAME_1",
+      "VARNAME_1",
+      "TYPE_1"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "official_kolkata_city_boundary.geojson",
+    "size_kb": 5.91,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 1,
+    "geom_types": [
+      "Polygon"
+    ],
+    "bbox": [
+      88.3076,
+      22.4773,
+      88.4786,
+      22.6577
+    ],
+    "sample_properties": [],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "official_kolkata_wards.geojson",
+    "size_kb": 6647.9,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 141,
+    "geom_types": [
+      "MultiPolygon"
+    ],
+    "bbox": [
+      88.2421,
+      22.4503,
+      88.459,
+      22.6326
+    ],
+    "sample_properties": [
+      "WARD"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "official_osm_bidhannagar_elements.geojson",
+    "size_kb": 270.8,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 250,
+    "geom_types": [
+      "LineString",
+      "Polygon"
+    ],
+    "bbox": [
+      88.4194,
+      22.5583,
+      88.445,
+      22.5811
+    ],
+    "sample_properties": [
+      "osm_id",
+      "name",
+      "building",
+      "highway",
+      "state_code",
+      "district",
+      "zone"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "official_west_bengal_districts.geojson",
+    "size_kb": 437.57,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 23,
+    "geom_types": [
+      "MultiPolygon",
+      "Polygon"
+    ],
+    "bbox": [
+      85.8197,
+      21.4839,
+      89.8742,
+      27.2206
+    ],
+    "sample_properties": [
+      "dt_code",
+      "district",
+      "st_nm",
+      "st_code",
+      "year"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "official_west_bengal_state_boundary.geojson",
+    "size_kb": 110.7,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 15,
+    "geom_types": [
+      "Polygon"
+    ],
+    "bbox": [
+      86.4511,
+      21.5482,
+      89.8644,
+      27.2664
+    ],
+    "sample_properties": [
+      "district_name",
+      "state_name",
+      "id"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "ranchi_jharkhand_cadastral_parcels.geojson",
+    "size_kb": 3021.33,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 1356,
+    "geom_types": [
+      "Polygon"
+    ],
+    "bbox": [
+      85.2718,
+      23.3066,
+      85.3903,
+      23.4124
+    ],
+    "sample_properties": [
+      "ulpin",
+      "dag_no",
+      "khasra_no",
+      "khatian_no",
+      "mouza",
+      "thana_no",
+      "circle",
+      "district"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "ranchi_jharkhand_dispute_cases.geojson",
+    "size_kb": 6.46,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 4,
+    "geom_types": [
+      "Polygon"
+    ],
+    "bbox": [
+      85.3048,
+      23.3108,
+      85.3635,
+      23.3882
+    ],
+    "sample_properties": [
+      "case_id",
+      "conflict_type",
+      "severity",
+      "title",
+      "ulpin",
+      "dag_no",
+      "khasra_no",
+      "khatian_no"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "ranchi_jharkhand_infrastructure.geojson",
+    "size_kb": 737.59,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 387,
+    "geom_types": [
+      "LineString",
+      "Point"
+    ],
+    "bbox": [
+      85.2371,
+      23.2798,
+      85.4107,
+      23.4288
+    ],
+    "sample_properties": [
+      "osm_id",
+      "category",
+      "name",
+      "highway",
+      "railway",
+      "waterway",
+      "amenity",
+      "city"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "ranchi_jharkhand_ror_records.json",
+    "size_kb": 1341.84,
+    "extension": ".json",
+    "valid_json": true,
+    "type": "Array",
+    "feature_count": 1356,
+    "geom_types": [],
+    "bbox": null,
+    "sample_properties": [
+      "ulpin",
+      "state_code",
+      "state_name",
+      "district",
+      "circle",
+      "mouza_name",
+      "thana_no",
+      "khatian_no"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "ranchi_piska_more_cadastral_parcels.geojson",
+    "size_kb": 1352.32,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 503,
+    "geom_types": [
+      "Polygon"
+    ],
+    "bbox": [
+      85.272,
+      23.3608,
+      85.3256,
+      23.4051
+    ],
+    "sample_properties": [
+      "ulpin",
+      "khasra_no",
+      "khata_no",
+      "khatian_no",
+      "dag_no",
+      "mouza",
+      "mouza_name",
+      "thana_no"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "ranchi_piska_more_dispute_cases.geojson",
+    "size_kb": 8.02,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 5,
+    "geom_types": [
+      "Polygon"
+    ],
+    "bbox": [
+      85.2778,
+      23.374,
+      85.3032,
+      23.3882
+    ],
+    "sample_properties": [
+      "case_id",
+      "conflict_type",
+      "severity",
+      "title",
+      "ulpin",
+      "dag_no",
+      "khasra_no",
+      "khatian_no"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "ranchi_piska_more_infrastructure.geojson",
+    "size_kb": 510.45,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 500,
+    "geom_types": [
+      "LineString",
+      "Point"
+    ],
+    "bbox": [
+      85.261,
+      23.3506,
+      85.3514,
+      23.4044
+    ],
+    "sample_properties": [
+      "osm_id",
+      "name",
+      "highway",
+      "category",
+      "zone",
+      "city",
+      "state_code"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "ranchi_piska_more_ror_records.json",
+    "size_kb": 544.85,
+    "extension": ".json",
+    "valid_json": true,
+    "type": "Array",
+    "feature_count": 503,
+    "geom_types": [],
+    "bbox": null,
+    "sample_properties": [
+      "ulpin",
+      "state_code",
+      "state_name",
+      "district",
+      "circle",
+      "mouza_name",
+      "thana_no",
+      "khata_no"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "README_DATA_SOURCES.md",
+    "size_kb": 17.16,
+    "extension": ".md",
+    "valid_json": false,
+    "type": "Unknown",
+    "feature_count": 0,
+    "geom_types": [],
+    "bbox": null,
+    "sample_properties": [],
+    "provenance": "Unknown",
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "filename": "real_osm_west_bengal_infrastructure.geojson",
+    "size_kb": 3750.64,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 3372,
+    "geom_types": [
+      "LineString",
+      "Polygon"
+    ],
+    "bbox": [
+      88.3789,
+      22.5133,
+      88.4961,
+      22.6034
+    ],
+    "sample_properties": [
+      "osm_id",
+      "name",
+      "building",
+      "highway",
+      "waterway",
+      "natural",
+      "levels",
+      "source"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "real_pune_civic_amenities.geojson",
+    "size_kb": 154.84,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 431,
+    "geom_types": [
+      "Point",
+      "Polygon"
+    ],
+    "bbox": [
+      73.8373,
+      18.5094,
+      73.8678,
+      18.5443
+    ],
+    "sample_properties": [
+      "amenity",
+      "check_date",
+      "name"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "real_pune_ward_14_cadastral_parcels.geojson",
+    "size_kb": 252.01,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 150,
+    "geom_types": [
+      "Polygon"
+    ],
+    "bbox": [
+      73.8445,
+      18.5146,
+      73.8651,
+      18.5302
+    ],
+    "sample_properties": [
+      "id",
+      "ulpin",
+      "khasra_no",
+      "khata_no",
+      "village",
+      "state_code",
+      "district",
+      "status"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "real_pune_ward_14_spatial_conflicts.geojson",
+    "size_kb": 2.58,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 2,
+    "geom_types": [
+      "Polygon"
+    ],
+    "bbox": [
+      73.8565,
+      18.5201,
+      73.8567,
+      18.521
+    ],
+    "sample_properties": [
+      "conflict_id",
+      "ulpin",
+      "khasra_no",
+      "conflict_type",
+      "severity",
+      "legal_area_sqm",
+      "observed_area_sqm",
+      "discrepancy_area_sqm"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "real_pune_waterways.geojson",
+    "size_kb": 32.62,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 17,
+    "geom_types": [
+      "LineString",
+      "Polygon"
+    ],
+    "bbox": [
+      73.511,
+      18.4429,
+      74.1088,
+      18.5885
+    ],
+    "sample_properties": [
+      "name",
+      "name:en",
+      "name:gu",
+      "name:mr",
+      "waterway",
+      "width"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "real_ward_14_buildings.geojson",
+    "size_kb": 1079.33,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 4287,
+    "geom_types": [
+      "Polygon"
+    ],
+    "bbox": [
+      73.8445,
+      18.5146,
+      73.8658,
+      18.5316
+    ],
+    "sample_properties": [
+      "building",
+      "building:levels"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "real_ward_14_roads.geojson",
+    "size_kb": 345.9,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 1109,
+    "geom_types": [
+      "LineString",
+      "Polygon"
+    ],
+    "bbox": [
+      73.8409,
+      18.5087,
+      73.8756,
+      18.5311
+    ],
+    "sample_properties": [
+      "highway",
+      "oneway"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "real_west_bengal_cadastral_parcels.geojson",
+    "size_kb": 183.11,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 100,
+    "geom_types": [
+      "Polygon"
+    ],
+    "bbox": [
+      88.428,
+      22.564,
+      88.4374,
+      22.5724
+    ],
+    "sample_properties": [
+      "id",
+      "ulpin",
+      "dag_no",
+      "khasra_no",
+      "khatian_no",
+      "khata_no",
+      "mouza",
+      "village"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "real_west_bengal_spatial_conflicts.geojson",
+    "size_kb": 3.83,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 3,
+    "geom_types": [
+      "Polygon"
+    ],
+    "bbox": [
+      88.4288,
+      22.564,
+      88.4348,
+      22.5656
+    ],
+    "sample_properties": [
+      "id",
+      "ulpin",
+      "dag_no",
+      "khasra_no",
+      "severity",
+      "type",
+      "authority",
+      "statutory_act"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "rishra_hooghly_cadastral_parcels.geojson",
+    "size_kb": 673.68,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 300,
+    "geom_types": [
+      "Polygon"
+    ],
+    "bbox": [
+      88.3299,
+      22.7026,
+      88.3573,
+      22.7323
+    ],
+    "sample_properties": [
+      "ulpin",
+      "osm_id",
+      "state",
+      "state_code",
+      "district",
+      "district_code",
+      "district_lgd",
+      "subdivision"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "rishra_hooghly_dispute_cases.geojson",
+    "size_kb": 13.19,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 10,
+    "geom_types": [
+      "Polygon"
+    ],
+    "bbox": [
+      88.3422,
+      22.7173,
+      88.3559,
+      22.7255
+    ],
+    "sample_properties": [
+      "conflict_id",
+      "ulpin",
+      "dag_no",
+      "khatian_no",
+      "mouza",
+      "conflict_type",
+      "severity",
+      "statutory_act"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "rishra_hooghly_infrastructure.geojson",
+    "size_kb": 735.54,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 400,
+    "geom_types": [
+      "LineString",
+      "Point"
+    ],
+    "bbox": [
+      88.3234,
+      22.6553,
+      88.3594,
+      22.7513
+    ],
+    "sample_properties": [
+      "osm_id",
+      "name",
+      "infrastructure_type",
+      "category",
+      "municipality",
+      "subdivision",
+      "district",
+      "district_lgd"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "rishra_hooghly_ror_records.json",
+    "size_kb": 325.5,
+    "extension": ".json",
+    "valid_json": true,
+    "type": "Array",
+    "feature_count": 300,
+    "geom_types": [],
+    "bbox": null,
+    "sample_properties": [
+      "ulpin",
+      "district",
+      "district_lgd",
+      "subdivision",
+      "block_municipality",
+      "ward_no",
+      "mouza",
+      "mouza_bengali"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "statewide_west_bengal_3d_strata.geojson",
+    "size_kb": 121.79,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 184,
+    "geom_types": [
+      "Point"
+    ],
+    "bbox": [
+      88.435,
+      22.57,
+      88.436,
+      22.5703
+    ],
+    "sample_properties": [
+      "building_name",
+      "rera_registration_no",
+      "ulpin",
+      "unit_id",
+      "floor_level",
+      "z_min_meters",
+      "z_max_meters",
+      "carpet_area_sqm"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "statewide_west_bengal_cadastral_parcels.geojson",
+    "size_kb": 1938.8,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 850,
+    "geom_types": [
+      "Polygon"
+    ],
+    "bbox": [
+      87.2714,
+      22.3286,
+      88.4394,
+      22.7323
+    ],
+    "sample_properties": [
+      "ulpin",
+      "state_code",
+      "state_name",
+      "district",
+      "taluka",
+      "mouza_name",
+      "jl_no",
+      "khatian_no"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "statewide_west_bengal_cors_network.geojson",
+    "size_kb": 4.05,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 6,
+    "geom_types": [
+      "Point"
+    ],
+    "bbox": [
+      87.3105,
+      22.3149,
+      88.3953,
+      26.7271
+    ],
+    "sample_properties": [
+      "station_id",
+      "station_name",
+      "elevation_ellipsoidal_m",
+      "frequency_bands",
+      "network_status",
+      "standard",
+      "horizontal_precision_mm",
+      "vertical_precision_mm"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "statewide_west_bengal_forests.geojson",
+    "size_kb": 3.76,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 4,
+    "geom_types": [
+      "Polygon"
+    ],
+    "bbox": [
+      88.05,
+      21.65,
+      89.85,
+      27.2
+    ],
+    "sample_properties": [
+      "forest_name",
+      "designation",
+      "district",
+      "area_sqkm",
+      "cadastral_status",
+      "statutory_act",
+      "private_mutation_allowed"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "statewide_west_bengal_gas_pipelines.geojson",
+    "size_kb": 2.95,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 3,
+    "geom_types": [
+      "LineString"
+    ],
+    "bbox": [
+      88.388,
+      22.515,
+      88.45,
+      22.585
+    ],
+    "sample_properties": [
+      "pipeline_id",
+      "pipeline_name",
+      "material",
+      "diameter_mm",
+      "operating_pressure_bar",
+      "depth_of_cover_m",
+      "statutory_safety_buffer_m",
+      "regulatory_body"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "statewide_west_bengal_highways.geojson",
+    "size_kb": 4.72,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 6,
+    "geom_types": [
+      "LineString"
+    ],
+    "bbox": [
+      88.36,
+      22.51,
+      88.475,
+      22.65
+    ],
+    "sample_properties": [
+      "road_name",
+      "sanctioned_width_m",
+      "right_of_way_buffer_m",
+      "statutory_authority",
+      "statutory_act",
+      "zero_encroachment_invariant"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "statewide_west_bengal_railways.geojson",
+    "size_kb": 3.06,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 4,
+    "geom_types": [
+      "LineString"
+    ],
+    "bbox": [
+      88.34,
+      22.46,
+      88.435,
+      22.75
+    ],
+    "sample_properties": [
+      "corridor_name",
+      "transit_type",
+      "exclusion_zone_m",
+      "deep_foundation_setback_m",
+      "statutory_act"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "statewide_west_bengal_rivers.geojson",
+    "size_kb": 4.84,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 6,
+    "geom_types": [
+      "LineString"
+    ],
+    "bbox": [
+      87.25,
+      22.48,
+      88.6,
+      26.85
+    ],
+    "sample_properties": [
+      "waterbody_name",
+      "waterbody_classification",
+      "statutory_green_buffer_m",
+      "high_flood_line_buffer_m",
+      "governing_authority",
+      "legal_mandate"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "statewide_west_bengal_ror_records.json",
+    "size_kb": 884.03,
+    "extension": ".json",
+    "valid_json": true,
+    "type": "Array",
+    "feature_count": 850,
+    "geom_types": [],
+    "bbox": null,
+    "sample_properties": [
+      "ulpin",
+      "khatian_no",
+      "dag_no",
+      "mouza",
+      "jl_no",
+      "district",
+      "police_station",
+      "primary_owner_bengali"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "statewide_west_bengal_spatial_conflicts.geojson",
+    "size_kb": 3.5,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 4,
+    "geom_types": [
+      "Point"
+    ],
+    "bbox": [
+      88.398,
+      22.522,
+      88.442,
+      22.581
+    ],
+    "sample_properties": [
+      "id",
+      "ulpin",
+      "khasra_no",
+      "mouza",
+      "conflict_type",
+      "severity",
+      "discrepancy_area_sqm",
+      "lead_ministry"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "west_medinipur_cadastral_parcels.geojson",
+    "size_kb": 860.6,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 350,
+    "geom_types": [
+      "Polygon"
+    ],
+    "bbox": [
+      87.2714,
+      22.3286,
+      87.3739,
+      22.4409
+    ],
+    "sample_properties": [
+      "ulpin",
+      "osm_id",
+      "state",
+      "state_code",
+      "district",
+      "district_code",
+      "district_lgd",
+      "subdivision"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "west_medinipur_dispute_cases.geojson",
+    "size_kb": 5.57,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 4,
+    "geom_types": [
+      "Polygon"
+    ],
+    "bbox": [
+      87.3099,
+      22.385,
+      87.3256,
+      22.3977
+    ],
+    "sample_properties": [
+      "id",
+      "ulpin",
+      "dag_no",
+      "khatian_no",
+      "conflict_type",
+      "severity",
+      "discrepancy_area_sqm",
+      "lead_ministry"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "west_medinipur_infrastructure.geojson",
+    "size_kb": 740.73,
+    "extension": ".geojson",
+    "valid_json": true,
+    "type": "FeatureCollection",
+    "feature_count": 400,
+    "geom_types": [
+      "LineString",
+      "Point"
+    ],
+    "bbox": [
+      87.0186,
+      22.3236,
+      87.8898,
+      22.8673
+    ],
+    "sample_properties": [
+      "osm_id",
+      "name",
+      "amenity",
+      "infrastructure_type",
+      "district",
+      "state"
+    ],
+    "provenance": "Unknown"
+  },
+  {
+    "filename": "west_medinipur_ror_records.json",
+    "size_kb": 402.0,
+    "extension": ".json",
+    "valid_json": true,
+    "type": "Array",
+    "feature_count": 350,
+    "geom_types": [],
+    "bbox": null,
+    "sample_properties": [
+      "ulpin",
+      "district",
+      "district_lgd",
+      "subdivision",
+      "block_municipality",
+      "mouza",
+      "mouza_bengali",
+      "jl_no"
+    ],
+    "provenance": "Unknown"
+  }
+]

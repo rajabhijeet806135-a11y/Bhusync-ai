@@ -1,0 +1,144 @@
+{
+  "type": "FeatureCollection",
+  "name": "real_west_bengal_spatial_conflicts",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CONF-WB-2026-0002",
+        "ulpin": "19031200010002",
+        "dag_no": "140/2",
+        "khasra_no": "140/2",
+        "severity": "CRITICAL",
+        "type": "KMDA_ROW_ENCROACHMENT",
+        "authority": "Kolkata Metropolitan Development Authority (KMDA Town Planning)",
+        "statutory_act": "West Bengal Town and Country (Planning and Development) Act 1979",
+        "description": "Commercial IT facility boundary wall extends 34.50 m² into the KMDA Biswa Bangla Sarani (60m Arterial Corridor) Right-of-Way.",
+        "delta_area_sqm": 34.5,
+        "tolerance_pct": 2.0,
+        "current_pct": 6.88,
+        "frechet_distance": 0.62,
+        "sigma_major": 0.35
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4288,
+              22.564
+            ],
+            [
+              88.42895,
+              22.564
+            ],
+            [
+              88.42895,
+              22.56472
+            ],
+            [
+              88.4288,
+              22.56472
+            ],
+            [
+              88.4288,
+              22.564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CONF-WB-2026-0005",
+        "ulpin": "19031200010005",
+        "dag_no": "141/1",
+        "khasra_no": "141/1",
+        "severity": "CRITICAL",
+        "type": "WETLAND_RAMSAR_INTRUSION",
+        "authority": "East Kolkata Wetlands Management Authority (EKWMA)",
+        "statutory_act": "East Kolkata Wetlands (Conservation and Management) Act 2006 (Ramsar Site No. 1208)",
+        "description": "Observed boundary landfill extends 48.20 m² into Ramsar Protected Kestopur Canal & Wetland Ecological Drainage Buffer.",
+        "delta_area_sqm": 48.2,
+        "tolerance_pct": 2.0,
+        "current_pct": 7.42,
+        "frechet_distance": 0.78,
+        "sigma_major": 0.41
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4318,
+              22.564
+            ],
+            [
+              88.432,
+              22.564
+            ],
+            [
+              88.432,
+              22.56472
+            ],
+            [
+              88.4318,
+              22.56472
+            ],
+            [
+              88.4318,
+              22.564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CONF-WB-2026-0017",
+        "ulpin": "19031200010017",
+        "dag_no": "144/1",
+        "khasra_no": "144/1",
+        "severity": "HIGH",
+        "type": "SIDE_SETBACK_VIOLATION",
+        "authority": "Bidhannagar Municipal Corporation (BMC Building Dept)",
+        "statutory_act": "KMC & BMC Building Rules 2009",
+        "description": "Commercial multi-storey construction violates mandatory 4.0m lateral clearance from high-voltage CESC underground cable feeder.",
+        "delta_area_sqm": 22.8,
+        "tolerance_pct": 2.0,
+        "current_pct": 4.15,
+        "frechet_distance": 0.45,
+        "sigma_major": 0.28
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43465,
+              22.56485
+            ],
+            [
+              88.43485,
+              22.56485
+            ],
+            [
+              88.43485,
+              22.56557
+            ],
+            [
+              88.43465,
+              22.56557
+            ],
+            [
+              88.43465,
+              22.56485
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

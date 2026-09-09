@@ -1,0 +1,42 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# BhuSynch AI — Kubernetes Namespace
+# ──────────────────────────────────────────────────────────────────────────────
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: bhusynch
+  labels:
+    app.kubernetes.io/name: bhusynch
+    app.kubernetes.io/part-of: bhusynch-ai
+    environment: production
+  annotations:
+    description: "BhuSynch AI — National Urban Cadastral Intelligence Mesh"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: bhusynch-quota
+  namespace: bhusynch
+spec:
+  hard:
+    requests.cpu: "32"
+    requests.memory: 64Gi
+    limits.cpu: "64"
+    limits.memory: 128Gi
+    persistentvolumeclaims: "20"
+    services: "20"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: bhusynch-limits
+  namespace: bhusynch
+spec:
+  limits:
+    - default:
+        cpu: "2"
+        memory: 4Gi
+      defaultRequest:
+        cpu: "500m"
+        memory: 512Mi
+      type: Container

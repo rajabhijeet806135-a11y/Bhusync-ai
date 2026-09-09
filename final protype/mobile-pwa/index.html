@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="BhuSynch AI Mobile Ground-Truthing PWA — Encrypted OGC GeoPackage field data collection for cadastral survey verification.">
+    <meta name="theme-color" content="#0a0e1a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>BhuSynch AI — Field Survey PWA</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    <!-- App Shell -->
+    <header id="pwa-header" class="pwa-header">
+        <div class="pwa-brand">
+            <span class="pwa-logo">📍</span>
+            <h1>BhuSynch Field</h1>
+        </div>
+        <div class="pwa-status">
+            <span id="sync-indicator" class="sync-indicator offline" title="Sync Status">⚫</span>
+            <span id="gps-indicator" class="gps-indicator" title="GPS Status">📡</span>
+        </div>
+    </header>
+
+    <main id="pwa-main" class="pwa-main">
+        <!-- Tab Navigation -->
+        <nav id="tab-nav" class="tab-nav">
+            <button class="tab-btn active" data-tab="survey" id="tab-survey">🗺️ Survey</button>
+            <button class="tab-btn" data-tab="capture" id="tab-capture">📸 Capture</button>
+            <button class="tab-btn" data-tab="queue" id="tab-queue">📋 Queue</button>
+        </nav>
+
+        <!-- Survey Tab -->
+        <section id="section-survey" class="tab-content active">
+            <div id="mobile-map-container" class="mobile-map">
+                <div class="map-placeholder">
+                    <p>🗺️ MapLibre GL — Loading offline tiles...</p>
+                    <p class="map-coords" id="current-coords">Lat: --, Lng: --</p>
+                    <p class="map-accuracy" id="gps-accuracy">Accuracy: -- m</p>
+                </div>
+            </div>
+            <div class="survey-actions">
+                <button id="btn-mark-vertex" class="action-btn primary-action">📌 Mark Vertex</button>
+                <button id="btn-close-polygon" class="action-btn secondary-action">🔷 Close Polygon</button>
+                <button id="btn-take-photo" class="action-btn accent-action">📸 Photo Evidence</button>
+            </div>
+            <div id="vertex-count" class="vertex-counter">
+                <span>Vertices recorded: <strong id="v-count">0</strong></span>
+                <span>CRS: EPSG:7755</span>
+            </div>
+        </section>
+
+        <!-- Capture Tab -->
+        <section id="section-capture" class="tab-content">
+            <div id="camera-container" class="camera-container">
+                <video id="camera-preview" class="camera-preview" autoplay playsinline></video>
+                <canvas id="camera-canvas" class="camera-canvas" style="display:none;"></canvas>
+                <div class="camera-overlay">
+                    <div class="camera-crosshair"></div>
+                    <div class="camera-metadata">
+                        <span id="capture-timestamp">--</span>
+                        <span id="capture-gps">GPS: --</span>
+                    </div>
+                </div>
+            </div>
+            <div class="capture-actions">
+                <button id="btn-shutter" class="shutter-btn">📸</button>
+            </div>
+            <div id="captured-images" class="captured-gallery">
+                <!-- Thumbnails populate here -->
+            </div>
+        </section>
+
+        <!-- Queue Tab -->
+        <section id="section-queue" class="tab-content">
+            <div class="queue-header">
+                <h2>Sync Queue</h2>
+                <button id="btn-sync-all" class="sync-btn">🔄 Sync All</button>
+            </div>
+            <div id="sync-queue-list" class="sync-queue">
+                <div class="queue-item pending">
+                    <div class="queue-icon">🔶</div>
+                    <div class="queue-info">
+                        <span class="queue-title">Parcel Survey — Khasra 142/3</span>
+                        <span class="queue-detail">12 vertices, 3 photos · 2.4 MB</span>
+                    </div>
+                    <span class="queue-status">Pending</span>
+                </div>
+                <div class="queue-item synced">
+                    <div class="queue-icon">✅</div>
+                    <div class="queue-info">
+                        <span class="queue-title">Parcel Survey — Khasra 88/1</span>
+                        <span class="queue-detail">8 vertices, 1 photo · 1.1 MB</span>
+                    </div>
+                    <span class="queue-status">Synced</span>
+                </div>
+            </div>
+            <div class="storage-info">
+                <span>📦 Offline Storage: <strong id="storage-used">3.5 MB</strong> / 50 MB</span>
+                <div class="storage-bar"><div class="storage-fill" style="width: 7%"></div></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/pwa-app.js"></script>
+    <script src="js/offline-sync.js"></script>
+    <script src="js/camera-capture.js"></script>
+    <script>
+        // Register Service Worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js')
+                .then(reg => console.log('[BhuSynch PWA] SW registered:', reg.scope))
+                .catch(err => console.error('[BhuSynch PWA] SW registration failed:', err));
+        }
+    </script>
+</body>
+</html>

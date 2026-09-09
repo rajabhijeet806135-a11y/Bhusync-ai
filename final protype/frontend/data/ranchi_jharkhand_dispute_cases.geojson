@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "CONF-JH-RNC-101",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.328,
+              23.388
+            ],
+            [
+              85.3292,
+              23.3882
+            ],
+            [
+              85.329,
+              23.3872
+            ],
+            [
+              85.3278,
+              23.387
+            ],
+            [
+              85.328,
+              23.388
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "case_id": "CONF-JH-RNC-101",
+        "conflict_type": "CNT_ACT_SEC46_TRIBAL_ALIENATION",
+        "severity": "CRITICAL",
+        "title": "Chota Nagpur Tenancy Act Sec 46 Violation (Morabadi)",
+        "ulpin": "20340000000101",
+        "dag_no": "101",
+        "khasra_no": "101",
+        "khatian_no": "301",
+        "mouza": "Morabadi (Thana No. 198)",
+        "circle": "Ranchi Sadar",
+        "district": "Ranchi",
+        "state_code": "20",
+        "statutory_law": "Chota Nagpur Tenancy Act, 1908 (Section 46 / 71A)",
+        "description": "Attempted alienation and transfer of tribal Bakast land from Birsa Munda to non-tribal developer for multi-storey residential building without mandatory sanction of Deputy Commissioner Ranchi.",
+        "discrepancy_area_sqm": 72.8,
+        "discrepancy_area_decimal": 1.8,
+        "timestamp": "2026-09-07T14:30:00Z",
+        "recommended_action": "Issue Eviction & Restoration Order u/s 71A CNT Act; Freeze Mutation in Jharbhoomi"
+      }
+    },
+    {
+      "id": "CONF-JH-RNC-102",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.362,
+              23.338
+            ],
+            [
+              85.3635,
+              23.3382
+            ],
+            [
+              85.3632,
+              23.3371
+            ],
+            [
+              85.3618,
+              23.3369
+            ],
+            [
+              85.362,
+              23.338
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "case_id": "CONF-JH-RNC-102",
+        "conflict_type": "SUBARNAREKHA_RIVER_BUFFER_VIOLATION",
+        "severity": "CRITICAL",
+        "title": "Subarnarekha River Flood Basin Buffer Infringement (Namkum)",
+        "ulpin": "20340000000102",
+        "dag_no": "202",
+        "khasra_no": "202",
+        "khatian_no": "302",
+        "mouza": "Namkum (Thana No. 220)",
+        "circle": "Namkum",
+        "district": "Ranchi",
+        "state_code": "20",
+        "statutory_law": "Jharkhand River Basin Conservation Guidelines & NGT Order 2021",
+        "description": "Commercial event lawn boundary wall built 52.40 m\u00b2 (1.30 Decimal) inside the statutory 50-meter no-construction high-flood buffer of Subarnarekha River.",
+        "discrepancy_area_sqm": 52.4,
+        "discrepancy_area_decimal": 1.3,
+        "timestamp": "2026-09-07T12:15:00Z",
+        "recommended_action": "Demolition Notice of Encroaching Boundary Wall under Public Land Encroachment Act"
+      }
+    },
+    {
+      "id": "CONF-JH-RNC-103",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.305,
+              23.312
+            ],
+            [
+              85.3065,
+              23.3122
+            ],
+            [
+              85.3062,
+              23.311
+            ],
+            [
+              85.3048,
+              23.3108
+            ],
+            [
+              85.305,
+              23.312
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "case_id": "CONF-JH-RNC-103",
+        "conflict_type": "NH20_RING_ROAD_ROW_ENCROACHMENT",
+        "severity": "HIGH",
+        "title": "NH-20 / Ranchi Ring Road 45m RoW Encroachment (Tupudana)",
+        "ulpin": "20340000000103",
+        "dag_no": "303",
+        "khasra_no": "303",
+        "khatian_no": "303",
+        "mouza": "Tupudana (Thana No. 228)",
+        "circle": "Hatia",
+        "district": "Ranchi",
+        "state_code": "20",
+        "statutory_law": "Control of National Highways (Land and Traffic) Act, 2002",
+        "description": "Industrial warehouse parking apron encroaching 48.60 m\u00b2 (1.20 Decimal) into the NHAI 45-meter Right-of-Way corridor along Ranchi Ring Road Phase-VII.",
+        "discrepancy_area_sqm": 48.6,
+        "discrepancy_area_decimal": 1.2,
+        "timestamp": "2026-09-07T10:00:00Z",
+        "recommended_action": "Enforce NHAI RoW Clearance; Direct setback alignment to 45m centerline"
+      }
+    },
+    {
+      "id": "CONF-JH-RNC-104",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.308,
+              23.352
+            ],
+            [
+              85.309,
+              23.3522
+            ],
+            [
+              85.3088,
+              23.3512
+            ],
+            [
+              85.3078,
+              23.351
+            ],
+            [
+              85.308,
+              23.352
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "case_id": "CONF-JH-RNC-104",
+        "conflict_type": "HARMU_NALLAH_DRAINAGE_OBSTRUCTION",
+        "severity": "MEDIUM",
+        "title": "Harmu River Rejuvenation Drainage Corridor Obstruction",
+        "ulpin": "20340000000104",
+        "dag_no": "404",
+        "khasra_no": "404",
+        "khatian_no": "304",
+        "mouza": "Harmu Housing Colony (Thana No. 205)",
+        "circle": "Argora",
+        "district": "Ranchi",
+        "state_code": "20",
+        "statutory_law": "Jharkhand Municipal Act, 2011 / RMC Canal Protection Byelaws",
+        "description": "Boundary wall and concrete ramp encroaching 24.30 m\u00b2 (0.60 Decimal) into the Harmu drainage canal embankment corridor causing monsoon backflow.",
+        "discrepancy_area_sqm": 24.3,
+        "discrepancy_area_decimal": 0.6,
+        "timestamp": "2026-09-07T09:20:00Z",
+        "recommended_action": "Ranchi Municipal Corporation (RMC) Removal Order for illegal ramp"
+      }
+    }
+  ],
+  "metadata": {
+    "city": "Ranchi",
+    "state_code": "20",
+    "total_cases": 4,
+    "authority": "Department of Revenue, Registration & Land Reforms, Jharkhand + RMC"
+  }
+}

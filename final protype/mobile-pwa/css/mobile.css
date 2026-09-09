@@ -1,0 +1,395 @@
+/* ====================================================
+   BhuSynch AI — Mobile PWA Stylesheet
+   Field Survey Ground-Truthing Interface
+   ==================================================== */
+
+:root {
+    --bg-primary: #0a0e1a;
+    --bg-secondary: #0f1525;
+    --bg-card: rgba(255, 255, 255, 0.04);
+    --text-primary: #e0e6f0;
+    --text-secondary: #8899aa;
+    --accent: #63b3ed;
+    --accent-glow: rgba(99, 179, 237, 0.3);
+    --success: #10b981;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+    --radius: 12px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* ── Header ── */
+.pwa-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid rgba(99, 179, 237, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.pwa-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pwa-logo { font-size: 1.3rem; }
+
+.pwa-brand h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #63b3ed, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.pwa-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sync-indicator {
+    font-size: 0.6rem;
+    transition: color 0.3s;
+}
+
+.sync-indicator.online { color: var(--success); }
+.sync-indicator.offline { color: var(--danger); }
+.gps-indicator { font-size: 0.9rem; }
+
+/* ── Tab Navigation ── */
+.tab-nav {
+    display: flex;
+    gap: 2px;
+    padding: 8px 16px;
+    background: var(--bg-secondary);
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 10px;
+    background: var(--bg-card);
+    border: 1px solid rgba(99, 179, 237, 0.1);
+    border-radius: 8px;
+    color: var(--text-secondary);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.tab-btn.active {
+    background: rgba(99, 179, 237, 0.12);
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+/* ── Tab Content ── */
+.tab-content {
+    display: none;
+    padding: 16px;
+    animation: fadeIn 0.3s ease;
+}
+
+.tab-content.active { display: block; }
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Map Container ── */
+.mobile-map {
+    width: 100%;
+    height: 45vh;
+    background: var(--bg-card);
+    border: 1px solid rgba(99, 179, 237, 0.1);
+    border-radius: var(--radius);
+    overflow: hidden;
+    position: relative;
+}
+
+.map-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    gap: 6px;
+}
+
+.map-coords {
+    font-variant-numeric: tabular-nums;
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.map-accuracy {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+/* ── Survey Actions ── */
+.survey-actions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.action-btn {
+    padding: 14px 8px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+}
+
+.primary-action {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    color: #fff;
+}
+
+.secondary-action {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: #fff;
+}
+
+.accent-action {
+    background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+    color: #fff;
+}
+
+.action-btn:active {
+    transform: scale(0.95);
+}
+
+.vertex-counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: var(--bg-card);
+    border: 1px solid rgba(99, 179, 237, 0.1);
+    border-radius: 8px;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.vertex-counter strong {
+    color: var(--accent);
+}
+
+/* ── Camera ── */
+.camera-container {
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    background: #000;
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.camera-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.camera-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.camera-crosshair {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(99, 179, 237, 0.6);
+    border-radius: 50%;
+}
+
+.camera-metadata {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 0.65rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.capture-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.shutter-btn {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 3px solid var(--accent);
+    background: rgba(99, 179, 237, 0.15);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.shutter-btn:active {
+    background: var(--accent);
+    transform: scale(0.9);
+}
+
+.captured-gallery {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+}
+
+/* ── Sync Queue ── */
+.queue-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.queue-header h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.sync-btn {
+    padding: 8px 14px;
+    background: rgba(99, 179, 237, 0.12);
+    border: 1px solid rgba(99, 179, 237, 0.2);
+    border-radius: 8px;
+    color: var(--accent);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.sync-btn:active { background: rgba(99, 179, 237, 0.2); }
+
+.sync-queue {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.queue-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    background: var(--bg-card);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+}
+
+.queue-icon { font-size: 1.1rem; }
+.queue-info { flex: 1; }
+
+.queue-title {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.queue-detail {
+    display: block;
+    font-size: 0.68rem;
+    color: var(--text-secondary);
+    margin-top: 2px;
+}
+
+.queue-status {
+    font-size: 0.68rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+.queue-item.pending .queue-status {
+    background: rgba(245, 158, 11, 0.12);
+    color: var(--warning);
+}
+
+.queue-item.synced .queue-status {
+    background: rgba(16, 185, 129, 0.12);
+    color: var(--success);
+}
+
+.storage-info {
+    margin-top: 16px;
+    padding: 12px;
+    background: var(--bg-card);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.storage-info strong { color: var(--accent); }
+
+.storage-bar {
+    margin-top: 8px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.storage-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent), #a78bfa);
+    border-radius: 2px;
+    transition: width 0.5s ease;
+}
+
+/* ── Safe Area ── */
+@supports (padding: env(safe-area-inset-bottom)) {
+    .pwa-main { padding-bottom: env(safe-area-inset-bottom); }
+}

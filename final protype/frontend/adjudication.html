@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BhuSynch AI — Revenue Adjudication Portal for statutory dossier review, conflict resolution, and digital signature certification under DILRMP standards.">
+    <title>BhuSynch AI — Revenue Adjudication Portal</title>
+
+    <!-- Google Fonts — Plus Jakarta Sans, Outfit, JetBrains Mono (Reference: website lucky bold aesthetic) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/index.css?v=20260908_lucky_bold">
+    <link rel="stylesheet" href="css/adjudication.css?v=20260908_highlight_conflicts">
+</head>
+<body class="adjudication-page">
+    <!-- Top Navigation Bar -->
+    <header id="adjudication-header" class="app-header" role="banner">
+        <div class="header-brand">
+            <!-- SVG scales icon replacing ⚖️ emoji -->
+            <div class="brand-logo" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+                    <rect width="32" height="32" rx="8" fill="url(#adj-logo-grad)"/>
+                    <path d="M8 16L16 8L24 16L16 24Z" fill="white" opacity="0.9"/>
+                    <path d="M12 16L16 12L20 16L16 20Z" fill="url(#adj-logo-grad)" opacity="0.8"/>
+                    <defs>
+                        <linearGradient id="adj-logo-grad" x1="0" y1="0" x2="32" y2="32">
+                            <stop offset="0%" stop-color="#5A3825"/>
+                            <stop offset="100%" stop-color="#7A5238"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <h1>BhuSynch AI — Revenue Adjudication Portal</h1>
+        </div>
+        <nav class="header-nav" role="navigation" aria-label="Main navigation">
+            <a href="index.html" class="nav-link" id="nav-dashboard">Dashboard</a>
+            <a href="adjudication.html" class="nav-link active" id="nav-adjudication" aria-current="page">Adjudication</a>
+        </nav>
+        <div class="header-user" id="user-profile-area">
+            <span class="user-role-badge" id="officer-role-badge">Revenue Officer</span>
+            <span class="user-name" id="officer-name">Officer</span>
+        </div>
+    </header>
+
+    <main id="adjudication-main" class="adjudication-layout">
+        <!-- Left Panel: Conflict Queue -->
+        <aside id="conflict-queue-panel" class="panel queue-panel" role="region" aria-label="Conflict queue">
+            <div class="panel-header">
+                <h2>
+                    <!-- SVG list icon -->
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+                    Conflict Queue
+                </h2>
+                <div class="queue-filters">
+                    <select id="severity-filter" class="filter-select" aria-label="Filter by severity">
+                        <option value="all">All Severities</option>
+                        <option value="CRITICAL">Critical</option>
+                        <option value="MEDIUM">Medium</option>
+                        <option value="LOW">Low</option>
+                    </select>
+                    <select id="type-filter" class="filter-select" aria-label="Filter by conflict type">
+                        <option value="all">All Types</option>
+                        <option value="AREA_DISCREPANCY">Area Discrepancy</option>
+                        <option value="ROW_ENCROACHMENT">RoW Encroachment</option>
+                        <option value="3D_OVERLAP">3D Overlap</option>
+                    </select>
+                </div>
+            </div>
+            <div id="conflict-list" class="conflict-list" role="list" aria-label="Conflict list">
+                <!-- Conflict Card PSK-1: CRITICAL — Piska More Chowk Ratu Road NH-75 Commercial RoW Encroachment -->
+                <div class="conflict-card severity-critical active" data-conflict-id="CONF-JH-RNC-PSK-101" role="listitem">
+                    <div class="conflict-card-header">
+                        <span class="severity-dot critical" aria-label="Critical severity"></span>
+                        <span class="conflict-type">NH75_RATU_ROAD_ROW_ENCROACHMENT</span>
+                        <span class="conflict-badge">Piska More Chowk</span>
+                    </div>
+                    <div class="conflict-card-body">
+                        <p class="conflict-ulpin">ULPIN: 20340204000101</p>
+                        <p class="conflict-khasra">प्लॉट २०१, खाता ४०१ (Ratu Road Commercial)</p>
+                        <p class="conflict-delta">Encroachment: 34.20 m² (0.85 Decimal) • NH-75 30m RoW Frontage</p>
+                    </div>
+                    <div class="conflict-card-footer">
+                        <span class="conflict-time">Just now</span>
+                        <button class="btn-review" data-action="review" aria-label="Review conflict CONF-JH-RNC-PSK-101">
+                            Review
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Conflict Card PSK-2: CRITICAL — Mouza Hehal CNT Act Sec 46 Tribal Alienation -->
+                <div class="conflict-card severity-critical" data-conflict-id="CONF-JH-RNC-PSK-102" role="listitem">
+                    <div class="conflict-card-header">
+                        <span class="severity-dot critical" aria-label="Critical severity"></span>
+                        <span class="conflict-type">CNT_ACT_SEC46_HEHAL</span>
+                        <span class="conflict-badge">Hehal / ITI Road</span>
+                    </div>
+                    <div class="conflict-card-body">
+                        <p class="conflict-ulpin">ULPIN: 20340204000102</p>
+                        <p class="conflict-khasra">प्लॉट २०२, खाता ४०२ (Hehal Thana 204)</p>
+                        <p class="conflict-delta">Discrepancy: 68.40 m² (1.69 Decimal) • Tribal Bakast Alienation Hold</p>
+                    </div>
+                    <div class="conflict-card-footer">
+                        <span class="conflict-time">4m ago</span>
+                        <button class="btn-review" data-action="review" aria-label="Review conflict CONF-JH-RNC-PSK-102">
+                            Review
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Conflict Card RNC-1: CRITICAL — Ranchi Morabadi CNT Act Sec 46 Tribal Alienation -->
+                <div class="conflict-card severity-critical" data-conflict-id="CONF-JH-RNC-101" role="listitem">
+                    <div class="conflict-card-header">
+                        <span class="severity-dot critical" aria-label="Critical severity"></span>
+                        <span class="conflict-type">CNT_ACT_SEC46_VIOLATION</span>
+                        <span class="conflict-badge">Ranchi / Morabadi</span>
+                    </div>
+                    <div class="conflict-card-body">
+                        <p class="conflict-ulpin">ULPIN: 20340000000101</p>
+                        <p class="conflict-khasra">प्लॉट १०१, खाता ३०१ (Morabadi Thana 198)</p>
+                        <p class="conflict-delta">Discrepancy: 72.80 m² (1.80 Decimal) • Tribal Bakast Alienation Hold</p>
+                    </div>
+                    <div class="conflict-card-footer">
+                        <span class="conflict-time">Just now</span>
+                        <button class="btn-review" data-action="review" aria-label="Review conflict CONF-JH-RNC-101">
+                            Review
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Conflict Card RNC-2: CRITICAL — Subarnarekha River Flood Basin Buffer Violation -->
+                <div class="conflict-card severity-critical" data-conflict-id="CONF-JH-RNC-102" role="listitem">
+                    <div class="conflict-card-header">
+                        <span class="severity-dot critical" aria-label="Critical severity"></span>
+                        <span class="conflict-type">RIVER_BUFFER_VIOLATION</span>
+                        <span class="conflict-badge">Ranchi / Namkum</span>
+                    </div>
+                    <div class="conflict-card-body">
+                        <p class="conflict-ulpin">ULPIN: 20340000000102</p>
+                        <p class="conflict-khasra">प्लॉट २०२, खाता ३०२ (Subarnarekha Riparian)</p>
+                        <p class="conflict-delta">Buffer Intrusion: 52.40 m² (1.30 Decimal) • 50m High-Flood Zone</p>
+                    </div>
+                    <div class="conflict-card-footer">
+                        <span class="conflict-time">5m ago</span>
+                        <button class="btn-review" data-action="review" aria-label="Review conflict CONF-JH-RNC-102">
+                            Review
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Conflict Card PMED-1: CRITICAL — Paschim Medinipur NH-16 RoW Encroachment -->
+                <div class="conflict-card severity-critical" data-conflict-id="CONF-WB-PMED-101" role="listitem">
+                    <div class="conflict-card-header">
+                        <span class="severity-dot critical" aria-label="Critical severity"></span>
+                        <span class="conflict-type">NH16_ROW_ENCROACHMENT</span>
+                        <span class="conflict-badge">W. Medinipur / Inda</span>
+                    </div>
+                    <div class="conflict-card-body">
+                        <p class="conflict-ulpin">ULPIN: 19183180010101</p>
+                        <p class="conflict-khasra">দাগ নং ১০১, খতিয়ান নং ৩০১ (Inda J.L. 142, Kharagpur)</p>
+                        <p class="conflict-delta">Encroachment: 42.80 m² (0.64 Katha) • NH-16 Golden Quad 45m RoW</p>
+                    </div>
+                    <div class="conflict-card-footer">
+                        <span class="conflict-time">Just now</span>
+                        <button class="btn-review" data-action="review" aria-label="Review conflict CONF-WB-PMED-101">
+                            Review
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Conflict Card PMED-2: CRITICAL — Kangsabati River Levee Buffer Violation -->
+                <div class="conflict-card severity-critical" data-conflict-id="CONF-WB-PMED-102" role="listitem">
+                    <div class="conflict-card-header">
+                        <span class="severity-dot critical" aria-label="Critical severity"></span>
+                        <span class="conflict-type">RIVER_LEVEE_VIOLATION</span>
+                        <span class="conflict-badge">Medinipur / Kangsabati</span>
+                    </div>
+                    <div class="conflict-card-body">
+                        <p class="conflict-ulpin">ULPIN: 19183180010102</p>
+                        <p class="conflict-khasra">দাগ নং ২০২, খতিয়ান নং ৩০২ (Medinipur J.L. 110, Ghat Road)</p>
+                        <p class="conflict-delta">Flood Buffer Intrusion: 58.40 m² (0.87 Katha) • WBI&WD 50m Levee Zone</p>
+                    </div>
+                    <div class="conflict-card-footer">
+                        <span class="conflict-time">8m ago</span>
+                        <button class="btn-review" data-action="review" aria-label="Review conflict CONF-WB-PMED-102">
+                            Review
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Conflict Card RIS-1: CRITICAL — Rishra GT Road PWD RoW Encroachment -->
+                <div class="conflict-card severity-critical" data-conflict-id="CONF-WB-HGL-RIS-104" role="listitem">
+                    <div class="conflict-card-header">
+                        <span class="severity-dot critical" aria-label="Critical severity"></span>
+                        <span class="conflict-type">GT_ROAD_ROW_ENCROACHMENT</span>
+                        <span class="conflict-badge">Hooghly / Rishra</span>
+                    </div>
+                    <div class="conflict-card-body">
+                        <p class="conflict-ulpin">ULPIN: 191472303480</p>
+                        <p class="conflict-khasra">দাগ নং ১০৪, খতিয়ান ২০৪ (GT Road, Rishra Ward 4)</p>
+                        <p class="conflict-delta">Encroachment: 30.70 m² (0.46 Katha) • Grand Trunk Road SH-6</p>
+                    </div>
+                    <div class="conflict-card-footer">
+                        <span class="conflict-time">Just now</span>
+                        <button class="btn-review" data-action="review" aria-label="Review conflict CONF-WB-HGL-RIS-104">
+                            Review
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Conflict Card RIS-2: CRITICAL — Hooghly River High-Water Buffer Infringement -->
+                <div class="conflict-card severity-critical" data-conflict-id="CONF-WB-HGL-RIS-108" role="listitem">
+                    <div class="conflict-card-header">
+                        <span class="severity-dot critical" aria-label="Critical severity"></span>
+                        <span class="conflict-type">RIVER_BUFFER_VIOLATION</span>
+                        <span class="conflict-badge">Hooghly Riverfront</span>
+                    </div>
+                    <div class="conflict-card-body">
+                        <p class="conflict-ulpin">ULPIN: 191472203478</p>
+                        <p class="conflict-khasra">দাগ নং ১০৮, খতিয়ান ২০৮ (Rishra Ferry Ghat Zone)</p>
+                        <p class="conflict-delta">Buffer Intrusion: 68.50 m² (1.02 Katha) • NW-1 Inter-tidal</p>
+                    </div>
+                    <div class="conflict-card-footer">
+                        <span class="conflict-time">12m ago</span>
+                        <button class="btn-review" data-action="review" aria-label="Review conflict CONF-WB-HGL-RIS-108">
+                            Review
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Conflict Card RIS-3: MEDIUM — Morepukur Jayshree Textiles Boundary Conflation -->
+                <div class="conflict-card severity-medium" data-conflict-id="CONF-WB-HGL-RIS-112" role="listitem">
+                    <div class="conflict-card-header">
+                        <span class="severity-dot medium" aria-label="Medium severity"></span>
+                        <span class="conflict-type">INDUSTRIAL_BOUNDARY_CONFLATION</span>
+                        <span class="conflict-badge">Morepukur J.L. 13</span>
+                    </div>
+                    <div class="conflict-card-body">
+                        <p class="conflict-ulpin">ULPIN: 191472153472</p>
+                        <p class="conflict-khasra">দাগ নং ১১২, খতিয়ান ২১২ (Jayshree Textiles / Aditya Birla)</p>
+                        <p class="conflict-delta">Tolerance Conflation: -24.60 m² (0.86% within 2.0% limit)</p>
+                    </div>
+                    <div class="conflict-card-footer">
+                        <span class="conflict-time">22m ago</span>
+                        <button class="btn-review" data-action="review" aria-label="Review conflict CONF-WB-HGL-RIS-112">
+                            Review
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Conflict Card WB-1: CRITICAL — KMDA Biswa Bangla Sarani RoW Encroachment -->
+                <div class="conflict-card severity-critical" data-conflict-id="CONF-WB-2026-0002" role="listitem">
+                    <div class="conflict-card-header">
+                        <span class="severity-dot critical" aria-label="Critical severity"></span>
+                        <span class="conflict-type">KMDA_ROW_ENCROACHMENT</span>
+                        <span class="conflict-badge">WB State 19</span>
+                    </div>
+                    <div class="conflict-card-body">
+                        <p class="conflict-ulpin">ULPIN: 19312010010002</p>
+                        <p class="conflict-khasra">দাগ নং ২০৮, খতিয়ান নং ১১২ (Mahisbathan, Bidhannagar)</p>
+                        <p class="conflict-delta">Encroachment: 38.20 m² (0.57 Katha) • Biswa Bangla Sarani</p>
+                    </div>
+                    <div class="conflict-card-footer">
+                        <span class="conflict-time">5m ago</span>
+                        <button class="btn-review" data-action="review" aria-label="Review conflict CONF-WB-2026-0002">
+                            Review
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Conflict Card WB-2: CRITICAL — Ramsar Site 1208 East Kolkata Wetlands Conservation Buffer -->
+                <div class="conflict-card severity-critical" data-conflict-id="CONF-WB-2026-0005" role="listitem">
+                    <div class="conflict-card-header">
+                        <span class="severity-dot critical" aria-label="Critical severity"></span>
+                        <span class="conflict-type">EKWMA_WETLAND_INTRUSION</span>
+                        <span class="conflict-badge">Ramsar 1208</span>
+                    </div>
+                    <div class="conflict-card-body">
+                        <p class="conflict-ulpin">ULPIN: 19312010010005</p>
+                        <p class="conflict-khasra">দাগ নং ২২৪, খতিয়ান নং ১১৪ (Bidhannagar South)</p>
+                        <p class="conflict-delta">Intrusion: 64.50 m² (0.96 Katha) • EKWMA 2006 Prohibited</p>
+                    </div>
+                    <div class="conflict-card-footer">
+                        <span class="conflict-time">18m ago</span>
+                        <button class="btn-review" data-action="review" aria-label="Review conflict CONF-WB-2026-0005">
+                            Review
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Conflict Card 1: CRITICAL — RoW Encroachment (Pune Ward 14 Gat 118/2) -->
+                <div class="conflict-card severity-critical" data-conflict-id="CONF-2026-0001" role="listitem">
+                    <div class="conflict-card-header">
+                        <span class="severity-dot critical" aria-label="Critical severity"></span>
+                        <span class="conflict-type">ROW_ENCROACHMENT</span>
+                        <span class="conflict-badge">MH State 27</span>
+                    </div>
+                    <div class="conflict-card-body">
+                        <p class="conflict-ulpin">ULPIN: 27010410010002</p>
+                        <p class="conflict-khasra">Gat No: 118/2, Ward 14 (Shivajinagar)</p>
+                        <p class="conflict-delta">Encroachment: 28.40 m&sup2; (5.36%) &bull; DP Road</p>
+                    </div>
+                    <div class="conflict-card-footer">
+                        <span class="conflict-time">25m ago</span>
+                        <button class="btn-review" data-action="review" aria-label="Review conflict CONF-2026-0001">
+                            Review
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Conflict Card 2: MEDIUM — Waterbody Intrusion (Pune Ward 14 Gat 120/A) -->
+                <div class="conflict-card severity-medium" data-conflict-id="CONF-2026-0002" role="listitem">
+                    <div class="conflict-card-header">
+                        <span class="severity-dot medium" aria-label="Medium severity"></span>
+                        <span class="conflict-type">WATERBODY_INTRUSION</span>
+                        <span class="conflict-badge">Nallah Buffer</span>
+                    </div>
+                    <div class="conflict-card-body">
+                        <p class="conflict-ulpin">ULPIN: 27010410010005</p>
+                        <p class="conflict-khasra">Gat No: 120/A, Ward 14 (Shivajinagar)</p>
+                        <p class="conflict-delta">Intrusion: 55.00 m&sup2; (6.55%) &bull; Gair Mumkin</p>
+                    </div>
+                    <div class="conflict-card-footer">
+                        <span class="conflict-time">40m ago</span>
+                        <button class="btn-review" data-action="review" aria-label="Review conflict CONF-2026-0002">
+                            Review
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Center: Three-Truths Decision Panel (Section 2.4) -->
+        <section id="decision-panel" class="panel decision-panel" role="region" aria-label="Three-Truths decision panel">
+            <div class="panel-header">
+                <h2>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18"/><path d="M8 7 4 3"/><path d="m20 3-4 4"/><path d="M4 3h4"/><path d="M16 3h4"/><path d="M2 13h6l2 4h4l2-4h6"/></svg>
+                    Three-Truths Decision Core
+                </h2>
+                <span class="panel-subtitle">T<sub>L</sub>: Legal · T<sub>P</sub>: Physical · T<sub>A</sub>: Administrative</span>
+            </div>
+
+            <!-- Three-Truths Matrix (Architecture Section 2.4) -->
+            <div id="truths-matrix" class="truths-matrix">
+                <!-- TL — Legal Truth -->
+                <div class="truth-card truth-legal" id="truth-legal">
+                    <div class="truth-icon" aria-hidden="true">
+                        <!-- SVG scroll/document icon replacing 📜 -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                    </div>
+                    <h3>T<sub>L</sub> — Legal Truth</h3>
+                    <p class="truth-desc">RoR / Jamabandi Record</p>
+                    <div class="truth-data">
+                        <div class="data-row"><span>Owner:</span><span id="legal-owner">राम प्रसाद शर्मा</span></div>
+                        <div class="data-row"><span>Area:</span><span id="legal-area">387.50 m&sup2;</span></div>
+                        <div class="data-row"><span>Khasra:</span><span id="legal-khasra">142/3</span></div>
+                        <div class="data-row"><span>Land Type:</span><span id="legal-type">Bagayat</span></div>
+                    </div>
+                    <div class="truth-confidence">
+                        <div class="confidence-header">
+                            <div class="confidence-text-group">
+                                <label>OCR Confidence</label>
+                                <span class="confidence-sublabel">Jamabandi Devanagari</span>
+                            </div>
+                            <div class="micro-donut-wrap" title="OCR Confidence: 94%">
+                                <svg class="micro-donut-svg" width="44" height="44" viewBox="0 0 44 44">
+                                    <circle class="micro-donut-track" cx="22" cy="22" r="17"/>
+                                    <circle class="micro-donut-fill legal" id="donut-fill-legal" cx="22" cy="22" r="17" stroke-dasharray="106.8" stroke-dashoffset="6.4"/>
+                                </svg>
+                                <span class="micro-donut-val" id="donut-val-legal">94%</span>
+                            </div>
+                        </div>
+                        <div class="confidence-bar"><div class="confidence-fill" id="bar-fill-legal" style="width: 94%" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100">94%</div></div>
+                    </div>
+                </div>
+
+                <!-- TP — Physical Truth -->
+                <div class="truth-card truth-physical" id="truth-physical">
+                    <div class="truth-icon" aria-hidden="true">
+                        <!-- SVG satellite icon replacing 🛰️ -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="2"/><path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"/></svg>
+                    </div>
+                    <h3>T<sub>P</sub> — Physical Truth</h3>
+                    <p class="truth-desc">SAM-Geo + Drone ORI</p>
+                    <div class="truth-data">
+                        <div class="data-row"><span>Observed Area:</span><span id="physical-area">399.95 m&sup2;</span></div>
+                        <div class="data-row"><span>Boundary RMSE:</span><span id="physical-rmse">0.42 m</span></div>
+                        <div class="data-row"><span>Vertices:</span><span id="physical-vertices">12</span></div>
+                        <div class="data-row"><span>nDSM Change:</span><span id="physical-ndsm">+1.2 m</span></div>
+                    </div>
+                    <div class="truth-confidence">
+                        <div class="confidence-header">
+                            <div class="confidence-text-group">
+                                <label>AI Confidence</label>
+                                <span class="confidence-sublabel">SAM-Geo ViT-H Segment</span>
+                            </div>
+                            <div class="micro-donut-wrap" title="AI Segmentation Confidence: 89%">
+                                <svg class="micro-donut-svg" width="44" height="44" viewBox="0 0 44 44">
+                                    <circle class="micro-donut-track" cx="22" cy="22" r="17"/>
+                                    <circle class="micro-donut-fill physical" id="donut-fill-physical" cx="22" cy="22" r="17" stroke-dasharray="106.8" stroke-dashoffset="11.7"/>
+                                </svg>
+                                <span class="micro-donut-val" id="donut-val-physical">89%</span>
+                            </div>
+                        </div>
+                        <div class="confidence-bar"><div class="confidence-fill ai-confidence" id="bar-fill-physical" style="width: 89%" role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100">89%</div></div>
+                    </div>
+                </div>
+
+                <!-- TA — Administrative Truth -->
+                <div class="truth-card truth-admin" id="truth-admin">
+                    <div class="truth-icon" aria-hidden="true">
+                        <!-- SVG building/columns icon replacing 🏛️ -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-4h6v4"/><path d="M9 9h.01"/><path d="M15 9h.01"/><path d="M9 13h.01"/><path d="M15 13h.01"/></svg>
+                    </div>
+                    <h3>T<sub>A</sub> — Administrative Truth</h3>
+                    <p class="truth-desc">Municipal / Revenue Records</p>
+                    <div class="truth-data">
+                        <div class="data-row"><span>Khata No:</span><span id="admin-khata">275</span></div>
+                        <div class="data-row"><span>Zone:</span><span id="admin-zone">Residential R-1</span></div>
+                        <div class="data-row"><span>Tax Status:</span><span id="admin-tax">Current</span></div>
+                        <div class="data-row"><span>Encumbrance:</span><span id="admin-enc">None</span></div>
+                    </div>
+                    <div class="truth-confidence">
+                        <div class="confidence-header">
+                            <div class="confidence-text-group">
+                                <label>Record Match</label>
+                                <span class="confidence-sublabel">BanglarBhumi / Jharbhoomi</span>
+                            </div>
+                            <div class="micro-donut-wrap" title="Administrative Concordance: 97%">
+                                <svg class="micro-donut-svg" width="44" height="44" viewBox="0 0 44 44">
+                                    <circle class="micro-donut-track" cx="22" cy="22" r="17"/>
+                                    <circle class="micro-donut-fill admin" id="donut-fill-admin" cx="22" cy="22" r="17" stroke-dasharray="106.8" stroke-dashoffset="3.2"/>
+                                </svg>
+                                <span class="micro-donut-val" id="donut-val-admin">97%</span>
+                            </div>
+                        </div>
+                        <div class="confidence-bar"><div class="confidence-fill admin-confidence" id="bar-fill-admin" style="width: 97%" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100">97%</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Discrepancy Analysis -->
+            <div id="discrepancy-analysis" class="discrepancy-section">
+                <h3>
+                    <!-- SVG alert-triangle icon -->
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+                    Discrepancy Analysis & Statutory Tolerance Verification
+                </h3>
+                <div class="discrepancy-grid">
+                    <div class="disc-metric disc-metric--gauge">
+                        <div class="disc-metric-main">
+                            <span class="disc-label">Area Delta (&Delta;A)</span>
+                            <span class="disc-value warning" id="disc-delta-area">+12.45 m&sup2; (3.2%)</span>
+                        </div>
+                        <!-- 48x34px SVG Radial Tolerance Gauge -->
+                        <div class="tolerance-gauge-wrap" title="Statutory Tolerance Compliance: ΔA ≤ ±2.0%">
+                            <svg class="tolerance-gauge-svg" width="48" height="32" viewBox="0 0 48 32">
+                                <path class="gauge-track" d="M 6 28 A 18 18 0 0 1 42 28" fill="none" stroke="#E4DFD7" stroke-width="4.5" stroke-linecap="round"/>
+                                <path class="gauge-zone-pass" d="M 6 28 A 18 18 0 0 1 30 11" fill="none" stroke="#166534" stroke-width="4.5" stroke-linecap="round"/>
+                                <path class="gauge-zone-breach" d="M 31 11 A 18 18 0 0 1 42 28" fill="none" stroke="#DC2626" stroke-width="4.5" stroke-linecap="round"/>
+                                <line class="gauge-needle" id="gauge-needle" x1="24" y1="28" x2="38" y2="16" stroke="#2B1810" stroke-width="2.5" stroke-linecap="round"/>
+                                <circle cx="24" cy="28" r="3" fill="#2B1810"/>
+                            </svg>
+                            <span class="gauge-badge breach" id="gauge-status-badge">BREACH</span>
+                        </div>
+                    </div>
+                    <div class="disc-metric">
+                        <span class="disc-label">Tolerance Threshold</span>
+                        <span class="disc-value" id="disc-tolerance">&plusmn; 2.0%</span>
+                        <span class="disc-sublabel">Urban DILRMP Cap</span>
+                    </div>
+                    <div class="disc-metric">
+                        <span class="disc-label">Error Ellipse &sigma;-major</span>
+                        <span class="disc-value" id="disc-sigma">0.38 m</span>
+                        <span class="disc-sublabel">95% Confidence Interval</span>
+                    </div>
+                    <div class="disc-metric">
+                        <span class="disc-label">Fréchet Distance</span>
+                        <span class="disc-value" id="disc-frechet">0.52 m</span>
+                        <span class="disc-sublabel">Discrete Curve Shift</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Officer Decision Section — "AI Proposes, Officer Disposes" (Section 2.4) -->
+            <div id="officer-decision" class="decision-section">
+                <h3>
+                    <!-- SVG brain/sparkle icon -->
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9"/><path d="M20 4v.01"/><path d="M22 2v.01"/><path d="M20 2v.01"/></svg>
+                    "AI Proposes, Officer Disposes"
+                </h3>
+                <div class="ai-recommendation">
+                    <span class="recommendation-label">AI Recommendation:</span>
+                    <span class="recommendation-value" id="ai-recommendation">RECTIFY — Accept physical boundary, update legal record</span>
+                </div>
+                <div class="decision-actions">
+                    <div class="decision-form">
+                        <label for="officer-remarks">Officer Remarks:</label>
+                        <textarea id="officer-remarks" placeholder="Enter remarks for the adjudication record..." rows="3"></textarea>
+                    </div>
+                    <div class="action-buttons">
+                        <button id="btn-accept-ai" class="btn btn-primary" aria-label="Accept AI recommendation">
+                            <!-- SVG check-circle replacing ✅ -->
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Accept AI
+                        </button>
+                        <button id="btn-modify" class="btn btn-warning" aria-label="Modify boundary">
+                            <!-- SVG pencil replacing ✏️ -->
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg>
+                            Modify
+                        </button>
+                        <button id="btn-reject" class="btn btn-danger" aria-label="Reject and escalate">
+                            <!-- SVG x-circle replacing ❌ -->
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg>
+                            Reject
+                        </button>
+                        <button id="btn-sign-dsc" class="btn btn-accent" aria-label="Sign with Digital Signature Certificate">
+                            <!-- SVG shield-check replacing 🔐 -->
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+                            Sign DSC
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Right Panel: Audit & Provenance (Section 2.5) -->
+        <aside id="audit-panel" class="panel audit-panel" role="region" aria-label="Merkle audit chain and provenance">
+            <div class="panel-header">
+                <h2>
+                    <!-- SVG link/chain icon -->
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                    Merkle Audit Chain
+                </h2>
+            </div>
+            <div id="merkle-chain" class="merkle-chain" role="list" aria-label="SHA3-256 Merkle hash chain">
+                <div class="merkle-entry" role="listitem">
+                    <div class="merkle-hash">
+                        <span class="hash-label">H<sub>k</sub></span>
+                        <code class="hash-value">a3f8...c7d2</code>
+                    </div>
+                    <div class="merkle-details">
+                        <span>RECTIFICATION</span>
+                        <span>Officer: RO-2024-0451</span>
+                        <span>2024-09-03 14:22:11 IST</span>
+                    </div>
+                </div>
+                <div class="merkle-entry" role="listitem">
+                    <div class="merkle-hash">
+                        <span class="hash-label">H<sub>k-1</sub></span>
+                        <code class="hash-value">7b2e...91f4</code>
+                    </div>
+                    <div class="merkle-details">
+                        <span>MUTATION</span>
+                        <span>Officer: RO-2024-0312</span>
+                        <span>2024-08-15 09:45:33 IST</span>
+                    </div>
+                </div>
+                <div class="merkle-entry genesis" role="listitem">
+                    <div class="merkle-hash">
+                        <span class="hash-label">H<sub>0</sub></span>
+                        <code class="hash-value">0000...GENESIS</code>
+                    </div>
+                    <div class="merkle-details">
+                        <span>INITIAL_REGISTRATION</span>
+                        <span>System Genesis Block</span>
+                        <span>2024-01-01 00:00:00 IST</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DSC Verification (IT Act 2000 §3) -->
+            <div id="dsc-verification" class="dsc-section">
+                <h3>
+                    <!-- SVG shield icon -->
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    DSC Verification (IT Act 2000 §3)
+                </h3>
+                <div class="dsc-status valid">
+                    <span class="dsc-icon" aria-hidden="true">
+                        <!-- SVG check-circle replacing ✅ -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </span>
+                    <span>Digital Signature Valid</span>
+                </div>
+                <div class="dsc-details">
+                    <div class="data-row"><span>Signer:</span><span>RO-2024-0451</span></div>
+                    <div class="data-row"><span>Certificate:</span><span>NIC Class-3</span></div>
+                    <div class="data-row"><span>Algorithm:</span><span>SHA3-256 + RSA-2048</span></div>
+                </div>
+            </div>
+
+            <!-- Dossier Generation -->
+            <div id="dossier-section" class="dossier-section">
+                <h3>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                    Statutory Dossier
+                </h3>
+                <button id="btn-generate-dossier" class="btn btn-full btn-secondary" aria-label="Generate adjudication dossier">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    Generate Adjudication Dossier
+                </button>
+                <button id="btn-export-pdf" class="btn btn-full btn-outline" aria-label="Export as PDF">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Export as PDF
+                </button>
+            </div>
+        </aside>
+    </main>
+
+    <!-- ═══════════════════ MODALS ═══════════════════ -->
+
+    <!-- 1. DSC Signing Ceremony Modal -->
+    <div id="dsc-signing-modal" class="modal-overlay" style="display: none;" role="dialog" aria-labelledby="dsc-modal-title" aria-modal="true">
+        <div class="modal-card">
+            <div class="modal-header">
+                <div class="modal-title-wrap">
+                    <div class="modal-icon-shield">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+                    </div>
+                    <h3 id="dsc-modal-title">Class-3 Digital Signature Authentication</h3>
+                </div>
+                <button class="modal-close" aria-label="Close dialog">&times;</button>
+            </div>
+            
+            <div id="dsc-step-1" class="modal-body">
+                <p class="modal-desc">Affix statutory digital certificate under <strong>Information Technology Act 2000 (§3)</strong> & DILRMP revenue guidelines.</p>
+                <div class="dsc-token-box">
+                    <div class="token-row">
+                        <span class="token-label">Certificate Holder:</span>
+                        <span class="token-val font-semibold">RO-2024-0451 (Revenue Adjudicating Officer)</span>
+                    </div>
+                    <div class="token-row">
+                        <span class="token-label">Certifying Authority:</span>
+                        <span class="token-val">NIC-CA / (National Informatics Centre)</span>
+                    </div>
+                    <div class="token-row">
+                        <span class="token-label">Crypto Algorithm:</span>
+                        <span class="token-val mono">SHA3-256 + RSA-2048 PKCS#11</span>
+                    </div>
+                </div>
+
+                <div class="dsc-pin-group">
+                    <label for="dsc-pin-input">Enter 6-Digit Hardware Token / ePass PIN:</label>
+                    <input type="password" id="dsc-pin-input" maxlength="8" placeholder="••••••" class="dsc-input" value="849201">
+                </div>
+
+                <div class="modal-actions">
+                    <button class="btn btn-secondary modal-close">Cancel</button>
+                    <button class="btn btn-accent" onclick="AdjudicationController.confirmDscSign()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+                        Sign & Timestamp Record
+                    </button>
+                </div>
+            </div>
+
+            <div id="dsc-step-2" class="modal-body text-center" style="display: none; padding: 30px 20px;">
+                <div class="signing-spinner"></div>
+                <h4 style="margin-top: 16px; color: var(--accent-primary);">Computing Merkle SHA3-256 Digest...</h4>
+                <p class="text-muted" style="font-size: 0.8rem; margin-top: 6px;">Registering timestamp on Survey of India CORS node...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. Statutory Dossier Modal -->
+    <div id="statutory-dossier-modal" class="modal-overlay" style="display: none;" role="dialog" aria-labelledby="dossier-modal-title" aria-modal="true">
+        <div class="modal-card modal-card--lg">
+            <div class="modal-header">
+                <div class="modal-title-wrap">
+                    <h3 id="dossier-modal-title">Statutory Revenue Adjudication Record (प्रपत्र-७)</h3>
+                </div>
+                <button class="modal-close" aria-label="Close dialog">&times;</button>
+            </div>
+            
+            <div class="modal-body printable-dossier">
+                <div class="dossier-doc-header">
+                    <div class="emblem-seal">🏛️</div>
+                    <div class="dossier-titles">
+                        <h2>GOVERNMENT OF NCT OF DELHI — REVENUE DEPARTMENT</h2>
+                        <p class="hindi-sub">राष्ट्रीय नगर भू-अभिलेख न्यायनिर्णयन दस्तावेज / Land Record Mutation Dossier</p>
+                        <p class="dilrmp-tag">Under Digital India Land Records Modernization Programme (DILRMP)</p>
+                    </div>
+                </div>
+
+                <div class="dossier-meta-table">
+                    <div class="dossier-meta-row">
+                        <span class="d-label">Bhu-Aadhaar (ULPIN):</span>
+                        <span class="d-val mono" id="dossier-ulpin-val">07-023-001234-5</span>
+                        <span class="d-label">Khasra / Plot:</span>
+                        <span class="d-val font-semibold" id="dossier-khasra-val">142/3</span>
+                    </div>
+                    <div class="dossier-meta-row">
+                        <span class="d-label">Village & District:</span>
+                        <span class="d-val" id="dossier-village-val">Malviya Nagar, South Delhi</span>
+                        <span class="d-label">Datum / CRS:</span>
+                        <span class="d-val mono">EPSG:7755 (India UTM 43N)</span>
+                    </div>
+                    <div class="dossier-meta-row">
+                        <span class="d-label">Recorded Owner:</span>
+                        <span class="d-val font-medium" id="dossier-owner-val">राम प्रसाद शर्मा (Ram Prasad Sharma)</span>
+                        <span class="d-label">Adjudication:</span>
+                        <span class="d-val text-success font-semibold" id="dossier-area-val">387.50 m² &rarr; 399.95 m²</span>
+                    </div>
+                </div>
+
+                <div class="dossier-findings">
+                    <h4>Technical Findings & Harmonization Evidence:</h4>
+                    <ul>
+                        <li>AI GeoAI Foundation Model (SAM-Geo ViT-H + LightGlue) extracted boundary with <strong>0.38m RMSE</strong>.</li>
+                        <li>Thin-Plate Spline (TPS) elastic geodetic warp factor applied at <strong>&lambda; = 0.99842</strong>.</li>
+                        <li>Discrepancy reconciled under Section 2.4 Administrative Discretionary Threshold.</li>
+                    </ul>
+                </div>
+
+                <div class="dossier-signature-block">
+                    <div class="dossier-qr-box">
+                        <div class="qr-placeholder">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor"><path d="M3 3h8v8H3V3zm2 2v4h4V5H5zm8-2h8v8h-8V3zm2 2v4h4V5h-4zM3 13h8v8H3v-8zm2 2v4h4v-4H5zm13-2h3v2h-3v-2zm-5 0h2v5h-2v-5zm3 3h2v2h-2v-2zm2 2h3v3h-3v-3zm-2 2h2v1h-2v-1z"/></svg>
+                        </div>
+                        <span class="qr-sub">Scan to verify ULPIN</span>
+                    </div>
+                    <div class="dossier-stamp">
+                        <div class="stamp-border">
+                            <span class="stamp-title">DIGITALLY SIGNED</span>
+                            <span class="stamp-signer">RO-2024-0451</span>
+                            <span class="stamp-date">NIC Class-3 CA Validated</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dossier-footer-hash">
+                    <span id="dossier-hash-val">SHA3-256: e89a24cf...71b0 (Merkle Height #4)</span>
+                </div>
+            </div>
+
+            <div class="modal-actions">
+                <button class="btn btn-secondary modal-close">Close</button>
+                <button class="btn btn-primary" onclick="window.print()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+                    Print / Save PDF
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. Boundary Modification Modal -->
+    <div id="modify-boundary-modal" class="modal-overlay" style="display: none;" role="dialog" aria-labelledby="modify-modal-title" aria-modal="true">
+        <div class="modal-card">
+            <div class="modal-header">
+                <div class="modal-title-wrap">
+                    <h3 id="modify-modal-title">Manual Boundary Vertex Adjustment</h3>
+                </div>
+                <button class="modal-close" aria-label="Close dialog">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+                <p class="modal-desc">Adjust vertex coordinates (WGS84 EPSG:7755) with least-squares constraint.</p>
+                <div class="vertex-table-wrap">
+                    <table class="vertex-table">
+                        <thead>
+                            <tr>
+                                <th>Vertex</th>
+                                <th>Easting (Lon)</th>
+                                <th>Northing (Lat)</th>
+                                <th>Weight (w)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>V1</td><td><input type="text" class="vertex-input" value="73.856380"></td><td><input type="text" class="vertex-input" value="18.520100"></td><td>1.0</td></tr>
+                            <tr><td>V2</td><td><input type="text" class="vertex-input" value="73.856700"></td><td><input type="text" class="vertex-input" value="18.520100"></td><td>1.0</td></tr>
+                            <tr><td>V3</td><td><input type="text" class="vertex-input" value="73.856700"></td><td><input type="text" class="vertex-input" value="18.520280"></td><td>0.9</td></tr>
+                            <tr><td>V4</td><td><input type="text" class="vertex-input" value="73.856380"></td><td><input type="text" class="vertex-input" value="18.520280"></td><td>1.0</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tps-preview-alert">
+                    ⚡ <strong>TPS Warp Real-time Calc:</strong> Adjusted Area: <strong>392.40 m²</strong> (ΔA = +4.90 m², within 2.0% tolerance).
+                </div>
+            </div>
+
+            <div class="modal-actions">
+                <button class="btn btn-secondary modal-close">Cancel</button>
+                <button class="btn btn-warning" onclick="AdjudicationController.saveBoundaryModification()">
+                    Apply Elastic Warp & Save
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container" role="region" aria-live="polite" aria-label="System notifications"></div>
+
+    <!-- Scripts -->
+    <script src="js/mock-data.js?v=20260908_gauges"></script>
+    <script src="js/api-client.js?v=20260908_gauges"></script>
+    <script src="js/utils/toast.js?v=20260908_gauges"></script>
+    <script src="js/adjudication-controller.js?v=20260908_gauges"></script>
+</body>
+</html>

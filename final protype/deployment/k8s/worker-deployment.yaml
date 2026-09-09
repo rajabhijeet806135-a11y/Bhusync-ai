@@ -1,0 +1,158 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bhusynch-worker-geodesy
+  namespace: bhusynch-ai
+  labels:
+    app: bhusynch-worker
+    worker-type: geodesy
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: bhusynch-worker
+      worker-type: geodesy
+  template:
+    metadata:
+      labels:
+        app: bhusynch-worker
+        worker-type: geodesy
+    spec:
+      containers:
+        - name: celery-geodesy
+          image: registry.nic.in/bhusynch/worker:latest
+          command: ["celery", "-A", "app.workers.celery_app", "worker"]
+          args: ["-Q", "geodesy", "-c", "4", "--loglevel=info"]
+          env:
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: bhusynch-db-secret
+                  key: database-url
+            - name: REDIS_URL
+              value: "redis://bhusynch-redis:6379/0"
+            - name: MINIO_ENDPOINT
+              value: "bhusynch-minio:9000"
+            - name: MINIO_ACCESS_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: bhusynch-minio-secret
+                  key: access-key
+            - name: MINIO_SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: bhusynch-minio-secret
+                  key: secret-key
+          resources:
+            requests:
+              cpu: "1000m"
+              memory: "4Gi"
+            limits:
+              cpu: "4000m"
+              memory: "8Gi"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bhusynch-worker-geoai
+  namespace: bhusynch-ai
+  labels:
+    app: bhusynch-worker
+    worker-type: geoai
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: bhusynch-worker
+      worker-type: geoai
+  template:
+    metadata:
+      labels:
+        app: bhusynch-worker
+        worker-type: geoai
+    spec:
+      nodeSelector:
+        nvidia.com/gpu.present: "true"
+      tolerations:
+        - key: nvidia.com/gpu
+          operator: Exists
+          effect: NoSchedule
+      containers:
+        - name: celery-geoai
+          image: registry.nic.in/bhusynch/worker-gpu:latest
+          command: ["celery", "-A", "app.workers.celery_app", "worker"]
+          args: ["-Q", "geoai,conflation,document_ai", "-c", "2", "--loglevel=info"]
+          env:
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: bhusynch-db-secret
+                  key: database-url
+            - name: REDIS_URL
+              value: "redis://bhusynch-redis:6379/0"
+            - name: MINIO_ENDPOINT
+              value: "bhusynch-minio:9000"
+            - name: MINIO_ACCESS_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: bhusynch-minio-secret
+                  key: access-key
+            - name: MINIO_SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: bhusynch-minio-secret
+                  key: secret-key
+            - name: RAY_ADDRESS
+              value: "ray://bhusynch-ray-head:10001"
+            - name: CUDA_VISIBLE_DEVICES
+              value: "0"
+          resources:
+            requests:
+              cpu: "2000m"
+              memory: "8Gi"
+              nvidia.com/gpu: "1"
+            limits:
+              cpu: "8000m"
+              memory: "24Gi"
+              nvidia.com/gpu: "1"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bhusynch-worker-arbitration
+  namespace: bhusynch-ai
+  labels:
+    app: bhusynch-worker
+    worker-type: arbitration
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: bhusynch-worker
+      worker-type: arbitration
+  template:
+    metadata:
+      labels:
+        app: bhusynch-worker
+        worker-type: arbitration
+    spec:
+      containers:
+        - name: celery-arbitration
+          image: registry.nic.in/bhusynch/worker:latest
+          command: ["celery", "-A", "app.workers.celery_app", "worker"]
+          args: ["-Q", "arbitration,topology", "-c", "4", "--loglevel=info"]
+          env:
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: bhusynch-db-secret
+                  key: database-url
+            - name: REDIS_URL
+              value: "redis://bhusynch-redis:6379/0"
+          resources:
+            requests:
+              cpu: "500m"
+              memory: "2Gi"
+            limits:
+              cpu: "2000m"
+              memory: "4Gi"

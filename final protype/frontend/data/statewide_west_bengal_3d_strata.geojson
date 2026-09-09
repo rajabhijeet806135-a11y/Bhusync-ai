@@ -1,0 +1,4238 @@
+{
+  "type": "FeatureCollection",
+  "name": "WBRERA_3D_Condominium_Strata_WB",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-01A",
+        "floor_level": 1,
+        "z_min_meters": 0.0,
+        "z_max_meters": 3.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.435,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-01B",
+        "floor_level": 1,
+        "z_min_meters": 0.0,
+        "z_max_meters": 3.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.435,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-01C",
+        "floor_level": 1,
+        "z_min_meters": 0.0,
+        "z_max_meters": 3.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.435,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-01D",
+        "floor_level": 1,
+        "z_min_meters": 0.0,
+        "z_max_meters": 3.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.435,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-02A",
+        "floor_level": 2,
+        "z_min_meters": 3.0,
+        "z_max_meters": 6.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43505,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-02B",
+        "floor_level": 2,
+        "z_min_meters": 3.0,
+        "z_max_meters": 6.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43505,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-02C",
+        "floor_level": 2,
+        "z_min_meters": 3.0,
+        "z_max_meters": 6.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43505,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-02D",
+        "floor_level": 2,
+        "z_min_meters": 3.0,
+        "z_max_meters": 6.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43505,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-03A",
+        "floor_level": 3,
+        "z_min_meters": 6.0,
+        "z_max_meters": 9.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4351,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-03B",
+        "floor_level": 3,
+        "z_min_meters": 6.0,
+        "z_max_meters": 9.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4351,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-03C",
+        "floor_level": 3,
+        "z_min_meters": 6.0,
+        "z_max_meters": 9.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4351,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-03D",
+        "floor_level": 3,
+        "z_min_meters": 6.0,
+        "z_max_meters": 9.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4351,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-04A",
+        "floor_level": 4,
+        "z_min_meters": 9.0,
+        "z_max_meters": 12.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43515000000001,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-04B",
+        "floor_level": 4,
+        "z_min_meters": 9.0,
+        "z_max_meters": 12.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43515000000001,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-04C",
+        "floor_level": 4,
+        "z_min_meters": 9.0,
+        "z_max_meters": 12.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43515000000001,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-04D",
+        "floor_level": 4,
+        "z_min_meters": 9.0,
+        "z_max_meters": 12.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43515000000001,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-05A",
+        "floor_level": 5,
+        "z_min_meters": 12.0,
+        "z_max_meters": 15.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43520000000001,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-05B",
+        "floor_level": 5,
+        "z_min_meters": 12.0,
+        "z_max_meters": 15.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43520000000001,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-05C",
+        "floor_level": 5,
+        "z_min_meters": 12.0,
+        "z_max_meters": 15.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43520000000001,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-05D",
+        "floor_level": 5,
+        "z_min_meters": 12.0,
+        "z_max_meters": 15.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43520000000001,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-06A",
+        "floor_level": 6,
+        "z_min_meters": 15.0,
+        "z_max_meters": 18.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43525,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-06B",
+        "floor_level": 6,
+        "z_min_meters": 15.0,
+        "z_max_meters": 18.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43525,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-06C",
+        "floor_level": 6,
+        "z_min_meters": 15.0,
+        "z_max_meters": 18.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43525,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-06D",
+        "floor_level": 6,
+        "z_min_meters": 15.0,
+        "z_max_meters": 18.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43525,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-07A",
+        "floor_level": 7,
+        "z_min_meters": 18.0,
+        "z_max_meters": 21.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4353,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-07B",
+        "floor_level": 7,
+        "z_min_meters": 18.0,
+        "z_max_meters": 21.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4353,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-07C",
+        "floor_level": 7,
+        "z_min_meters": 18.0,
+        "z_max_meters": 21.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4353,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-07D",
+        "floor_level": 7,
+        "z_min_meters": 18.0,
+        "z_max_meters": 21.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4353,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-08A",
+        "floor_level": 8,
+        "z_min_meters": 21.0,
+        "z_max_meters": 24.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43535,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-08B",
+        "floor_level": 8,
+        "z_min_meters": 21.0,
+        "z_max_meters": 24.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43535,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-08C",
+        "floor_level": 8,
+        "z_min_meters": 21.0,
+        "z_max_meters": 24.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43535,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-08D",
+        "floor_level": 8,
+        "z_min_meters": 21.0,
+        "z_max_meters": 24.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43535,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-09A",
+        "floor_level": 9,
+        "z_min_meters": 24.0,
+        "z_max_meters": 27.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4354,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-09B",
+        "floor_level": 9,
+        "z_min_meters": 24.0,
+        "z_max_meters": 27.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4354,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-09C",
+        "floor_level": 9,
+        "z_min_meters": 24.0,
+        "z_max_meters": 27.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4354,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-09D",
+        "floor_level": 9,
+        "z_min_meters": 24.0,
+        "z_max_meters": 27.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4354,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-10A",
+        "floor_level": 10,
+        "z_min_meters": 27.0,
+        "z_max_meters": 30.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43545,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-10B",
+        "floor_level": 10,
+        "z_min_meters": 27.0,
+        "z_max_meters": 30.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43545,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-10C",
+        "floor_level": 10,
+        "z_min_meters": 27.0,
+        "z_max_meters": 30.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43545,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-10D",
+        "floor_level": 10,
+        "z_min_meters": 27.0,
+        "z_max_meters": 30.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43545,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-11A",
+        "floor_level": 11,
+        "z_min_meters": 30.0,
+        "z_max_meters": 33.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4355,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-11B",
+        "floor_level": 11,
+        "z_min_meters": 30.0,
+        "z_max_meters": 33.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4355,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-11C",
+        "floor_level": 11,
+        "z_min_meters": 30.0,
+        "z_max_meters": 33.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4355,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-11D",
+        "floor_level": 11,
+        "z_min_meters": 30.0,
+        "z_max_meters": 33.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4355,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-12A",
+        "floor_level": 12,
+        "z_min_meters": 33.0,
+        "z_max_meters": 36.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43555,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-12B",
+        "floor_level": 12,
+        "z_min_meters": 33.0,
+        "z_max_meters": 36.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43555,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-12C",
+        "floor_level": 12,
+        "z_min_meters": 33.0,
+        "z_max_meters": 36.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43555,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-12D",
+        "floor_level": 12,
+        "z_min_meters": 33.0,
+        "z_max_meters": 36.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43555,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-13A",
+        "floor_level": 13,
+        "z_min_meters": 36.0,
+        "z_max_meters": 39.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43560000000001,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-13B",
+        "floor_level": 13,
+        "z_min_meters": 36.0,
+        "z_max_meters": 39.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43560000000001,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-13C",
+        "floor_level": 13,
+        "z_min_meters": 36.0,
+        "z_max_meters": 39.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43560000000001,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-13D",
+        "floor_level": 13,
+        "z_min_meters": 36.0,
+        "z_max_meters": 39.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43560000000001,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-14A",
+        "floor_level": 14,
+        "z_min_meters": 39.0,
+        "z_max_meters": 42.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43565,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-14B",
+        "floor_level": 14,
+        "z_min_meters": 39.0,
+        "z_max_meters": 42.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43565,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-14C",
+        "floor_level": 14,
+        "z_min_meters": 39.0,
+        "z_max_meters": 42.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43565,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-14D",
+        "floor_level": 14,
+        "z_min_meters": 39.0,
+        "z_max_meters": 42.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43565,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-15A",
+        "floor_level": 15,
+        "z_min_meters": 42.0,
+        "z_max_meters": 45.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4357,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-15B",
+        "floor_level": 15,
+        "z_min_meters": 42.0,
+        "z_max_meters": 45.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4357,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-15C",
+        "floor_level": 15,
+        "z_min_meters": 42.0,
+        "z_max_meters": 45.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4357,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-15D",
+        "floor_level": 15,
+        "z_min_meters": 42.0,
+        "z_max_meters": 45.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4357,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-16A",
+        "floor_level": 16,
+        "z_min_meters": 45.0,
+        "z_max_meters": 48.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43575,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-16B",
+        "floor_level": 16,
+        "z_min_meters": 45.0,
+        "z_max_meters": 48.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43575,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-16C",
+        "floor_level": 16,
+        "z_min_meters": 45.0,
+        "z_max_meters": 48.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43575,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "Mani Casadona IT Tower",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000182",
+        "ulpin": "19010410100015",
+        "unit_id": "Unit-16D",
+        "floor_level": 16,
+        "z_min_meters": 45.0,
+        "z_max_meters": 48.0,
+        "carpet_area_sqm": 180.62,
+        "unit_volume_m3": 541.86,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43575,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-01A",
+        "floor_level": 1,
+        "z_min_meters": 0.0,
+        "z_max_meters": 3.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.435,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-01B",
+        "floor_level": 1,
+        "z_min_meters": 0.0,
+        "z_max_meters": 3.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.435,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-01C",
+        "floor_level": 1,
+        "z_min_meters": 0.0,
+        "z_max_meters": 3.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.435,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-01D",
+        "floor_level": 1,
+        "z_min_meters": 0.0,
+        "z_max_meters": 3.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.435,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-01E",
+        "floor_level": 1,
+        "z_min_meters": 0.0,
+        "z_max_meters": 3.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.435,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-01F",
+        "floor_level": 1,
+        "z_min_meters": 0.0,
+        "z_max_meters": 3.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.435,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-02A",
+        "floor_level": 2,
+        "z_min_meters": 3.0,
+        "z_max_meters": 6.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43505,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-02B",
+        "floor_level": 2,
+        "z_min_meters": 3.0,
+        "z_max_meters": 6.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43505,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-02C",
+        "floor_level": 2,
+        "z_min_meters": 3.0,
+        "z_max_meters": 6.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43505,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-02D",
+        "floor_level": 2,
+        "z_min_meters": 3.0,
+        "z_max_meters": 6.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43505,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-02E",
+        "floor_level": 2,
+        "z_min_meters": 3.0,
+        "z_max_meters": 6.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43505,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-02F",
+        "floor_level": 2,
+        "z_min_meters": 3.0,
+        "z_max_meters": 6.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43505,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-03A",
+        "floor_level": 3,
+        "z_min_meters": 6.0,
+        "z_max_meters": 9.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4351,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-03B",
+        "floor_level": 3,
+        "z_min_meters": 6.0,
+        "z_max_meters": 9.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4351,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-03C",
+        "floor_level": 3,
+        "z_min_meters": 6.0,
+        "z_max_meters": 9.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4351,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-03D",
+        "floor_level": 3,
+        "z_min_meters": 6.0,
+        "z_max_meters": 9.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4351,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-03E",
+        "floor_level": 3,
+        "z_min_meters": 6.0,
+        "z_max_meters": 9.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4351,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-03F",
+        "floor_level": 3,
+        "z_min_meters": 6.0,
+        "z_max_meters": 9.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4351,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-04A",
+        "floor_level": 4,
+        "z_min_meters": 9.0,
+        "z_max_meters": 12.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43515000000001,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-04B",
+        "floor_level": 4,
+        "z_min_meters": 9.0,
+        "z_max_meters": 12.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43515000000001,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-04C",
+        "floor_level": 4,
+        "z_min_meters": 9.0,
+        "z_max_meters": 12.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43515000000001,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-04D",
+        "floor_level": 4,
+        "z_min_meters": 9.0,
+        "z_max_meters": 12.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43515000000001,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-04E",
+        "floor_level": 4,
+        "z_min_meters": 9.0,
+        "z_max_meters": 12.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43515000000001,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-04F",
+        "floor_level": 4,
+        "z_min_meters": 9.0,
+        "z_max_meters": 12.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43515000000001,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-05A",
+        "floor_level": 5,
+        "z_min_meters": 12.0,
+        "z_max_meters": 15.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43520000000001,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-05B",
+        "floor_level": 5,
+        "z_min_meters": 12.0,
+        "z_max_meters": 15.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43520000000001,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-05C",
+        "floor_level": 5,
+        "z_min_meters": 12.0,
+        "z_max_meters": 15.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43520000000001,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-05D",
+        "floor_level": 5,
+        "z_min_meters": 12.0,
+        "z_max_meters": 15.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43520000000001,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-05E",
+        "floor_level": 5,
+        "z_min_meters": 12.0,
+        "z_max_meters": 15.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43520000000001,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-05F",
+        "floor_level": 5,
+        "z_min_meters": 12.0,
+        "z_max_meters": 15.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43520000000001,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-06A",
+        "floor_level": 6,
+        "z_min_meters": 15.0,
+        "z_max_meters": 18.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43525,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-06B",
+        "floor_level": 6,
+        "z_min_meters": 15.0,
+        "z_max_meters": 18.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43525,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-06C",
+        "floor_level": 6,
+        "z_min_meters": 15.0,
+        "z_max_meters": 18.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43525,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-06D",
+        "floor_level": 6,
+        "z_min_meters": 15.0,
+        "z_max_meters": 18.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43525,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-06E",
+        "floor_level": 6,
+        "z_min_meters": 15.0,
+        "z_max_meters": 18.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43525,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-06F",
+        "floor_level": 6,
+        "z_min_meters": 15.0,
+        "z_max_meters": 18.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43525,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-07A",
+        "floor_level": 7,
+        "z_min_meters": 18.0,
+        "z_max_meters": 21.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4353,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-07B",
+        "floor_level": 7,
+        "z_min_meters": 18.0,
+        "z_max_meters": 21.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4353,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-07C",
+        "floor_level": 7,
+        "z_min_meters": 18.0,
+        "z_max_meters": 21.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4353,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-07D",
+        "floor_level": 7,
+        "z_min_meters": 18.0,
+        "z_max_meters": 21.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4353,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-07E",
+        "floor_level": 7,
+        "z_min_meters": 18.0,
+        "z_max_meters": 21.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4353,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-07F",
+        "floor_level": 7,
+        "z_min_meters": 18.0,
+        "z_max_meters": 21.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4353,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-08A",
+        "floor_level": 8,
+        "z_min_meters": 21.0,
+        "z_max_meters": 24.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43535,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-08B",
+        "floor_level": 8,
+        "z_min_meters": 21.0,
+        "z_max_meters": 24.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43535,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-08C",
+        "floor_level": 8,
+        "z_min_meters": 21.0,
+        "z_max_meters": 24.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43535,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-08D",
+        "floor_level": 8,
+        "z_min_meters": 21.0,
+        "z_max_meters": 24.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43535,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-08E",
+        "floor_level": 8,
+        "z_min_meters": 21.0,
+        "z_max_meters": 24.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43535,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-08F",
+        "floor_level": 8,
+        "z_min_meters": 21.0,
+        "z_max_meters": 24.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43535,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-09A",
+        "floor_level": 9,
+        "z_min_meters": 24.0,
+        "z_max_meters": 27.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4354,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-09B",
+        "floor_level": 9,
+        "z_min_meters": 24.0,
+        "z_max_meters": 27.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4354,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-09C",
+        "floor_level": 9,
+        "z_min_meters": 24.0,
+        "z_max_meters": 27.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4354,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-09D",
+        "floor_level": 9,
+        "z_min_meters": 24.0,
+        "z_max_meters": 27.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4354,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-09E",
+        "floor_level": 9,
+        "z_min_meters": 24.0,
+        "z_max_meters": 27.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4354,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-09F",
+        "floor_level": 9,
+        "z_min_meters": 24.0,
+        "z_max_meters": 27.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4354,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-10A",
+        "floor_level": 10,
+        "z_min_meters": 27.0,
+        "z_max_meters": 30.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43545,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-10B",
+        "floor_level": 10,
+        "z_min_meters": 27.0,
+        "z_max_meters": 30.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43545,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-10C",
+        "floor_level": 10,
+        "z_min_meters": 27.0,
+        "z_max_meters": 30.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43545,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-10D",
+        "floor_level": 10,
+        "z_min_meters": 27.0,
+        "z_max_meters": 30.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43545,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-10E",
+        "floor_level": 10,
+        "z_min_meters": 27.0,
+        "z_max_meters": 30.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43545,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-10F",
+        "floor_level": 10,
+        "z_min_meters": 27.0,
+        "z_max_meters": 30.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43545,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-11A",
+        "floor_level": 11,
+        "z_min_meters": 30.0,
+        "z_max_meters": 33.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4355,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-11B",
+        "floor_level": 11,
+        "z_min_meters": 30.0,
+        "z_max_meters": 33.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4355,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-11C",
+        "floor_level": 11,
+        "z_min_meters": 30.0,
+        "z_max_meters": 33.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4355,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-11D",
+        "floor_level": 11,
+        "z_min_meters": 30.0,
+        "z_max_meters": 33.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4355,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-11E",
+        "floor_level": 11,
+        "z_min_meters": 30.0,
+        "z_max_meters": 33.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4355,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-11F",
+        "floor_level": 11,
+        "z_min_meters": 30.0,
+        "z_max_meters": 33.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4355,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-12A",
+        "floor_level": 12,
+        "z_min_meters": 33.0,
+        "z_max_meters": 36.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43555,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-12B",
+        "floor_level": 12,
+        "z_min_meters": 33.0,
+        "z_max_meters": 36.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43555,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-12C",
+        "floor_level": 12,
+        "z_min_meters": 33.0,
+        "z_max_meters": 36.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43555,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-12D",
+        "floor_level": 12,
+        "z_min_meters": 33.0,
+        "z_max_meters": 36.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43555,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-12E",
+        "floor_level": 12,
+        "z_min_meters": 33.0,
+        "z_max_meters": 36.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43555,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-12F",
+        "floor_level": 12,
+        "z_min_meters": 33.0,
+        "z_max_meters": 36.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43555,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-13A",
+        "floor_level": 13,
+        "z_min_meters": 36.0,
+        "z_max_meters": 39.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43560000000001,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-13B",
+        "floor_level": 13,
+        "z_min_meters": 36.0,
+        "z_max_meters": 39.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43560000000001,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-13C",
+        "floor_level": 13,
+        "z_min_meters": 36.0,
+        "z_max_meters": 39.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43560000000001,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-13D",
+        "floor_level": 13,
+        "z_min_meters": 36.0,
+        "z_max_meters": 39.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43560000000001,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-13E",
+        "floor_level": 13,
+        "z_min_meters": 36.0,
+        "z_max_meters": 39.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43560000000001,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-13F",
+        "floor_level": 13,
+        "z_min_meters": 36.0,
+        "z_max_meters": 39.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43560000000001,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-14A",
+        "floor_level": 14,
+        "z_min_meters": 39.0,
+        "z_max_meters": 42.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43565,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-14B",
+        "floor_level": 14,
+        "z_min_meters": 39.0,
+        "z_max_meters": 42.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43565,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-14C",
+        "floor_level": 14,
+        "z_min_meters": 39.0,
+        "z_max_meters": 42.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43565,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-14D",
+        "floor_level": 14,
+        "z_min_meters": 39.0,
+        "z_max_meters": 42.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43565,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-14E",
+        "floor_level": 14,
+        "z_min_meters": 39.0,
+        "z_max_meters": 42.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43565,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-14F",
+        "floor_level": 14,
+        "z_min_meters": 39.0,
+        "z_max_meters": 42.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43565,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-15A",
+        "floor_level": 15,
+        "z_min_meters": 42.0,
+        "z_max_meters": 45.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4357,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-15B",
+        "floor_level": 15,
+        "z_min_meters": 42.0,
+        "z_max_meters": 45.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4357,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-15C",
+        "floor_level": 15,
+        "z_min_meters": 42.0,
+        "z_max_meters": 45.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4357,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-15D",
+        "floor_level": 15,
+        "z_min_meters": 42.0,
+        "z_max_meters": 45.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4357,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-15E",
+        "floor_level": 15,
+        "z_min_meters": 42.0,
+        "z_max_meters": 45.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4357,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-15F",
+        "floor_level": 15,
+        "z_min_meters": 42.0,
+        "z_max_meters": 45.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4357,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-16A",
+        "floor_level": 16,
+        "z_min_meters": 45.0,
+        "z_max_meters": 48.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43575,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-16B",
+        "floor_level": 16,
+        "z_min_meters": 45.0,
+        "z_max_meters": 48.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43575,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-16C",
+        "floor_level": 16,
+        "z_min_meters": 45.0,
+        "z_max_meters": 48.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43575,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-16D",
+        "floor_level": 16,
+        "z_min_meters": 45.0,
+        "z_max_meters": 48.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43575,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-16E",
+        "floor_level": 16,
+        "z_min_meters": 45.0,
+        "z_max_meters": 48.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43575,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-16F",
+        "floor_level": 16,
+        "z_min_meters": 45.0,
+        "z_max_meters": 48.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43575,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-17A",
+        "floor_level": 17,
+        "z_min_meters": 48.0,
+        "z_max_meters": 51.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4358,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-17B",
+        "floor_level": 17,
+        "z_min_meters": 48.0,
+        "z_max_meters": 51.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4358,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-17C",
+        "floor_level": 17,
+        "z_min_meters": 48.0,
+        "z_max_meters": 51.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4358,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-17D",
+        "floor_level": 17,
+        "z_min_meters": 48.0,
+        "z_max_meters": 51.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4358,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-17E",
+        "floor_level": 17,
+        "z_min_meters": 48.0,
+        "z_max_meters": 51.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4358,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-17F",
+        "floor_level": 17,
+        "z_min_meters": 48.0,
+        "z_max_meters": 51.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4358,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-18A",
+        "floor_level": 18,
+        "z_min_meters": 51.0,
+        "z_max_meters": 54.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43585,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-18B",
+        "floor_level": 18,
+        "z_min_meters": 51.0,
+        "z_max_meters": 54.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43585,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-18C",
+        "floor_level": 18,
+        "z_min_meters": 51.0,
+        "z_max_meters": 54.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43585,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-18D",
+        "floor_level": 18,
+        "z_min_meters": 51.0,
+        "z_max_meters": 54.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43585,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-18E",
+        "floor_level": 18,
+        "z_min_meters": 51.0,
+        "z_max_meters": 54.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43585,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-18F",
+        "floor_level": 18,
+        "z_min_meters": 51.0,
+        "z_max_meters": 54.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43585,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-19A",
+        "floor_level": 19,
+        "z_min_meters": 54.0,
+        "z_max_meters": 57.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4359,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-19B",
+        "floor_level": 19,
+        "z_min_meters": 54.0,
+        "z_max_meters": 57.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4359,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-19C",
+        "floor_level": 19,
+        "z_min_meters": 54.0,
+        "z_max_meters": 57.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4359,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-19D",
+        "floor_level": 19,
+        "z_min_meters": 54.0,
+        "z_max_meters": 57.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4359,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-19E",
+        "floor_level": 19,
+        "z_min_meters": 54.0,
+        "z_max_meters": 57.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4359,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-19F",
+        "floor_level": 19,
+        "z_min_meters": 54.0,
+        "z_max_meters": 57.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4359,
+          22.57025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-20A",
+        "floor_level": 20,
+        "z_min_meters": 57.0,
+        "z_max_meters": 60.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43595,
+          22.57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-20B",
+        "floor_level": 20,
+        "z_min_meters": 57.0,
+        "z_max_meters": 60.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43595,
+          22.570050000000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-20C",
+        "floor_level": 20,
+        "z_min_meters": 57.0,
+        "z_max_meters": 60.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43595,
+          22.5701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-20D",
+        "floor_level": 20,
+        "z_min_meters": 57.0,
+        "z_max_meters": 60.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43595,
+          22.57015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-20E",
+        "floor_level": 20,
+        "z_min_meters": 57.0,
+        "z_max_meters": 60.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43595,
+          22.5702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_name": "PS Srijan Corporate Park",
+        "rera_registration_no": "WBRERA/P/NOR/2026/000214",
+        "ulpin": "19010410100028",
+        "unit_id": "Unit-20F",
+        "floor_level": 20,
+        "z_min_meters": 57.0,
+        "z_max_meters": 60.0,
+        "carpet_area_sqm": 170.0,
+        "unit_volume_m3": 510.0,
+        "standard": "ISO 19152 LADM 3D Strata Cadastre",
+        "vertical_interpenetration_status": "ZERO_CLASH_VALIDATED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.43595,
+          22.57025
+        ]
+      }
+    }
+  ]
+}

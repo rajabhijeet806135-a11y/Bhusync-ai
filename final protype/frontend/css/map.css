@@ -1,0 +1,329 @@
+/* ═══════════════════════════════════════════════════════════════
+   BhuSynch AI — Map Styles
+   MapLibre GL JS + Deck.gl MVT (Section 1 — Architecture)
+   Visual Theme: Warm Ivory, Deep Earth Brown & Gold Accents
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Map Viewport & Container (Framed Central Card) ────────── */
+.map-container {
+    flex: 1;
+    min-width: 0;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: #FAF7F2;
+    border: 1.5px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 4px 16px rgba(43, 24, 16, 0.06);
+}
+.map { width: 100%; height: 100%; }
+
+/* ── Map Controls (Bold Earth Brown & Gold) ────────────────── */
+.map-controls {
+    position: absolute;
+    top: var(--space-md);
+    right: var(--space-md);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    z-index: 10;
+}
+.map-btn {
+    width: 38px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1.5px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    color: var(--color-primary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 800;
+    font-family: var(--font-display);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--shadow-sm);
+}
+.map-btn:hover {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: #FFFFFF;
+    box-shadow: 0 4px 12px rgba(74, 46, 24, 0.3);
+    transform: translateY(-1.5px);
+}
+.map-btn:active {
+    transform: translateY(0);
+}
+.map-btn svg {
+    width: 17px;
+    height: 17px;
+}
+
+.map-btn.active {
+    background: linear-gradient(135deg, var(--color-gold) 0%, #A67C1E 100%);
+    border-color: #946E18;
+    color: #1C1917;
+    box-shadow: 0 2px 8px rgba(197, 155, 39, 0.35);
+}
+
+/* ── Coordinate Display — Clean Monospace Warm White ───────── */
+.coord-display {
+    position: absolute;
+    bottom: var(--space-md);
+    left: var(--space-md);
+    display: flex;
+    gap: var(--space-md);
+    padding: 6px var(--space-md);
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1.5px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    font-family: var(--font-mono);
+    font-size: 0.74rem;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+    z-index: 10;
+    box-shadow: var(--shadow-sm);
+}
+.coord-display span {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+}
+.coord-display .coord-value {
+    color: var(--color-primary);
+    font-weight: 800;
+    min-width: 68px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+/* ── Scale Bar ─────────────────────────────────────────────── */
+.scale-bar {
+    position: absolute;
+    bottom: var(--space-md);
+    right: var(--space-md);
+    z-index: 10;
+}
+
+/* ── Map Legend — Clean Government Card ────────────────────── */
+.map-legend {
+    position: absolute;
+    bottom: 50px;
+    left: var(--space-md);
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1.5px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: var(--space-sm) var(--space-md);
+    z-index: 10;
+    min-width: 160px;
+    box-shadow: var(--shadow-md);
+}
+.legend-title {
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-primary);
+    margin-bottom: var(--space-xs);
+    border-bottom: 1.5px solid var(--color-border-subtle);
+    padding-bottom: 4px;
+}
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    padding: 2px 0;
+}
+.legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.15);
+    flex-shrink: 0;
+}
+.legend-color--provisional { background: var(--status-warning); }
+.legend-color--candidate   { background: var(--accent-gis-blue); }
+.legend-color--verified    { background: var(--status-success); }
+.legend-color--adjudicated { background: #7C3AED; }
+.legend-color--conflict    { background: var(--status-danger); }
+
+/* ── Map Popups — Professional Government Theme ────────────── */
+.maplibregl-popup-content {
+    background: #FFFFFF !important;
+    border: 1.5px solid var(--color-border) !important;
+    border-radius: var(--radius-md) !important;
+    padding: 0 !important;
+    color: var(--color-text-primary) !important;
+    font-family: var(--font-sans) !important;
+    box-shadow: var(--shadow-lg) !important;
+    min-width: 260px;
+    overflow: hidden;
+}
+.maplibregl-popup-content::before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-gold) 100%);
+}
+
+.maplibregl-popup-tip {
+    border-top-color: #FFFFFF !important;
+}
+.maplibregl-popup-close-button {
+    color: var(--color-text-muted) !important;
+    font-size: 1.2rem !important;
+    padding: 4px 8px !important;
+    transition: color 0.15s ease !important;
+    cursor: pointer !important;
+}
+.maplibregl-popup-close-button:hover {
+    color: var(--color-primary) !important;
+}
+
+/* Custom Parcel Popup */
+.parcel-popup {
+    padding: var(--space-md);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    min-width: 260px;
+}
+
+.parcel-popup__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-sm);
+    border-bottom: 1.5px solid var(--color-border-subtle);
+    padding-bottom: 6px;
+}
+
+.parcel-popup__khasra {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--color-primary);
+}
+
+.parcel-popup__status {
+    font-size: 0.68rem;
+    font-weight: 800;
+    padding: 2px 7px;
+    border-radius: var(--radius-xs);
+    letter-spacing: 0.04em;
+    font-family: var(--font-mono);
+}
+
+.parcel-popup__body {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.parcel-popup__row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.78rem;
+}
+.parcel-popup__row .label { color: var(--color-text-secondary); font-weight: 600; }
+.parcel-popup__row .value { color: var(--color-text-primary); font-weight: 700; font-family: var(--font-mono); }
+
+.parcel-popup__conflict-alert {
+    margin-top: 4px;
+    padding: 6px 8px;
+    background: var(--status-danger-bg);
+    border: 1px solid var(--status-danger-border);
+    border-radius: var(--radius-xs);
+    font-size: 0.74rem;
+    color: var(--status-danger);
+    font-weight: 700;
+}
+
+.parcel-popup__btn {
+    margin-top: 6px;
+    padding: 8px 14px;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    border: none;
+    border-radius: var(--radius-sm);
+    color: #FFFFFF;
+    font-size: 0.82rem;
+    font-weight: 700;
+    font-family: var(--font-sans);
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 6px rgba(74, 46, 24, 0.25);
+}
+.parcel-popup__btn:hover {
+    transform: translateY(-1.5px);
+    box-shadow: 0 4px 12px rgba(74, 46, 24, 0.35);
+}
+
+/* Map Loading Overlay */
+.map-loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(248, 246, 240, 0.75);
+    backdrop-filter: blur(4px);
+    z-index: 20;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+.map-loading.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+.map-loading__spinner {
+    width: 36px;
+    height: 36px;
+    border: 3px solid var(--color-border);
+    border-top: 3px solid var(--color-primary);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* MapLibre attribution override */
+.maplibregl-ctrl-attrib {
+    background: rgba(255, 255, 255, 0.85) !important;
+    color: var(--color-text-muted) !important;
+    font-size: 0.64rem !important;
+    font-family: var(--font-sans) !important;
+}
+.maplibregl-ctrl-attrib a {
+    color: var(--color-text-secondary) !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .coord-display {
+        left: var(--space-xs);
+        bottom: var(--space-xs);
+        font-size: 0.68rem;
+        gap: var(--space-xs);
+        padding: 4px var(--space-xs);
+    }
+    .map-controls {
+        top: var(--space-xs);
+        right: var(--space-xs);
+    }
+}

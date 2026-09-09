@@ -1,0 +1,6215 @@
+{
+  "type": "FeatureCollection",
+  "name": "real_west_bengal_cadastral_parcels",
+  "source_metadata": {
+    "source_authority": "Directorate of Land Records & Surveys (DLR&S West Bengal) & Survey of India",
+    "ministry": "Land & Land Reforms Dept (Govt of West Bengal) & Ministry of Rural Development (DoLR)",
+    "program": "Banglarbhumi / Jomir Tathya & NAKSHA Urban Cadastre (DILRMP)",
+    "portal_url": "https://banglarbhumi.gov.in/",
+    "geodetic_anchor": "Survey of India CORS Base Station KOL1 (Kolkata)",
+    "statutory_act": "West Bengal Land Reforms Act 1955 & IT Act 2000 (§3)",
+    "target_crs": "EPSG:7755 (India NSF LCC) & EPSG:4326 (WGS84)"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "id": 1,
+        "ulpin": "19031200010001",
+        "dag_no": "140/2",
+        "khasra_no": "140/2",
+        "khatian_no": "100",
+        "khata_no": "100",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 338.63,
+        "legal_area_katha": "5 কাঠা 1 ছটাক",
+        "physical_area_sqm": 332.53,
+        "delta_area_sqm": -6.1,
+        "delta_pct": 1.8,
+        "rmse_m": 0.1,
+        "height_m": 12.5,
+        "floors": 3,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "সৌম্যজিৎ মুখোপাধ্যায় (Soumyajit Mukherjee)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e01a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-002-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.428,
+              22.564
+            ],
+            [
+              88.4288,
+              22.564
+            ],
+            [
+              88.4288,
+              22.56472
+            ],
+            [
+              88.428,
+              22.56472
+            ],
+            [
+              88.428,
+              22.564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "id": 2,
+        "ulpin": "19031200010002",
+        "dag_no": "140/3",
+        "khasra_no": "140/3",
+        "khatian_no": "101",
+        "khata_no": "101",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "PROVISIONAL",
+        "legal_area_sqm": 409.7,
+        "legal_area_katha": "6 কাঠা 2 ছটাক",
+        "physical_area_sqm": 406.01,
+        "delta_area_sqm": -3.69,
+        "delta_pct": 0.9,
+        "rmse_m": 0.14,
+        "height_m": 17.0,
+        "floors": 5,
+        "land_use": "বাণিজ্যিক (IT Park / Commercial)",
+        "owner_name": "অনির্বাণ বন্দ্যোপাধ্যায় (Anirban Banerjee)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e02a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-003-10",
+        "has_conflict": true,
+        "conflict_id": "CONF-WB-2026-0002",
+        "conflict_type": "KMDA_ROW_ENCROACHMENT"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.42895,
+              22.564
+            ],
+            [
+              88.42975,
+              22.564
+            ],
+            [
+              88.42975,
+              22.56472
+            ],
+            [
+              88.42895,
+              22.56472
+            ],
+            [
+              88.42895,
+              22.564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "id": 3,
+        "ulpin": "19031200010003",
+        "dag_no": "140/4",
+        "khasra_no": "140/4",
+        "khatian_no": "101",
+        "khata_no": "101",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 480.77,
+        "legal_area_katha": "7 কাঠা 3 ছটাক",
+        "physical_area_sqm": 480.77,
+        "delta_area_sqm": 0.0,
+        "delta_pct": 0.0,
+        "rmse_m": 0.18,
+        "height_m": 21.5,
+        "floors": 6,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "শুভাশিস সেনগুপ্ত (Subhasis Sengupta)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e03a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-004-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4299,
+              22.564
+            ],
+            [
+              88.4307,
+              22.564
+            ],
+            [
+              88.4307,
+              22.56472
+            ],
+            [
+              88.4299,
+              22.56472
+            ],
+            [
+              88.4299,
+              22.564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "id": 4,
+        "ulpin": "19031200010004",
+        "dag_no": "141/1",
+        "khasra_no": "141/1",
+        "khatian_no": "102",
+        "khata_no": "102",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 551.84,
+        "legal_area_katha": "8 কাঠা 4 ছটাক",
+        "physical_area_sqm": 556.81,
+        "delta_area_sqm": 4.97,
+        "delta_pct": 0.9,
+        "rmse_m": 0.06,
+        "height_m": 26.0,
+        "floors": 8,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "দেবলীনা চক্রবর্তী (Debolina Chakraborty)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e04a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-005-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43085,
+              22.564
+            ],
+            [
+              88.43165,
+              22.564
+            ],
+            [
+              88.43165,
+              22.56472
+            ],
+            [
+              88.43085,
+              22.56472
+            ],
+            [
+              88.43085,
+              22.564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "id": 5,
+        "ulpin": "19031200010005",
+        "dag_no": "141/2",
+        "khasra_no": "141/2",
+        "khatian_no": "102",
+        "khata_no": "102",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "PROVISIONAL",
+        "legal_area_sqm": 622.91,
+        "legal_area_katha": "9 কাঠা 5 ছটাক",
+        "physical_area_sqm": 634.12,
+        "delta_area_sqm": 11.21,
+        "delta_pct": 1.8,
+        "rmse_m": 0.1,
+        "height_m": 30.5,
+        "floors": 9,
+        "land_use": "বাণিজ্যিক (Commercial Utility)",
+        "owner_name": "ইন্ডিয়ান অয়েল কর্পোরেশন লিমিটেড (Indian Oil Corporation Ltd (Petroleum))",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e05a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-006-10",
+        "has_conflict": true,
+        "conflict_id": "CONF-WB-2026-0005",
+        "conflict_type": "WETLAND_RAMSAR_INTRUSION"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4318,
+              22.564
+            ],
+            [
+              88.4326,
+              22.564
+            ],
+            [
+              88.4326,
+              22.56472
+            ],
+            [
+              88.4318,
+              22.56472
+            ],
+            [
+              88.4318,
+              22.564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "properties": {
+        "id": 6,
+        "ulpin": "19031200010006",
+        "dag_no": "141/3",
+        "khasra_no": "141/3",
+        "khatian_no": "103",
+        "khata_no": "103",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 693.98,
+        "legal_area_katha": "10 কাঠা 6 ছটাক",
+        "physical_area_sqm": 712.72,
+        "delta_area_sqm": 18.74,
+        "delta_pct": 2.7,
+        "rmse_m": 0.14,
+        "height_m": 8.0,
+        "floors": 2,
+        "land_use": "সরকারি খাস (Government Vested)",
+        "owner_name": "বিকাশ ভবন রাজ্য প্রশাসন (Bikash Bhavan State Administrative Complex)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e06a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-007-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43275,
+              22.564
+            ],
+            [
+              88.43355,
+              22.564
+            ],
+            [
+              88.43355,
+              22.56472
+            ],
+            [
+              88.43275,
+              22.56472
+            ],
+            [
+              88.43275,
+              22.564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "properties": {
+        "id": 7,
+        "ulpin": "19031200010007",
+        "dag_no": "141/4",
+        "khasra_no": "141/4",
+        "khatian_no": "103",
+        "khata_no": "103",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 765.05,
+        "legal_area_katha": "11 কাঠা 7 ছটাক",
+        "physical_area_sqm": 744.39,
+        "delta_area_sqm": -20.66,
+        "delta_pct": 2.7,
+        "rmse_m": 0.18,
+        "height_m": 12.5,
+        "floors": 3,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "প্রতীক রায়চৌধুরী (Pratik Roychowdhury)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e07a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-008-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4337,
+              22.564
+            ],
+            [
+              88.4345,
+              22.564
+            ],
+            [
+              88.4345,
+              22.56472
+            ],
+            [
+              88.4337,
+              22.56472
+            ],
+            [
+              88.4337,
+              22.564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "id": 8,
+        "ulpin": "19031200010008",
+        "dag_no": "142/1",
+        "khasra_no": "142/1",
+        "khatian_no": "104",
+        "khata_no": "104",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 301.0,
+        "legal_area_katha": "4 কাঠা 8 ছটাক",
+        "physical_area_sqm": 295.58,
+        "delta_area_sqm": -5.42,
+        "delta_pct": 1.8,
+        "rmse_m": 0.06,
+        "height_m": 17.0,
+        "floors": 5,
+        "land_use": "সরকারি পরিষেবা (Public Utility)",
+        "owner_name": "পশ্চিমবঙ্গ রাজ্য বিদ্যুৎ পর্ষদ (WBSEDCL) (WBSEDCL Sub-Station)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e08a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-001-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43465,
+              22.564
+            ],
+            [
+              88.43545,
+              22.564
+            ],
+            [
+              88.43545,
+              22.56472
+            ],
+            [
+              88.43465,
+              22.56472
+            ],
+            [
+              88.43465,
+              22.564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "id": 9,
+        "ulpin": "19031200010009",
+        "dag_no": "142/2",
+        "khasra_no": "142/2",
+        "khatian_no": "104",
+        "khata_no": "104",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 372.07,
+        "legal_area_katha": "5 কাঠা 9 ছটাক",
+        "physical_area_sqm": 368.72,
+        "delta_area_sqm": -3.35,
+        "delta_pct": 0.9,
+        "rmse_m": 0.1,
+        "height_m": 21.5,
+        "floors": 6,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "স্বস্তিকা দাশগুপ্ত (Swastika Dasgupta)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e09a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-002-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4356,
+              22.564
+            ],
+            [
+              88.4364,
+              22.564
+            ],
+            [
+              88.4364,
+              22.56472
+            ],
+            [
+              88.4356,
+              22.56472
+            ],
+            [
+              88.4356,
+              22.564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "properties": {
+        "id": 10,
+        "ulpin": "19031200010010",
+        "dag_no": "142/3",
+        "khasra_no": "142/3",
+        "khatian_no": "105",
+        "khata_no": "105",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 443.14,
+        "legal_area_katha": "6 কাঠা 10 ছটাক",
+        "physical_area_sqm": 443.14,
+        "delta_area_sqm": 0.0,
+        "delta_pct": 0.0,
+        "rmse_m": 0.14,
+        "height_m": 26.0,
+        "floors": 8,
+        "land_use": "বাণিজ্যিক (IT SEZ)",
+        "owner_name": "ওয়েবেল টেকনোলজি পার্ক লিমিটেড (Webel Technology Park)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e0aa892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-003-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43655,
+              22.564
+            ],
+            [
+              88.43735,
+              22.564
+            ],
+            [
+              88.43735,
+              22.56472
+            ],
+            [
+              88.43655,
+              22.56472
+            ],
+            [
+              88.43655,
+              22.564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "properties": {
+        "id": 11,
+        "ulpin": "19031200010011",
+        "dag_no": "142/4",
+        "khasra_no": "142/4",
+        "khatian_no": "105",
+        "khata_no": "105",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 514.21,
+        "legal_area_katha": "7 কাঠা 11 ছটাক",
+        "physical_area_sqm": 518.84,
+        "delta_area_sqm": 4.63,
+        "delta_pct": 0.9,
+        "rmse_m": 0.18,
+        "height_m": 30.5,
+        "floors": 9,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "অমরেশ দত্ত (Amaresh Dutta)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e0ba892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-004-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4281,
+              22.56485
+            ],
+            [
+              88.4289,
+              22.56485
+            ],
+            [
+              88.4289,
+              22.56557
+            ],
+            [
+              88.4281,
+              22.56557
+            ],
+            [
+              88.4281,
+              22.56485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "properties": {
+        "id": 12,
+        "ulpin": "19031200010012",
+        "dag_no": "143/1",
+        "khasra_no": "143/1",
+        "khatian_no": "106",
+        "khata_no": "106",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 585.28,
+        "legal_area_katha": "8 কাঠা 12 ছটাক",
+        "physical_area_sqm": 595.82,
+        "delta_area_sqm": 10.54,
+        "delta_pct": 1.8,
+        "rmse_m": 0.06,
+        "height_m": 8.0,
+        "floors": 2,
+        "land_use": "সরকারি খাস (Government Vested)",
+        "owner_name": "কলকাতা মেট্রোপলিটান ডেভেলপমেন্ট অথরিটি (KMDA Urban Infrastructure)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e0ca892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-005-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.42905,
+              22.56485
+            ],
+            [
+              88.42985,
+              22.56485
+            ],
+            [
+              88.42985,
+              22.56557
+            ],
+            [
+              88.42905,
+              22.56557
+            ],
+            [
+              88.42905,
+              22.56485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "properties": {
+        "id": 13,
+        "ulpin": "19031200010013",
+        "dag_no": "143/2",
+        "khasra_no": "143/2",
+        "khatian_no": "106",
+        "khata_no": "106",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 656.35,
+        "legal_area_katha": "9 কাঠা 13 ছটাক",
+        "physical_area_sqm": 674.07,
+        "delta_area_sqm": 17.72,
+        "delta_pct": 2.7,
+        "rmse_m": 0.1,
+        "height_m": 12.5,
+        "floors": 3,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "সুপ্রিয়া বসু (Supriya Bose)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e0da892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-006-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43,
+              22.56485
+            ],
+            [
+              88.4308,
+              22.56485
+            ],
+            [
+              88.4308,
+              22.56557
+            ],
+            [
+              88.43,
+              22.56557
+            ],
+            [
+              88.43,
+              22.56485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "properties": {
+        "id": 14,
+        "ulpin": "19031200010014",
+        "dag_no": "143/3",
+        "khasra_no": "143/3",
+        "khatian_no": "107",
+        "khata_no": "107",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 727.42,
+        "legal_area_katha": "10 কাঠা 14 ছটাক",
+        "physical_area_sqm": 707.78,
+        "delta_area_sqm": -19.64,
+        "delta_pct": 2.7,
+        "rmse_m": 0.14,
+        "height_m": 17.0,
+        "floors": 5,
+        "land_use": "বাণিজ্যিক পরিকাঠামো (Power Infrastructure)",
+        "owner_name": "ক্যালকাটা ইলেকট্রিক সাপ্লাই কর্পোরেশন (CESC) (CESC Power Receiving Station)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e0ea892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-007-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43095,
+              22.56485
+            ],
+            [
+              88.43175,
+              22.56485
+            ],
+            [
+              88.43175,
+              22.56557
+            ],
+            [
+              88.43095,
+              22.56557
+            ],
+            [
+              88.43095,
+              22.56485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "properties": {
+        "id": 15,
+        "ulpin": "19031200010015",
+        "dag_no": "143/4",
+        "khasra_no": "143/4",
+        "khatian_no": "107",
+        "khata_no": "107",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 798.49,
+        "legal_area_katha": "11 কাঠা 15 ছটাক",
+        "physical_area_sqm": 784.12,
+        "delta_area_sqm": -14.37,
+        "delta_pct": 1.8,
+        "rmse_m": 0.18,
+        "height_m": 21.5,
+        "floors": 6,
+        "land_use": "দাতব্য প্রতিষ্ঠান (Institutional)",
+        "owner_name": "রবীন্দ্রনাথ ঠাকুর মেমোরিয়াল চ্যারিটেবল ট্রাস্ট (Rabindranath Tagore Memorial Trust)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e0fa892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-008-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4319,
+              22.56485
+            ],
+            [
+              88.4327,
+              22.56485
+            ],
+            [
+              88.4327,
+              22.56557
+            ],
+            [
+              88.4319,
+              22.56557
+            ],
+            [
+              88.4319,
+              22.56485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "properties": {
+        "id": 16,
+        "ulpin": "19031200010016",
+        "dag_no": "144/1",
+        "khasra_no": "144/1",
+        "khatian_no": "108",
+        "khata_no": "108",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 267.56,
+        "legal_area_katha": "4 কাঠা 0 ছটাক",
+        "physical_area_sqm": 265.15,
+        "delta_area_sqm": -2.41,
+        "delta_pct": 0.9,
+        "rmse_m": 0.06,
+        "height_m": 26.0,
+        "floors": 8,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "কৌশিক মজুমদার (Kaushik Majumdar)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e10a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-001-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43285,
+              22.56485
+            ],
+            [
+              88.43365,
+              22.56485
+            ],
+            [
+              88.43365,
+              22.56557
+            ],
+            [
+              88.43285,
+              22.56557
+            ],
+            [
+              88.43285,
+              22.56485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "properties": {
+        "id": 17,
+        "ulpin": "19031200010017",
+        "dag_no": "144/2",
+        "khasra_no": "144/2",
+        "khatian_no": "108",
+        "khata_no": "108",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "PROVISIONAL",
+        "legal_area_sqm": 338.63,
+        "legal_area_katha": "5 কাঠা 1 ছটাক",
+        "physical_area_sqm": 338.63,
+        "delta_area_sqm": 0.0,
+        "delta_pct": 0.0,
+        "rmse_m": 0.1,
+        "height_m": 30.5,
+        "floors": 9,
+        "land_use": "গ্যাস পাইপলাইন বাফার (Gas Pipeline Buffer)",
+        "owner_name": "বেঙ্গল গ্যাস কোম্পানি লিমিটেড (BGCL) (BGCL City Gas Distribution Hub)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e11a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-002-10",
+        "has_conflict": true,
+        "conflict_id": "CONF-WB-2026-0017",
+        "conflict_type": "SIDE_SETBACK_VIOLATION"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4338,
+              22.56485
+            ],
+            [
+              88.4346,
+              22.56485
+            ],
+            [
+              88.4346,
+              22.56557
+            ],
+            [
+              88.4338,
+              22.56557
+            ],
+            [
+              88.4338,
+              22.56485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "properties": {
+        "id": 18,
+        "ulpin": "19031200010018",
+        "dag_no": "144/3",
+        "khasra_no": "144/3",
+        "khatian_no": "109",
+        "khata_no": "109",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 409.7,
+        "legal_area_katha": "6 কাঠা 2 ছটাক",
+        "physical_area_sqm": 413.39,
+        "delta_area_sqm": 3.69,
+        "delta_pct": 0.9,
+        "rmse_m": 0.14,
+        "height_m": 8.0,
+        "floors": 2,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "তনুশ্রী ভট্টাচার্য (Tanushree Bhattacharya)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e12a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-003-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43475,
+              22.56485
+            ],
+            [
+              88.43555,
+              22.56485
+            ],
+            [
+              88.43555,
+              22.56557
+            ],
+            [
+              88.43475,
+              22.56557
+            ],
+            [
+              88.43475,
+              22.56485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "properties": {
+        "id": 19,
+        "ulpin": "19031200010019",
+        "dag_no": "144/4",
+        "khasra_no": "144/4",
+        "khatian_no": "109",
+        "khata_no": "109",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 480.77,
+        "legal_area_katha": "7 কাঠা 3 ছটাক",
+        "physical_area_sqm": 489.42,
+        "delta_area_sqm": 8.65,
+        "delta_pct": 1.8,
+        "rmse_m": 0.18,
+        "height_m": 12.5,
+        "floors": 3,
+        "land_use": "নয়ানজুলি / জলাভূমি (Wetlands Conservation)",
+        "owner_name": "পূর্ব কলকাতা জলাভূমি সংরক্ষণ কর্তৃপক্ষ (East Kolkata Wetlands Management Authority)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e13a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-004-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4357,
+              22.56485
+            ],
+            [
+              88.4365,
+              22.56485
+            ],
+            [
+              88.4365,
+              22.56557
+            ],
+            [
+              88.4357,
+              22.56557
+            ],
+            [
+              88.4357,
+              22.56485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "properties": {
+        "id": 20,
+        "ulpin": "19031200010020",
+        "dag_no": "145/1",
+        "khasra_no": "145/1",
+        "khatian_no": "110",
+        "khata_no": "110",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 551.84,
+        "legal_area_katha": "8 কাঠা 4 ছটাক",
+        "physical_area_sqm": 566.74,
+        "delta_area_sqm": 14.9,
+        "delta_pct": 2.7,
+        "rmse_m": 0.06,
+        "height_m": 17.0,
+        "floors": 5,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "সিদ্ধার্থ শঙ্কর রায় (Siddhartha Sankar Roy)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e14a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-005-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43665,
+              22.56485
+            ],
+            [
+              88.43745,
+              22.56485
+            ],
+            [
+              88.43745,
+              22.56557
+            ],
+            [
+              88.43665,
+              22.56557
+            ],
+            [
+              88.43665,
+              22.56485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "properties": {
+        "id": 21,
+        "ulpin": "19031200010021",
+        "dag_no": "145/2",
+        "khasra_no": "145/2",
+        "khatian_no": "110",
+        "khata_no": "110",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 622.91,
+        "legal_area_katha": "9 কাঠা 5 ছটাক",
+        "physical_area_sqm": 606.09,
+        "delta_area_sqm": -16.82,
+        "delta_pct": 2.7,
+        "rmse_m": 0.1,
+        "height_m": 21.5,
+        "floors": 6,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "সৌম্যজিৎ মুখোপাধ্যায় (Soumyajit Mukherjee)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e15a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-006-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.428,
+              22.5657
+            ],
+            [
+              88.4288,
+              22.5657
+            ],
+            [
+              88.4288,
+              22.56642
+            ],
+            [
+              88.428,
+              22.56642
+            ],
+            [
+              88.428,
+              22.5657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "properties": {
+        "id": 22,
+        "ulpin": "19031200010022",
+        "dag_no": "145/3",
+        "khasra_no": "145/3",
+        "khatian_no": "111",
+        "khata_no": "111",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 693.98,
+        "legal_area_katha": "10 কাঠা 6 ছটাক",
+        "physical_area_sqm": 681.49,
+        "delta_area_sqm": -12.49,
+        "delta_pct": 1.8,
+        "rmse_m": 0.14,
+        "height_m": 26.0,
+        "floors": 8,
+        "land_use": "বাণিজ্যিক (IT Park / Commercial)",
+        "owner_name": "অনির্বাণ বন্দ্যোপাধ্যায় (Anirban Banerjee)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e16a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-007-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.42895,
+              22.5657
+            ],
+            [
+              88.42975,
+              22.5657
+            ],
+            [
+              88.42975,
+              22.56642
+            ],
+            [
+              88.42895,
+              22.56642
+            ],
+            [
+              88.42895,
+              22.5657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "properties": {
+        "id": 23,
+        "ulpin": "19031200010023",
+        "dag_no": "145/4",
+        "khasra_no": "145/4",
+        "khatian_no": "111",
+        "khata_no": "111",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 765.05,
+        "legal_area_katha": "11 কাঠা 7 ছটাক",
+        "physical_area_sqm": 758.16,
+        "delta_area_sqm": -6.89,
+        "delta_pct": 0.9,
+        "rmse_m": 0.18,
+        "height_m": 30.5,
+        "floors": 9,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "শুভাশিস সেনগুপ্ত (Subhasis Sengupta)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e17a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-008-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4299,
+              22.5657
+            ],
+            [
+              88.4307,
+              22.5657
+            ],
+            [
+              88.4307,
+              22.56642
+            ],
+            [
+              88.4299,
+              22.56642
+            ],
+            [
+              88.4299,
+              22.5657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "properties": {
+        "id": 24,
+        "ulpin": "19031200010024",
+        "dag_no": "146/1",
+        "khasra_no": "146/1",
+        "khatian_no": "112",
+        "khata_no": "112",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "PROVISIONAL",
+        "legal_area_sqm": 301.0,
+        "legal_area_katha": "4 কাঠা 8 ছটাক",
+        "physical_area_sqm": 301.0,
+        "delta_area_sqm": 0.0,
+        "delta_pct": 0.0,
+        "rmse_m": 0.06,
+        "height_m": 8.0,
+        "floors": 2,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "দেবলীনা চক্রবর্তী (Debolina Chakraborty)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e18a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-001-10",
+        "has_conflict": true,
+        "conflict_id": "CONF-WB-2026-0024",
+        "conflict_type": "KMDA_ROW_ENCROACHMENT"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43085,
+              22.5657
+            ],
+            [
+              88.43165,
+              22.5657
+            ],
+            [
+              88.43165,
+              22.56642
+            ],
+            [
+              88.43085,
+              22.56642
+            ],
+            [
+              88.43085,
+              22.5657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "properties": {
+        "id": 25,
+        "ulpin": "19031200010025",
+        "dag_no": "146/2",
+        "khasra_no": "146/2",
+        "khatian_no": "112",
+        "khata_no": "112",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 372.07,
+        "legal_area_katha": "5 কাঠা 9 ছটাক",
+        "physical_area_sqm": 375.42,
+        "delta_area_sqm": 3.35,
+        "delta_pct": 0.9,
+        "rmse_m": 0.1,
+        "height_m": 12.5,
+        "floors": 3,
+        "land_use": "বাণিজ্যিক (Commercial Utility)",
+        "owner_name": "ইন্ডিয়ান অয়েল কর্পোরেশন লিমিটেড (Indian Oil Corporation Ltd (Petroleum))",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e19a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-002-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4318,
+              22.5657
+            ],
+            [
+              88.4326,
+              22.5657
+            ],
+            [
+              88.4326,
+              22.56642
+            ],
+            [
+              88.4318,
+              22.56642
+            ],
+            [
+              88.4318,
+              22.5657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "properties": {
+        "id": 26,
+        "ulpin": "19031200010026",
+        "dag_no": "146/3",
+        "khasra_no": "146/3",
+        "khatian_no": "113",
+        "khata_no": "113",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 443.14,
+        "legal_area_katha": "6 কাঠা 10 ছটাক",
+        "physical_area_sqm": 451.12,
+        "delta_area_sqm": 7.98,
+        "delta_pct": 1.8,
+        "rmse_m": 0.14,
+        "height_m": 17.0,
+        "floors": 5,
+        "land_use": "সরকারি খাস (Government Vested)",
+        "owner_name": "বিকাশ ভবন রাজ্য প্রশাসন (Bikash Bhavan State Administrative Complex)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e1aa892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-003-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43275,
+              22.5657
+            ],
+            [
+              88.43355,
+              22.5657
+            ],
+            [
+              88.43355,
+              22.56642
+            ],
+            [
+              88.43275,
+              22.56642
+            ],
+            [
+              88.43275,
+              22.5657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "properties": {
+        "id": 27,
+        "ulpin": "19031200010027",
+        "dag_no": "146/4",
+        "khasra_no": "146/4",
+        "khatian_no": "113",
+        "khata_no": "113",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 514.21,
+        "legal_area_katha": "7 কাঠা 11 ছটাক",
+        "physical_area_sqm": 528.09,
+        "delta_area_sqm": 13.88,
+        "delta_pct": 2.7,
+        "rmse_m": 0.18,
+        "height_m": 21.5,
+        "floors": 6,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "প্রতীক রায়চৌধুরী (Pratik Roychowdhury)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e1ba892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-004-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4337,
+              22.5657
+            ],
+            [
+              88.4345,
+              22.5657
+            ],
+            [
+              88.4345,
+              22.56642
+            ],
+            [
+              88.4337,
+              22.56642
+            ],
+            [
+              88.4337,
+              22.5657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "properties": {
+        "id": 28,
+        "ulpin": "19031200010028",
+        "dag_no": "147/1",
+        "khasra_no": "147/1",
+        "khatian_no": "114",
+        "khata_no": "114",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 585.28,
+        "legal_area_katha": "8 কাঠা 12 ছটাক",
+        "physical_area_sqm": 569.48,
+        "delta_area_sqm": -15.8,
+        "delta_pct": 2.7,
+        "rmse_m": 0.06,
+        "height_m": 26.0,
+        "floors": 8,
+        "land_use": "সরকারি পরিষেবা (Public Utility)",
+        "owner_name": "পশ্চিমবঙ্গ রাজ্য বিদ্যুৎ পর্ষদ (WBSEDCL) (WBSEDCL Sub-Station)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e1ca892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-005-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43465,
+              22.5657
+            ],
+            [
+              88.43545,
+              22.5657
+            ],
+            [
+              88.43545,
+              22.56642
+            ],
+            [
+              88.43465,
+              22.56642
+            ],
+            [
+              88.43465,
+              22.5657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "properties": {
+        "id": 29,
+        "ulpin": "19031200010029",
+        "dag_no": "147/2",
+        "khasra_no": "147/2",
+        "khatian_no": "114",
+        "khata_no": "114",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 656.35,
+        "legal_area_katha": "9 কাঠা 13 ছটাক",
+        "physical_area_sqm": 644.54,
+        "delta_area_sqm": -11.81,
+        "delta_pct": 1.8,
+        "rmse_m": 0.1,
+        "height_m": 30.5,
+        "floors": 9,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "স্বস্তিকা দাশগুপ্ত (Swastika Dasgupta)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e1da892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-006-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4356,
+              22.5657
+            ],
+            [
+              88.4364,
+              22.5657
+            ],
+            [
+              88.4364,
+              22.56642
+            ],
+            [
+              88.4356,
+              22.56642
+            ],
+            [
+              88.4356,
+              22.5657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "properties": {
+        "id": 30,
+        "ulpin": "19031200010030",
+        "dag_no": "147/3",
+        "khasra_no": "147/3",
+        "khatian_no": "115",
+        "khata_no": "115",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 727.42,
+        "legal_area_katha": "10 কাঠা 14 ছটাক",
+        "physical_area_sqm": 720.87,
+        "delta_area_sqm": -6.55,
+        "delta_pct": 0.9,
+        "rmse_m": 0.14,
+        "height_m": 8.0,
+        "floors": 2,
+        "land_use": "বাণিজ্যিক (IT SEZ)",
+        "owner_name": "ওয়েবেল টেকনোলজি পার্ক লিমিটেড (Webel Technology Park)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e1ea892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-007-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43655,
+              22.5657
+            ],
+            [
+              88.43735,
+              22.5657
+            ],
+            [
+              88.43735,
+              22.56642
+            ],
+            [
+              88.43655,
+              22.56642
+            ],
+            [
+              88.43655,
+              22.5657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "properties": {
+        "id": 31,
+        "ulpin": "19031200010031",
+        "dag_no": "147/4",
+        "khasra_no": "147/4",
+        "khatian_no": "115",
+        "khata_no": "115",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 798.49,
+        "legal_area_katha": "11 কাঠা 15 ছটাক",
+        "physical_area_sqm": 798.49,
+        "delta_area_sqm": 0.0,
+        "delta_pct": 0.0,
+        "rmse_m": 0.18,
+        "height_m": 12.5,
+        "floors": 3,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "অমরেশ দত্ত (Amaresh Dutta)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e1fa892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-008-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4281,
+              22.56655
+            ],
+            [
+              88.4289,
+              22.56655
+            ],
+            [
+              88.4289,
+              22.56727
+            ],
+            [
+              88.4281,
+              22.56727
+            ],
+            [
+              88.4281,
+              22.56655
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "properties": {
+        "id": 32,
+        "ulpin": "19031200010032",
+        "dag_no": "148/1",
+        "khasra_no": "148/1",
+        "khatian_no": "116",
+        "khata_no": "116",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 267.56,
+        "legal_area_katha": "4 কাঠা 0 ছটাক",
+        "physical_area_sqm": 269.97,
+        "delta_area_sqm": 2.41,
+        "delta_pct": 0.9,
+        "rmse_m": 0.06,
+        "height_m": 17.0,
+        "floors": 5,
+        "land_use": "সরকারি খাস (Government Vested)",
+        "owner_name": "কলকাতা মেট্রোপলিটান ডেভেলপমেন্ট অথরিটি (KMDA Urban Infrastructure)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e20a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-001-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.42905,
+              22.56655
+            ],
+            [
+              88.42985,
+              22.56655
+            ],
+            [
+              88.42985,
+              22.56727
+            ],
+            [
+              88.42905,
+              22.56727
+            ],
+            [
+              88.42905,
+              22.56655
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "properties": {
+        "id": 33,
+        "ulpin": "19031200010033",
+        "dag_no": "148/2",
+        "khasra_no": "148/2",
+        "khatian_no": "116",
+        "khata_no": "116",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 338.63,
+        "legal_area_katha": "5 কাঠা 1 ছটাক",
+        "physical_area_sqm": 344.73,
+        "delta_area_sqm": 6.1,
+        "delta_pct": 1.8,
+        "rmse_m": 0.1,
+        "height_m": 21.5,
+        "floors": 6,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "সুপ্রিয়া বসু (Supriya Bose)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e21a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-002-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43,
+              22.56655
+            ],
+            [
+              88.4308,
+              22.56655
+            ],
+            [
+              88.4308,
+              22.56727
+            ],
+            [
+              88.43,
+              22.56727
+            ],
+            [
+              88.43,
+              22.56655
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "properties": {
+        "id": 34,
+        "ulpin": "19031200010034",
+        "dag_no": "148/3",
+        "khasra_no": "148/3",
+        "khatian_no": "117",
+        "khata_no": "117",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 409.7,
+        "legal_area_katha": "6 কাঠা 2 ছটাক",
+        "physical_area_sqm": 420.76,
+        "delta_area_sqm": 11.06,
+        "delta_pct": 2.7,
+        "rmse_m": 0.14,
+        "height_m": 26.0,
+        "floors": 8,
+        "land_use": "বাণিজ্যিক পরিকাঠামো (Power Infrastructure)",
+        "owner_name": "ক্যালকাটা ইলেকট্রিক সাপ্লাই কর্পোরেশন (CESC) (CESC Power Receiving Station)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e22a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-003-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43095,
+              22.56655
+            ],
+            [
+              88.43175,
+              22.56655
+            ],
+            [
+              88.43175,
+              22.56727
+            ],
+            [
+              88.43095,
+              22.56727
+            ],
+            [
+              88.43095,
+              22.56655
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "properties": {
+        "id": 35,
+        "ulpin": "19031200010035",
+        "dag_no": "148/4",
+        "khasra_no": "148/4",
+        "khatian_no": "117",
+        "khata_no": "117",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 480.77,
+        "legal_area_katha": "7 কাঠা 3 ছটাক",
+        "physical_area_sqm": 467.79,
+        "delta_area_sqm": -12.98,
+        "delta_pct": 2.7,
+        "rmse_m": 0.18,
+        "height_m": 30.5,
+        "floors": 9,
+        "land_use": "দাতব্য প্রতিষ্ঠান (Institutional)",
+        "owner_name": "রবীন্দ্রনাথ ঠাকুর মেমোরিয়াল চ্যারিটেবল ট্রাস্ট (Rabindranath Tagore Memorial Trust)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e23a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-004-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4319,
+              22.56655
+            ],
+            [
+              88.4327,
+              22.56655
+            ],
+            [
+              88.4327,
+              22.56727
+            ],
+            [
+              88.4319,
+              22.56727
+            ],
+            [
+              88.4319,
+              22.56655
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "properties": {
+        "id": 36,
+        "ulpin": "19031200010036",
+        "dag_no": "149/1",
+        "khasra_no": "149/1",
+        "khatian_no": "118",
+        "khata_no": "118",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 551.84,
+        "legal_area_katha": "8 কাঠা 4 ছটাক",
+        "physical_area_sqm": 541.91,
+        "delta_area_sqm": -9.93,
+        "delta_pct": 1.8,
+        "rmse_m": 0.06,
+        "height_m": 8.0,
+        "floors": 2,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "কৌশিক মজুমদার (Kaushik Majumdar)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e24a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-005-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43285,
+              22.56655
+            ],
+            [
+              88.43365,
+              22.56655
+            ],
+            [
+              88.43365,
+              22.56727
+            ],
+            [
+              88.43285,
+              22.56727
+            ],
+            [
+              88.43285,
+              22.56655
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "properties": {
+        "id": 37,
+        "ulpin": "19031200010037",
+        "dag_no": "149/2",
+        "khasra_no": "149/2",
+        "khatian_no": "118",
+        "khata_no": "118",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 622.91,
+        "legal_area_katha": "9 কাঠা 5 ছটাক",
+        "physical_area_sqm": 617.3,
+        "delta_area_sqm": -5.61,
+        "delta_pct": 0.9,
+        "rmse_m": 0.1,
+        "height_m": 12.5,
+        "floors": 3,
+        "land_use": "গ্যাস পাইপলাইন বাফার (Gas Pipeline Buffer)",
+        "owner_name": "বেঙ্গল গ্যাস কোম্পানি লিমিটেড (BGCL) (BGCL City Gas Distribution Hub)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e25a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-006-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4338,
+              22.56655
+            ],
+            [
+              88.4346,
+              22.56655
+            ],
+            [
+              88.4346,
+              22.56727
+            ],
+            [
+              88.4338,
+              22.56727
+            ],
+            [
+              88.4338,
+              22.56655
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "properties": {
+        "id": 38,
+        "ulpin": "19031200010038",
+        "dag_no": "149/3",
+        "khasra_no": "149/3",
+        "khatian_no": "119",
+        "khata_no": "119",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 693.98,
+        "legal_area_katha": "10 কাঠা 6 ছটাক",
+        "physical_area_sqm": 693.98,
+        "delta_area_sqm": 0.0,
+        "delta_pct": 0.0,
+        "rmse_m": 0.14,
+        "height_m": 17.0,
+        "floors": 5,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "তনুশ্রী ভট্টাচার্য (Tanushree Bhattacharya)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e26a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-007-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43475,
+              22.56655
+            ],
+            [
+              88.43555,
+              22.56655
+            ],
+            [
+              88.43555,
+              22.56727
+            ],
+            [
+              88.43475,
+              22.56727
+            ],
+            [
+              88.43475,
+              22.56655
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "properties": {
+        "id": 39,
+        "ulpin": "19031200010039",
+        "dag_no": "149/4",
+        "khasra_no": "149/4",
+        "khatian_no": "119",
+        "khata_no": "119",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 765.05,
+        "legal_area_katha": "11 কাঠা 7 ছটাক",
+        "physical_area_sqm": 771.94,
+        "delta_area_sqm": 6.89,
+        "delta_pct": 0.9,
+        "rmse_m": 0.18,
+        "height_m": 21.5,
+        "floors": 6,
+        "land_use": "নয়ানজুলি / জলাভূমি (Wetlands Conservation)",
+        "owner_name": "পূর্ব কলকাতা জলাভূমি সংরক্ষণ কর্তৃপক্ষ (East Kolkata Wetlands Management Authority)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e27a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-008-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4357,
+              22.56655
+            ],
+            [
+              88.4365,
+              22.56655
+            ],
+            [
+              88.4365,
+              22.56727
+            ],
+            [
+              88.4357,
+              22.56727
+            ],
+            [
+              88.4357,
+              22.56655
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "properties": {
+        "id": 40,
+        "ulpin": "19031200010040",
+        "dag_no": "150/1",
+        "khasra_no": "150/1",
+        "khatian_no": "120",
+        "khata_no": "120",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 301.0,
+        "legal_area_katha": "4 কাঠা 8 ছটাক",
+        "physical_area_sqm": 306.42,
+        "delta_area_sqm": 5.42,
+        "delta_pct": 1.8,
+        "rmse_m": 0.06,
+        "height_m": 26.0,
+        "floors": 8,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "সিদ্ধার্থ শঙ্কর রায় (Siddhartha Sankar Roy)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e28a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-001-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43665,
+              22.56655
+            ],
+            [
+              88.43745,
+              22.56655
+            ],
+            [
+              88.43745,
+              22.56727
+            ],
+            [
+              88.43665,
+              22.56727
+            ],
+            [
+              88.43665,
+              22.56655
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "properties": {
+        "id": 41,
+        "ulpin": "19031200010041",
+        "dag_no": "150/2",
+        "khasra_no": "150/2",
+        "khatian_no": "120",
+        "khata_no": "120",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 372.07,
+        "legal_area_katha": "5 কাঠা 9 ছটাক",
+        "physical_area_sqm": 382.12,
+        "delta_area_sqm": 10.05,
+        "delta_pct": 2.7,
+        "rmse_m": 0.1,
+        "height_m": 30.5,
+        "floors": 9,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "সৌম্যজিৎ মুখোপাধ্যায় (Soumyajit Mukherjee)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e29a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-002-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.428,
+              22.5674
+            ],
+            [
+              88.4288,
+              22.5674
+            ],
+            [
+              88.4288,
+              22.56812
+            ],
+            [
+              88.428,
+              22.56812
+            ],
+            [
+              88.428,
+              22.5674
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "properties": {
+        "id": 42,
+        "ulpin": "19031200010042",
+        "dag_no": "150/3",
+        "khasra_no": "150/3",
+        "khatian_no": "121",
+        "khata_no": "121",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "PROVISIONAL",
+        "legal_area_sqm": 443.14,
+        "legal_area_katha": "6 কাঠা 10 ছটাক",
+        "physical_area_sqm": 431.18,
+        "delta_area_sqm": -11.96,
+        "delta_pct": 2.7,
+        "rmse_m": 0.14,
+        "height_m": 8.0,
+        "floors": 2,
+        "land_use": "বাণিজ্যিক (IT Park / Commercial)",
+        "owner_name": "অনির্বাণ বন্দ্যোপাধ্যায় (Anirban Banerjee)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e2aa892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-003-10",
+        "has_conflict": true,
+        "conflict_id": "CONF-WB-2026-0042",
+        "conflict_type": "WETLAND_RAMSAR_INTRUSION"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.42895,
+              22.5674
+            ],
+            [
+              88.42975,
+              22.5674
+            ],
+            [
+              88.42975,
+              22.56812
+            ],
+            [
+              88.42895,
+              22.56812
+            ],
+            [
+              88.42895,
+              22.5674
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "properties": {
+        "id": 43,
+        "ulpin": "19031200010043",
+        "dag_no": "150/4",
+        "khasra_no": "150/4",
+        "khatian_no": "121",
+        "khata_no": "121",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 514.21,
+        "legal_area_katha": "7 কাঠা 11 ছটাক",
+        "physical_area_sqm": 504.95,
+        "delta_area_sqm": -9.26,
+        "delta_pct": 1.8,
+        "rmse_m": 0.18,
+        "height_m": 12.5,
+        "floors": 3,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "শুভাশিস সেনগুপ্ত (Subhasis Sengupta)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e2ba892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-004-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4299,
+              22.5674
+            ],
+            [
+              88.4307,
+              22.5674
+            ],
+            [
+              88.4307,
+              22.56812
+            ],
+            [
+              88.4299,
+              22.56812
+            ],
+            [
+              88.4299,
+              22.5674
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "properties": {
+        "id": 44,
+        "ulpin": "19031200010044",
+        "dag_no": "151/1",
+        "khasra_no": "151/1",
+        "khatian_no": "122",
+        "khata_no": "122",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 585.28,
+        "legal_area_katha": "8 কাঠা 12 ছটাক",
+        "physical_area_sqm": 580.01,
+        "delta_area_sqm": -5.27,
+        "delta_pct": 0.9,
+        "rmse_m": 0.06,
+        "height_m": 17.0,
+        "floors": 5,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "দেবলীনা চক্রবর্তী (Debolina Chakraborty)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e2ca892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-005-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43085,
+              22.5674
+            ],
+            [
+              88.43165,
+              22.5674
+            ],
+            [
+              88.43165,
+              22.56812
+            ],
+            [
+              88.43085,
+              22.56812
+            ],
+            [
+              88.43085,
+              22.5674
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "properties": {
+        "id": 45,
+        "ulpin": "19031200010045",
+        "dag_no": "151/2",
+        "khasra_no": "151/2",
+        "khatian_no": "122",
+        "khata_no": "122",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 656.35,
+        "legal_area_katha": "9 কাঠা 13 ছটাক",
+        "physical_area_sqm": 656.35,
+        "delta_area_sqm": 0.0,
+        "delta_pct": 0.0,
+        "rmse_m": 0.1,
+        "height_m": 21.5,
+        "floors": 6,
+        "land_use": "বাণিজ্যিক (Commercial Utility)",
+        "owner_name": "ইন্ডিয়ান অয়েল কর্পোরেশন লিমিটেড (Indian Oil Corporation Ltd (Petroleum))",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e2da892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-006-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4318,
+              22.5674
+            ],
+            [
+              88.4326,
+              22.5674
+            ],
+            [
+              88.4326,
+              22.56812
+            ],
+            [
+              88.4318,
+              22.56812
+            ],
+            [
+              88.4318,
+              22.5674
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "properties": {
+        "id": 46,
+        "ulpin": "19031200010046",
+        "dag_no": "151/3",
+        "khasra_no": "151/3",
+        "khatian_no": "123",
+        "khata_no": "123",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 727.42,
+        "legal_area_katha": "10 কাঠা 14 ছটাক",
+        "physical_area_sqm": 733.97,
+        "delta_area_sqm": 6.55,
+        "delta_pct": 0.9,
+        "rmse_m": 0.14,
+        "height_m": 26.0,
+        "floors": 8,
+        "land_use": "সরকারি খাস (Government Vested)",
+        "owner_name": "বিকাশ ভবন রাজ্য প্রশাসন (Bikash Bhavan State Administrative Complex)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e2ea892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-007-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43275,
+              22.5674
+            ],
+            [
+              88.43355,
+              22.5674
+            ],
+            [
+              88.43355,
+              22.56812
+            ],
+            [
+              88.43275,
+              22.56812
+            ],
+            [
+              88.43275,
+              22.5674
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "properties": {
+        "id": 47,
+        "ulpin": "19031200010047",
+        "dag_no": "151/4",
+        "khasra_no": "151/4",
+        "khatian_no": "123",
+        "khata_no": "123",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 798.49,
+        "legal_area_katha": "11 কাঠা 15 ছটাক",
+        "physical_area_sqm": 812.86,
+        "delta_area_sqm": 14.37,
+        "delta_pct": 1.8,
+        "rmse_m": 0.18,
+        "height_m": 30.5,
+        "floors": 9,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "প্রতীক রায়চৌধুরী (Pratik Roychowdhury)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e2fa892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-008-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4337,
+              22.5674
+            ],
+            [
+              88.4345,
+              22.5674
+            ],
+            [
+              88.4345,
+              22.56812
+            ],
+            [
+              88.4337,
+              22.56812
+            ],
+            [
+              88.4337,
+              22.5674
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "properties": {
+        "id": 48,
+        "ulpin": "19031200010048",
+        "dag_no": "152/1",
+        "khasra_no": "152/1",
+        "khatian_no": "124",
+        "khata_no": "124",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 267.56,
+        "legal_area_katha": "4 কাঠা 0 ছটাক",
+        "physical_area_sqm": 274.78,
+        "delta_area_sqm": 7.22,
+        "delta_pct": 2.7,
+        "rmse_m": 0.06,
+        "height_m": 8.0,
+        "floors": 2,
+        "land_use": "সরকারি পরিষেবা (Public Utility)",
+        "owner_name": "পশ্চিমবঙ্গ রাজ্য বিদ্যুৎ পর্ষদ (WBSEDCL) (WBSEDCL Sub-Station)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e30a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-001-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43465,
+              22.5674
+            ],
+            [
+              88.43545,
+              22.5674
+            ],
+            [
+              88.43545,
+              22.56812
+            ],
+            [
+              88.43465,
+              22.56812
+            ],
+            [
+              88.43465,
+              22.5674
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "properties": {
+        "id": 49,
+        "ulpin": "19031200010049",
+        "dag_no": "152/2",
+        "khasra_no": "152/2",
+        "khatian_no": "124",
+        "khata_no": "124",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 338.63,
+        "legal_area_katha": "5 কাঠা 1 ছটাক",
+        "physical_area_sqm": 329.49,
+        "delta_area_sqm": -9.14,
+        "delta_pct": 2.7,
+        "rmse_m": 0.1,
+        "height_m": 12.5,
+        "floors": 3,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "স্বস্তিকা দাশগুপ্ত (Swastika Dasgupta)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e31a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-002-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4356,
+              22.5674
+            ],
+            [
+              88.4364,
+              22.5674
+            ],
+            [
+              88.4364,
+              22.56812
+            ],
+            [
+              88.4356,
+              22.56812
+            ],
+            [
+              88.4356,
+              22.5674
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "properties": {
+        "id": 50,
+        "ulpin": "19031200010050",
+        "dag_no": "152/3",
+        "khasra_no": "152/3",
+        "khatian_no": "125",
+        "khata_no": "125",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 409.7,
+        "legal_area_katha": "6 কাঠা 2 ছটাক",
+        "physical_area_sqm": 402.33,
+        "delta_area_sqm": -7.37,
+        "delta_pct": 1.8,
+        "rmse_m": 0.14,
+        "height_m": 17.0,
+        "floors": 5,
+        "land_use": "বাণিজ্যিক (IT SEZ)",
+        "owner_name": "ওয়েবেল টেকনোলজি পার্ক লিমিটেড (Webel Technology Park)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e32a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-003-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43655,
+              22.5674
+            ],
+            [
+              88.43735,
+              22.5674
+            ],
+            [
+              88.43735,
+              22.56812
+            ],
+            [
+              88.43655,
+              22.56812
+            ],
+            [
+              88.43655,
+              22.5674
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "properties": {
+        "id": 51,
+        "ulpin": "19031200010051",
+        "dag_no": "152/4",
+        "khasra_no": "152/4",
+        "khatian_no": "125",
+        "khata_no": "125",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 480.77,
+        "legal_area_katha": "7 কাঠা 3 ছটাক",
+        "physical_area_sqm": 476.44,
+        "delta_area_sqm": -4.33,
+        "delta_pct": 0.9,
+        "rmse_m": 0.18,
+        "height_m": 21.5,
+        "floors": 6,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "অমরেশ দত্ত (Amaresh Dutta)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e33a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-004-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4281,
+              22.56825
+            ],
+            [
+              88.4289,
+              22.56825
+            ],
+            [
+              88.4289,
+              22.56897
+            ],
+            [
+              88.4281,
+              22.56897
+            ],
+            [
+              88.4281,
+              22.56825
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "properties": {
+        "id": 52,
+        "ulpin": "19031200010052",
+        "dag_no": "153/1",
+        "khasra_no": "153/1",
+        "khatian_no": "126",
+        "khata_no": "126",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 551.84,
+        "legal_area_katha": "8 কাঠা 4 ছটাক",
+        "physical_area_sqm": 551.84,
+        "delta_area_sqm": 0.0,
+        "delta_pct": 0.0,
+        "rmse_m": 0.06,
+        "height_m": 26.0,
+        "floors": 8,
+        "land_use": "সরকারি খাস (Government Vested)",
+        "owner_name": "কলকাতা মেট্রোপলিটান ডেভেলপমেন্ট অথরিটি (KMDA Urban Infrastructure)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e34a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-005-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.42905,
+              22.56825
+            ],
+            [
+              88.42985,
+              22.56825
+            ],
+            [
+              88.42985,
+              22.56897
+            ],
+            [
+              88.42905,
+              22.56897
+            ],
+            [
+              88.42905,
+              22.56825
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "properties": {
+        "id": 53,
+        "ulpin": "19031200010053",
+        "dag_no": "153/2",
+        "khasra_no": "153/2",
+        "khatian_no": "126",
+        "khata_no": "126",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 622.91,
+        "legal_area_katha": "9 কাঠা 5 ছটাক",
+        "physical_area_sqm": 628.52,
+        "delta_area_sqm": 5.61,
+        "delta_pct": 0.9,
+        "rmse_m": 0.1,
+        "height_m": 30.5,
+        "floors": 9,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "সুপ্রিয়া বসু (Supriya Bose)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e35a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-006-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43,
+              22.56825
+            ],
+            [
+              88.4308,
+              22.56825
+            ],
+            [
+              88.4308,
+              22.56897
+            ],
+            [
+              88.43,
+              22.56897
+            ],
+            [
+              88.43,
+              22.56825
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "properties": {
+        "id": 54,
+        "ulpin": "19031200010054",
+        "dag_no": "153/3",
+        "khasra_no": "153/3",
+        "khatian_no": "127",
+        "khata_no": "127",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 693.98,
+        "legal_area_katha": "10 কাঠা 6 ছটাক",
+        "physical_area_sqm": 706.47,
+        "delta_area_sqm": 12.49,
+        "delta_pct": 1.8,
+        "rmse_m": 0.14,
+        "height_m": 8.0,
+        "floors": 2,
+        "land_use": "বাণিজ্যিক পরিকাঠামো (Power Infrastructure)",
+        "owner_name": "ক্যালকাটা ইলেকট্রিক সাপ্লাই কর্পোরেশন (CESC) (CESC Power Receiving Station)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e36a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-007-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43095,
+              22.56825
+            ],
+            [
+              88.43175,
+              22.56825
+            ],
+            [
+              88.43175,
+              22.56897
+            ],
+            [
+              88.43095,
+              22.56897
+            ],
+            [
+              88.43095,
+              22.56825
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "properties": {
+        "id": 55,
+        "ulpin": "19031200010055",
+        "dag_no": "153/4",
+        "khasra_no": "153/4",
+        "khatian_no": "127",
+        "khata_no": "127",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 765.05,
+        "legal_area_katha": "11 কাঠা 7 ছটাক",
+        "physical_area_sqm": 785.71,
+        "delta_area_sqm": 20.66,
+        "delta_pct": 2.7,
+        "rmse_m": 0.18,
+        "height_m": 12.5,
+        "floors": 3,
+        "land_use": "দাতব্য প্রতিষ্ঠান (Institutional)",
+        "owner_name": "রবীন্দ্রনাথ ঠাকুর মেমোরিয়াল চ্যারিটেবল ট্রাস্ট (Rabindranath Tagore Memorial Trust)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e37a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-008-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4319,
+              22.56825
+            ],
+            [
+              88.4327,
+              22.56825
+            ],
+            [
+              88.4327,
+              22.56897
+            ],
+            [
+              88.4319,
+              22.56897
+            ],
+            [
+              88.4319,
+              22.56825
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "properties": {
+        "id": 56,
+        "ulpin": "19031200010056",
+        "dag_no": "154/1",
+        "khasra_no": "154/1",
+        "khatian_no": "128",
+        "khata_no": "128",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 301.0,
+        "legal_area_katha": "4 কাঠা 8 ছটাক",
+        "physical_area_sqm": 292.87,
+        "delta_area_sqm": -8.13,
+        "delta_pct": 2.7,
+        "rmse_m": 0.06,
+        "height_m": 17.0,
+        "floors": 5,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "কৌশিক মজুমদার (Kaushik Majumdar)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e38a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-001-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43285,
+              22.56825
+            ],
+            [
+              88.43365,
+              22.56825
+            ],
+            [
+              88.43365,
+              22.56897
+            ],
+            [
+              88.43285,
+              22.56897
+            ],
+            [
+              88.43285,
+              22.56825
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "properties": {
+        "id": 57,
+        "ulpin": "19031200010057",
+        "dag_no": "154/2",
+        "khasra_no": "154/2",
+        "khatian_no": "128",
+        "khata_no": "128",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 372.07,
+        "legal_area_katha": "5 কাঠা 9 ছটাক",
+        "physical_area_sqm": 365.37,
+        "delta_area_sqm": -6.7,
+        "delta_pct": 1.8,
+        "rmse_m": 0.1,
+        "height_m": 21.5,
+        "floors": 6,
+        "land_use": "গ্যাস পাইপলাইন বাফার (Gas Pipeline Buffer)",
+        "owner_name": "বেঙ্গল গ্যাস কোম্পানি লিমিটেড (BGCL) (BGCL City Gas Distribution Hub)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e39a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-002-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4338,
+              22.56825
+            ],
+            [
+              88.4346,
+              22.56825
+            ],
+            [
+              88.4346,
+              22.56897
+            ],
+            [
+              88.4338,
+              22.56897
+            ],
+            [
+              88.4338,
+              22.56825
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "properties": {
+        "id": 58,
+        "ulpin": "19031200010058",
+        "dag_no": "154/3",
+        "khasra_no": "154/3",
+        "khatian_no": "129",
+        "khata_no": "129",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 443.14,
+        "legal_area_katha": "6 কাঠা 10 ছটাক",
+        "physical_area_sqm": 439.15,
+        "delta_area_sqm": -3.99,
+        "delta_pct": 0.9,
+        "rmse_m": 0.14,
+        "height_m": 26.0,
+        "floors": 8,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "তনুশ্রী ভট্টাচার্য (Tanushree Bhattacharya)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e3aa892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-003-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43475,
+              22.56825
+            ],
+            [
+              88.43555,
+              22.56825
+            ],
+            [
+              88.43555,
+              22.56897
+            ],
+            [
+              88.43475,
+              22.56897
+            ],
+            [
+              88.43475,
+              22.56825
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "properties": {
+        "id": 59,
+        "ulpin": "19031200010059",
+        "dag_no": "154/4",
+        "khasra_no": "154/4",
+        "khatian_no": "129",
+        "khata_no": "129",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 514.21,
+        "legal_area_katha": "7 কাঠা 11 ছটাক",
+        "physical_area_sqm": 514.21,
+        "delta_area_sqm": 0.0,
+        "delta_pct": 0.0,
+        "rmse_m": 0.18,
+        "height_m": 30.5,
+        "floors": 9,
+        "land_use": "নয়ানজুলি / জলাভূমি (Wetlands Conservation)",
+        "owner_name": "পূর্ব কলকাতা জলাভূমি সংরক্ষণ কর্তৃপক্ষ (East Kolkata Wetlands Management Authority)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e3ba892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-004-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4357,
+              22.56825
+            ],
+            [
+              88.4365,
+              22.56825
+            ],
+            [
+              88.4365,
+              22.56897
+            ],
+            [
+              88.4357,
+              22.56897
+            ],
+            [
+              88.4357,
+              22.56825
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "properties": {
+        "id": 60,
+        "ulpin": "19031200010060",
+        "dag_no": "155/1",
+        "khasra_no": "155/1",
+        "khatian_no": "130",
+        "khata_no": "130",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 585.28,
+        "legal_area_katha": "8 কাঠা 12 ছটাক",
+        "physical_area_sqm": 590.55,
+        "delta_area_sqm": 5.27,
+        "delta_pct": 0.9,
+        "rmse_m": 0.06,
+        "height_m": 8.0,
+        "floors": 2,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "সিদ্ধার্থ শঙ্কর রায় (Siddhartha Sankar Roy)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e3ca892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-005-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43665,
+              22.56825
+            ],
+            [
+              88.43745,
+              22.56825
+            ],
+            [
+              88.43745,
+              22.56897
+            ],
+            [
+              88.43665,
+              22.56897
+            ],
+            [
+              88.43665,
+              22.56825
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "properties": {
+        "id": 61,
+        "ulpin": "19031200010061",
+        "dag_no": "155/2",
+        "khasra_no": "155/2",
+        "khatian_no": "130",
+        "khata_no": "130",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 656.35,
+        "legal_area_katha": "9 কাঠা 13 ছটাক",
+        "physical_area_sqm": 668.16,
+        "delta_area_sqm": 11.81,
+        "delta_pct": 1.8,
+        "rmse_m": 0.1,
+        "height_m": 12.5,
+        "floors": 3,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "সৌম্যজিৎ মুখোপাধ্যায় (Soumyajit Mukherjee)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e3da892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-006-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.428,
+              22.5691
+            ],
+            [
+              88.4288,
+              22.5691
+            ],
+            [
+              88.4288,
+              22.56982
+            ],
+            [
+              88.428,
+              22.56982
+            ],
+            [
+              88.428,
+              22.5691
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "properties": {
+        "id": 62,
+        "ulpin": "19031200010062",
+        "dag_no": "155/3",
+        "khasra_no": "155/3",
+        "khatian_no": "131",
+        "khata_no": "131",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 727.42,
+        "legal_area_katha": "10 কাঠা 14 ছটাক",
+        "physical_area_sqm": 747.06,
+        "delta_area_sqm": 19.64,
+        "delta_pct": 2.7,
+        "rmse_m": 0.14,
+        "height_m": 17.0,
+        "floors": 5,
+        "land_use": "বাণিজ্যিক (IT Park / Commercial)",
+        "owner_name": "অনির্বাণ বন্দ্যোপাধ্যায় (Anirban Banerjee)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e3ea892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-007-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.42895,
+              22.5691
+            ],
+            [
+              88.42975,
+              22.5691
+            ],
+            [
+              88.42975,
+              22.56982
+            ],
+            [
+              88.42895,
+              22.56982
+            ],
+            [
+              88.42895,
+              22.5691
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "properties": {
+        "id": 63,
+        "ulpin": "19031200010063",
+        "dag_no": "155/4",
+        "khasra_no": "155/4",
+        "khatian_no": "131",
+        "khata_no": "131",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 798.49,
+        "legal_area_katha": "11 কাঠা 15 ছটাক",
+        "physical_area_sqm": 776.93,
+        "delta_area_sqm": -21.56,
+        "delta_pct": 2.7,
+        "rmse_m": 0.18,
+        "height_m": 21.5,
+        "floors": 6,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "শুভাশিস সেনগুপ্ত (Subhasis Sengupta)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e3fa892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-008-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4299,
+              22.5691
+            ],
+            [
+              88.4307,
+              22.5691
+            ],
+            [
+              88.4307,
+              22.56982
+            ],
+            [
+              88.4299,
+              22.56982
+            ],
+            [
+              88.4299,
+              22.5691
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "properties": {
+        "id": 64,
+        "ulpin": "19031200010064",
+        "dag_no": "156/1",
+        "khasra_no": "156/1",
+        "khatian_no": "132",
+        "khata_no": "132",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 267.56,
+        "legal_area_katha": "4 কাঠা 0 ছটাক",
+        "physical_area_sqm": 262.74,
+        "delta_area_sqm": -4.82,
+        "delta_pct": 1.8,
+        "rmse_m": 0.06,
+        "height_m": 26.0,
+        "floors": 8,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "দেবলীনা চক্রবর্তী (Debolina Chakraborty)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e40a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-001-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43085,
+              22.5691
+            ],
+            [
+              88.43165,
+              22.5691
+            ],
+            [
+              88.43165,
+              22.56982
+            ],
+            [
+              88.43085,
+              22.56982
+            ],
+            [
+              88.43085,
+              22.5691
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "properties": {
+        "id": 65,
+        "ulpin": "19031200010065",
+        "dag_no": "156/2",
+        "khasra_no": "156/2",
+        "khatian_no": "132",
+        "khata_no": "132",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 338.63,
+        "legal_area_katha": "5 কাঠা 1 ছটাক",
+        "physical_area_sqm": 335.58,
+        "delta_area_sqm": -3.05,
+        "delta_pct": 0.9,
+        "rmse_m": 0.1,
+        "height_m": 30.5,
+        "floors": 9,
+        "land_use": "বাণিজ্যিক (Commercial Utility)",
+        "owner_name": "ইন্ডিয়ান অয়েল কর্পোরেশন লিমিটেড (Indian Oil Corporation Ltd (Petroleum))",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e41a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-002-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4318,
+              22.5691
+            ],
+            [
+              88.4326,
+              22.5691
+            ],
+            [
+              88.4326,
+              22.56982
+            ],
+            [
+              88.4318,
+              22.56982
+            ],
+            [
+              88.4318,
+              22.5691
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "properties": {
+        "id": 66,
+        "ulpin": "19031200010066",
+        "dag_no": "156/3",
+        "khasra_no": "156/3",
+        "khatian_no": "133",
+        "khata_no": "133",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 409.7,
+        "legal_area_katha": "6 কাঠা 2 ছটাক",
+        "physical_area_sqm": 409.7,
+        "delta_area_sqm": 0.0,
+        "delta_pct": 0.0,
+        "rmse_m": 0.14,
+        "height_m": 8.0,
+        "floors": 2,
+        "land_use": "সরকারি খাস (Government Vested)",
+        "owner_name": "বিকাশ ভবন রাজ্য প্রশাসন (Bikash Bhavan State Administrative Complex)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e42a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-003-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43275,
+              22.5691
+            ],
+            [
+              88.43355,
+              22.5691
+            ],
+            [
+              88.43355,
+              22.56982
+            ],
+            [
+              88.43275,
+              22.56982
+            ],
+            [
+              88.43275,
+              22.5691
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "properties": {
+        "id": 67,
+        "ulpin": "19031200010067",
+        "dag_no": "156/4",
+        "khasra_no": "156/4",
+        "khatian_no": "133",
+        "khata_no": "133",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 480.77,
+        "legal_area_katha": "7 কাঠা 3 ছটাক",
+        "physical_area_sqm": 485.1,
+        "delta_area_sqm": 4.33,
+        "delta_pct": 0.9,
+        "rmse_m": 0.18,
+        "height_m": 12.5,
+        "floors": 3,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "প্রতীক রায়চৌধুরী (Pratik Roychowdhury)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e43a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-004-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4337,
+              22.5691
+            ],
+            [
+              88.4345,
+              22.5691
+            ],
+            [
+              88.4345,
+              22.56982
+            ],
+            [
+              88.4337,
+              22.56982
+            ],
+            [
+              88.4337,
+              22.5691
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "properties": {
+        "id": 68,
+        "ulpin": "19031200010068",
+        "dag_no": "157/1",
+        "khasra_no": "157/1",
+        "khatian_no": "134",
+        "khata_no": "134",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "PROVISIONAL",
+        "legal_area_sqm": 551.84,
+        "legal_area_katha": "8 কাঠা 4 ছটাক",
+        "physical_area_sqm": 561.77,
+        "delta_area_sqm": 9.93,
+        "delta_pct": 1.8,
+        "rmse_m": 0.06,
+        "height_m": 17.0,
+        "floors": 5,
+        "land_use": "সরকারি পরিষেবা (Public Utility)",
+        "owner_name": "পশ্চিমবঙ্গ রাজ্য বিদ্যুৎ পর্ষদ (WBSEDCL) (WBSEDCL Sub-Station)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e44a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-005-10",
+        "has_conflict": true,
+        "conflict_id": "CONF-WB-2026-0068",
+        "conflict_type": "SIDE_SETBACK_VIOLATION"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43465,
+              22.5691
+            ],
+            [
+              88.43545,
+              22.5691
+            ],
+            [
+              88.43545,
+              22.56982
+            ],
+            [
+              88.43465,
+              22.56982
+            ],
+            [
+              88.43465,
+              22.5691
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "properties": {
+        "id": 69,
+        "ulpin": "19031200010069",
+        "dag_no": "157/2",
+        "khasra_no": "157/2",
+        "khatian_no": "134",
+        "khata_no": "134",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 622.91,
+        "legal_area_katha": "9 কাঠা 5 ছটাক",
+        "physical_area_sqm": 639.73,
+        "delta_area_sqm": 16.82,
+        "delta_pct": 2.7,
+        "rmse_m": 0.1,
+        "height_m": 21.5,
+        "floors": 6,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "স্বস্তিকা দাশগুপ্ত (Swastika Dasgupta)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e45a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-006-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4356,
+              22.5691
+            ],
+            [
+              88.4364,
+              22.5691
+            ],
+            [
+              88.4364,
+              22.56982
+            ],
+            [
+              88.4356,
+              22.56982
+            ],
+            [
+              88.4356,
+              22.5691
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "properties": {
+        "id": 70,
+        "ulpin": "19031200010070",
+        "dag_no": "157/3",
+        "khasra_no": "157/3",
+        "khatian_no": "135",
+        "khata_no": "135",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 693.98,
+        "legal_area_katha": "10 কাঠা 6 ছটাক",
+        "physical_area_sqm": 675.24,
+        "delta_area_sqm": -18.74,
+        "delta_pct": 2.7,
+        "rmse_m": 0.14,
+        "height_m": 26.0,
+        "floors": 8,
+        "land_use": "বাণিজ্যিক (IT SEZ)",
+        "owner_name": "ওয়েবেল টেকনোলজি পার্ক লিমিটেড (Webel Technology Park)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e46a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-007-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43655,
+              22.5691
+            ],
+            [
+              88.43735,
+              22.5691
+            ],
+            [
+              88.43735,
+              22.56982
+            ],
+            [
+              88.43655,
+              22.56982
+            ],
+            [
+              88.43655,
+              22.5691
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "properties": {
+        "id": 71,
+        "ulpin": "19031200010071",
+        "dag_no": "157/4",
+        "khasra_no": "157/4",
+        "khatian_no": "135",
+        "khata_no": "135",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 765.05,
+        "legal_area_katha": "11 কাঠা 7 ছটাক",
+        "physical_area_sqm": 751.28,
+        "delta_area_sqm": -13.77,
+        "delta_pct": 1.8,
+        "rmse_m": 0.18,
+        "height_m": 30.5,
+        "floors": 9,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "অমরেশ দত্ত (Amaresh Dutta)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e47a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-008-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4281,
+              22.56995
+            ],
+            [
+              88.4289,
+              22.56995
+            ],
+            [
+              88.4289,
+              22.57067
+            ],
+            [
+              88.4281,
+              22.57067
+            ],
+            [
+              88.4281,
+              22.56995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "properties": {
+        "id": 72,
+        "ulpin": "19031200010072",
+        "dag_no": "158/1",
+        "khasra_no": "158/1",
+        "khatian_no": "136",
+        "khata_no": "136",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 301.0,
+        "legal_area_katha": "4 কাঠা 8 ছটাক",
+        "physical_area_sqm": 298.29,
+        "delta_area_sqm": -2.71,
+        "delta_pct": 0.9,
+        "rmse_m": 0.06,
+        "height_m": 8.0,
+        "floors": 2,
+        "land_use": "সরকারি খাস (Government Vested)",
+        "owner_name": "কলকাতা মেট্রোপলিটান ডেভেলপমেন্ট অথরিটি (KMDA Urban Infrastructure)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e48a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-001-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.42905,
+              22.56995
+            ],
+            [
+              88.42985,
+              22.56995
+            ],
+            [
+              88.42985,
+              22.57067
+            ],
+            [
+              88.42905,
+              22.57067
+            ],
+            [
+              88.42905,
+              22.56995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "properties": {
+        "id": 73,
+        "ulpin": "19031200010073",
+        "dag_no": "158/2",
+        "khasra_no": "158/2",
+        "khatian_no": "136",
+        "khata_no": "136",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 372.07,
+        "legal_area_katha": "5 কাঠা 9 ছটাক",
+        "physical_area_sqm": 372.07,
+        "delta_area_sqm": 0.0,
+        "delta_pct": 0.0,
+        "rmse_m": 0.1,
+        "height_m": 12.5,
+        "floors": 3,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "সুপ্রিয়া বসু (Supriya Bose)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e49a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-002-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43,
+              22.56995
+            ],
+            [
+              88.4308,
+              22.56995
+            ],
+            [
+              88.4308,
+              22.57067
+            ],
+            [
+              88.43,
+              22.57067
+            ],
+            [
+              88.43,
+              22.56995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "properties": {
+        "id": 74,
+        "ulpin": "19031200010074",
+        "dag_no": "158/3",
+        "khasra_no": "158/3",
+        "khatian_no": "137",
+        "khata_no": "137",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 443.14,
+        "legal_area_katha": "6 কাঠা 10 ছটাক",
+        "physical_area_sqm": 447.13,
+        "delta_area_sqm": 3.99,
+        "delta_pct": 0.9,
+        "rmse_m": 0.14,
+        "height_m": 17.0,
+        "floors": 5,
+        "land_use": "বাণিজ্যিক পরিকাঠামো (Power Infrastructure)",
+        "owner_name": "ক্যালকাটা ইলেকট্রিক সাপ্লাই কর্পোরেশন (CESC) (CESC Power Receiving Station)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e4aa892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-003-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43095,
+              22.56995
+            ],
+            [
+              88.43175,
+              22.56995
+            ],
+            [
+              88.43175,
+              22.57067
+            ],
+            [
+              88.43095,
+              22.57067
+            ],
+            [
+              88.43095,
+              22.56995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "properties": {
+        "id": 75,
+        "ulpin": "19031200010075",
+        "dag_no": "158/4",
+        "khasra_no": "158/4",
+        "khatian_no": "137",
+        "khata_no": "137",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 514.21,
+        "legal_area_katha": "7 কাঠা 11 ছটাক",
+        "physical_area_sqm": 523.47,
+        "delta_area_sqm": 9.26,
+        "delta_pct": 1.8,
+        "rmse_m": 0.18,
+        "height_m": 21.5,
+        "floors": 6,
+        "land_use": "দাতব্য প্রতিষ্ঠান (Institutional)",
+        "owner_name": "রবীন্দ্রনাথ ঠাকুর মেমোরিয়াল চ্যারিটেবল ট্রাস্ট (Rabindranath Tagore Memorial Trust)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e4ba892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-004-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4319,
+              22.56995
+            ],
+            [
+              88.4327,
+              22.56995
+            ],
+            [
+              88.4327,
+              22.57067
+            ],
+            [
+              88.4319,
+              22.57067
+            ],
+            [
+              88.4319,
+              22.56995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "properties": {
+        "id": 76,
+        "ulpin": "19031200010076",
+        "dag_no": "159/1",
+        "khasra_no": "159/1",
+        "khatian_no": "138",
+        "khata_no": "138",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 585.28,
+        "legal_area_katha": "8 কাঠা 12 ছটাক",
+        "physical_area_sqm": 601.08,
+        "delta_area_sqm": 15.8,
+        "delta_pct": 2.7,
+        "rmse_m": 0.06,
+        "height_m": 26.0,
+        "floors": 8,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "কৌশিক মজুমদার (Kaushik Majumdar)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e4ca892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-005-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43285,
+              22.56995
+            ],
+            [
+              88.43365,
+              22.56995
+            ],
+            [
+              88.43365,
+              22.57067
+            ],
+            [
+              88.43285,
+              22.57067
+            ],
+            [
+              88.43285,
+              22.56995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "properties": {
+        "id": 77,
+        "ulpin": "19031200010077",
+        "dag_no": "159/2",
+        "khasra_no": "159/2",
+        "khatian_no": "138",
+        "khata_no": "138",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 656.35,
+        "legal_area_katha": "9 কাঠা 13 ছটাক",
+        "physical_area_sqm": 638.63,
+        "delta_area_sqm": -17.72,
+        "delta_pct": 2.7,
+        "rmse_m": 0.1,
+        "height_m": 30.5,
+        "floors": 9,
+        "land_use": "গ্যাস পাইপলাইন বাফার (Gas Pipeline Buffer)",
+        "owner_name": "বেঙ্গল গ্যাস কোম্পানি লিমিটেড (BGCL) (BGCL City Gas Distribution Hub)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e4da892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-006-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4338,
+              22.56995
+            ],
+            [
+              88.4346,
+              22.56995
+            ],
+            [
+              88.4346,
+              22.57067
+            ],
+            [
+              88.4338,
+              22.57067
+            ],
+            [
+              88.4338,
+              22.56995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "properties": {
+        "id": 78,
+        "ulpin": "19031200010078",
+        "dag_no": "159/3",
+        "khasra_no": "159/3",
+        "khatian_no": "139",
+        "khata_no": "139",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 727.42,
+        "legal_area_katha": "10 কাঠা 14 ছটাক",
+        "physical_area_sqm": 714.33,
+        "delta_area_sqm": -13.09,
+        "delta_pct": 1.8,
+        "rmse_m": 0.14,
+        "height_m": 8.0,
+        "floors": 2,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "তনুশ্রী ভট্টাচার্য (Tanushree Bhattacharya)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e4ea892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-007-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43475,
+              22.56995
+            ],
+            [
+              88.43555,
+              22.56995
+            ],
+            [
+              88.43555,
+              22.57067
+            ],
+            [
+              88.43475,
+              22.57067
+            ],
+            [
+              88.43475,
+              22.56995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "properties": {
+        "id": 79,
+        "ulpin": "19031200010079",
+        "dag_no": "159/4",
+        "khasra_no": "159/4",
+        "khatian_no": "139",
+        "khata_no": "139",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 798.49,
+        "legal_area_katha": "11 কাঠা 15 ছটাক",
+        "physical_area_sqm": 791.3,
+        "delta_area_sqm": -7.19,
+        "delta_pct": 0.9,
+        "rmse_m": 0.18,
+        "height_m": 12.5,
+        "floors": 3,
+        "land_use": "নয়ানজুলি / জলাভূমি (Wetlands Conservation)",
+        "owner_name": "পূর্ব কলকাতা জলাভূমি সংরক্ষণ কর্তৃপক্ষ (East Kolkata Wetlands Management Authority)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e4fa892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-008-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4357,
+              22.56995
+            ],
+            [
+              88.4365,
+              22.56995
+            ],
+            [
+              88.4365,
+              22.57067
+            ],
+            [
+              88.4357,
+              22.57067
+            ],
+            [
+              88.4357,
+              22.56995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "properties": {
+        "id": 80,
+        "ulpin": "19031200010080",
+        "dag_no": "160/1",
+        "khasra_no": "160/1",
+        "khatian_no": "140",
+        "khata_no": "140",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 267.56,
+        "legal_area_katha": "4 কাঠা 0 ছটাক",
+        "physical_area_sqm": 267.56,
+        "delta_area_sqm": 0.0,
+        "delta_pct": 0.0,
+        "rmse_m": 0.06,
+        "height_m": 17.0,
+        "floors": 5,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "সিদ্ধার্থ শঙ্কর রায় (Siddhartha Sankar Roy)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e50a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-001-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43665,
+              22.56995
+            ],
+            [
+              88.43745,
+              22.56995
+            ],
+            [
+              88.43745,
+              22.57067
+            ],
+            [
+              88.43665,
+              22.57067
+            ],
+            [
+              88.43665,
+              22.56995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "properties": {
+        "id": 81,
+        "ulpin": "19031200010081",
+        "dag_no": "160/2",
+        "khasra_no": "160/2",
+        "khatian_no": "140",
+        "khata_no": "140",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 338.63,
+        "legal_area_katha": "5 কাঠা 1 ছটাক",
+        "physical_area_sqm": 341.68,
+        "delta_area_sqm": 3.05,
+        "delta_pct": 0.9,
+        "rmse_m": 0.1,
+        "height_m": 21.5,
+        "floors": 6,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "সৌম্যজিৎ মুখোপাধ্যায় (Soumyajit Mukherjee)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e51a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-002-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.428,
+              22.5708
+            ],
+            [
+              88.4288,
+              22.5708
+            ],
+            [
+              88.4288,
+              22.57152
+            ],
+            [
+              88.428,
+              22.57152
+            ],
+            [
+              88.428,
+              22.5708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "properties": {
+        "id": 82,
+        "ulpin": "19031200010082",
+        "dag_no": "160/3",
+        "khasra_no": "160/3",
+        "khatian_no": "141",
+        "khata_no": "141",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 409.7,
+        "legal_area_katha": "6 কাঠা 2 ছটাক",
+        "physical_area_sqm": 417.07,
+        "delta_area_sqm": 7.37,
+        "delta_pct": 1.8,
+        "rmse_m": 0.14,
+        "height_m": 26.0,
+        "floors": 8,
+        "land_use": "বাণিজ্যিক (IT Park / Commercial)",
+        "owner_name": "অনির্বাণ বন্দ্যোপাধ্যায় (Anirban Banerjee)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e52a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-003-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.42895,
+              22.5708
+            ],
+            [
+              88.42975,
+              22.5708
+            ],
+            [
+              88.42975,
+              22.57152
+            ],
+            [
+              88.42895,
+              22.57152
+            ],
+            [
+              88.42895,
+              22.5708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "properties": {
+        "id": 83,
+        "ulpin": "19031200010083",
+        "dag_no": "160/4",
+        "khasra_no": "160/4",
+        "khatian_no": "141",
+        "khata_no": "141",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 480.77,
+        "legal_area_katha": "7 কাঠা 3 ছটাক",
+        "physical_area_sqm": 493.75,
+        "delta_area_sqm": 12.98,
+        "delta_pct": 2.7,
+        "rmse_m": 0.18,
+        "height_m": 30.5,
+        "floors": 9,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "শুভাশিস সেনগুপ্ত (Subhasis Sengupta)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e53a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-004-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4299,
+              22.5708
+            ],
+            [
+              88.4307,
+              22.5708
+            ],
+            [
+              88.4307,
+              22.57152
+            ],
+            [
+              88.4299,
+              22.57152
+            ],
+            [
+              88.4299,
+              22.5708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "properties": {
+        "id": 84,
+        "ulpin": "19031200010084",
+        "dag_no": "161/1",
+        "khasra_no": "161/1",
+        "khatian_no": "142",
+        "khata_no": "142",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 551.84,
+        "legal_area_katha": "8 কাঠা 4 ছটাক",
+        "physical_area_sqm": 536.94,
+        "delta_area_sqm": -14.9,
+        "delta_pct": 2.7,
+        "rmse_m": 0.06,
+        "height_m": 8.0,
+        "floors": 2,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "দেবলীনা চক্রবর্তী (Debolina Chakraborty)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e54a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-005-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43085,
+              22.5708
+            ],
+            [
+              88.43165,
+              22.5708
+            ],
+            [
+              88.43165,
+              22.57152
+            ],
+            [
+              88.43085,
+              22.57152
+            ],
+            [
+              88.43085,
+              22.5708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "properties": {
+        "id": 85,
+        "ulpin": "19031200010085",
+        "dag_no": "161/2",
+        "khasra_no": "161/2",
+        "khatian_no": "142",
+        "khata_no": "142",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 622.91,
+        "legal_area_katha": "9 কাঠা 5 ছটাক",
+        "physical_area_sqm": 611.7,
+        "delta_area_sqm": -11.21,
+        "delta_pct": 1.8,
+        "rmse_m": 0.1,
+        "height_m": 12.5,
+        "floors": 3,
+        "land_use": "বাণিজ্যিক (Commercial Utility)",
+        "owner_name": "ইন্ডিয়ান অয়েল কর্পোরেশন লিমিটেড (Indian Oil Corporation Ltd (Petroleum))",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e55a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-006-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4318,
+              22.5708
+            ],
+            [
+              88.4326,
+              22.5708
+            ],
+            [
+              88.4326,
+              22.57152
+            ],
+            [
+              88.4318,
+              22.57152
+            ],
+            [
+              88.4318,
+              22.5708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "properties": {
+        "id": 86,
+        "ulpin": "19031200010086",
+        "dag_no": "161/3",
+        "khasra_no": "161/3",
+        "khatian_no": "143",
+        "khata_no": "143",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 693.98,
+        "legal_area_katha": "10 কাঠা 6 ছটাক",
+        "physical_area_sqm": 687.73,
+        "delta_area_sqm": -6.25,
+        "delta_pct": 0.9,
+        "rmse_m": 0.14,
+        "height_m": 17.0,
+        "floors": 5,
+        "land_use": "সরকারি খাস (Government Vested)",
+        "owner_name": "বিকাশ ভবন রাজ্য প্রশাসন (Bikash Bhavan State Administrative Complex)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e56a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-007-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43275,
+              22.5708
+            ],
+            [
+              88.43355,
+              22.5708
+            ],
+            [
+              88.43355,
+              22.57152
+            ],
+            [
+              88.43275,
+              22.57152
+            ],
+            [
+              88.43275,
+              22.5708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "properties": {
+        "id": 87,
+        "ulpin": "19031200010087",
+        "dag_no": "161/4",
+        "khasra_no": "161/4",
+        "khatian_no": "143",
+        "khata_no": "143",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 765.05,
+        "legal_area_katha": "11 কাঠা 7 ছটাক",
+        "physical_area_sqm": 765.05,
+        "delta_area_sqm": 0.0,
+        "delta_pct": 0.0,
+        "rmse_m": 0.18,
+        "height_m": 21.5,
+        "floors": 6,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "প্রতীক রায়চৌধুরী (Pratik Roychowdhury)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e57a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-008-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4337,
+              22.5708
+            ],
+            [
+              88.4345,
+              22.5708
+            ],
+            [
+              88.4345,
+              22.57152
+            ],
+            [
+              88.4337,
+              22.57152
+            ],
+            [
+              88.4337,
+              22.5708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "properties": {
+        "id": 88,
+        "ulpin": "19031200010088",
+        "dag_no": "162/1",
+        "khasra_no": "162/1",
+        "khatian_no": "144",
+        "khata_no": "144",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 301.0,
+        "legal_area_katha": "4 কাঠা 8 ছটাক",
+        "physical_area_sqm": 303.71,
+        "delta_area_sqm": 2.71,
+        "delta_pct": 0.9,
+        "rmse_m": 0.06,
+        "height_m": 26.0,
+        "floors": 8,
+        "land_use": "সরকারি পরিষেবা (Public Utility)",
+        "owner_name": "পশ্চিমবঙ্গ রাজ্য বিদ্যুৎ পর্ষদ (WBSEDCL) (WBSEDCL Sub-Station)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e58a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-001-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43465,
+              22.5708
+            ],
+            [
+              88.43545,
+              22.5708
+            ],
+            [
+              88.43545,
+              22.57152
+            ],
+            [
+              88.43465,
+              22.57152
+            ],
+            [
+              88.43465,
+              22.5708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "properties": {
+        "id": 89,
+        "ulpin": "19031200010089",
+        "dag_no": "162/2",
+        "khasra_no": "162/2",
+        "khatian_no": "144",
+        "khata_no": "144",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 372.07,
+        "legal_area_katha": "5 কাঠা 9 ছটাক",
+        "physical_area_sqm": 378.77,
+        "delta_area_sqm": 6.7,
+        "delta_pct": 1.8,
+        "rmse_m": 0.1,
+        "height_m": 30.5,
+        "floors": 9,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "স্বস্তিকা দাশগুপ্ত (Swastika Dasgupta)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e59a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-002-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4356,
+              22.5708
+            ],
+            [
+              88.4364,
+              22.5708
+            ],
+            [
+              88.4364,
+              22.57152
+            ],
+            [
+              88.4356,
+              22.57152
+            ],
+            [
+              88.4356,
+              22.5708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90,
+      "properties": {
+        "id": 90,
+        "ulpin": "19031200010090",
+        "dag_no": "162/3",
+        "khasra_no": "162/3",
+        "khatian_no": "145",
+        "khata_no": "145",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 443.14,
+        "legal_area_katha": "6 কাঠা 10 ছটাক",
+        "physical_area_sqm": 455.1,
+        "delta_area_sqm": 11.96,
+        "delta_pct": 2.7,
+        "rmse_m": 0.14,
+        "height_m": 8.0,
+        "floors": 2,
+        "land_use": "বাণিজ্যিক (IT SEZ)",
+        "owner_name": "ওয়েবেল টেকনোলজি পার্ক লিমিটেড (Webel Technology Park)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e5aa892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-003-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43655,
+              22.5708
+            ],
+            [
+              88.43735,
+              22.5708
+            ],
+            [
+              88.43735,
+              22.57152
+            ],
+            [
+              88.43655,
+              22.57152
+            ],
+            [
+              88.43655,
+              22.5708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "properties": {
+        "id": 91,
+        "ulpin": "19031200010091",
+        "dag_no": "162/4",
+        "khasra_no": "162/4",
+        "khatian_no": "145",
+        "khata_no": "145",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 514.21,
+        "legal_area_katha": "7 কাঠা 11 ছটাক",
+        "physical_area_sqm": 500.33,
+        "delta_area_sqm": -13.88,
+        "delta_pct": 2.7,
+        "rmse_m": 0.18,
+        "height_m": 12.5,
+        "floors": 3,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "অমরেশ দত্ত (Amaresh Dutta)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e5ba892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-004-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4281,
+              22.57165
+            ],
+            [
+              88.4289,
+              22.57165
+            ],
+            [
+              88.4289,
+              22.57237
+            ],
+            [
+              88.4281,
+              22.57237
+            ],
+            [
+              88.4281,
+              22.57165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92,
+      "properties": {
+        "id": 92,
+        "ulpin": "19031200010092",
+        "dag_no": "163/1",
+        "khasra_no": "163/1",
+        "khatian_no": "146",
+        "khata_no": "146",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 585.28,
+        "legal_area_katha": "8 কাঠা 12 ছটাক",
+        "physical_area_sqm": 574.74,
+        "delta_area_sqm": -10.54,
+        "delta_pct": 1.8,
+        "rmse_m": 0.06,
+        "height_m": 17.0,
+        "floors": 5,
+        "land_use": "সরকারি খাস (Government Vested)",
+        "owner_name": "কলকাতা মেট্রোপলিটান ডেভেলপমেন্ট অথরিটি (KMDA Urban Infrastructure)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e5ca892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-005-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.42905,
+              22.57165
+            ],
+            [
+              88.42985,
+              22.57165
+            ],
+            [
+              88.42985,
+              22.57237
+            ],
+            [
+              88.42905,
+              22.57237
+            ],
+            [
+              88.42905,
+              22.57165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93,
+      "properties": {
+        "id": 93,
+        "ulpin": "19031200010093",
+        "dag_no": "163/2",
+        "khasra_no": "163/2",
+        "khatian_no": "146",
+        "khata_no": "146",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 656.35,
+        "legal_area_katha": "9 কাঠা 13 ছটাক",
+        "physical_area_sqm": 650.44,
+        "delta_area_sqm": -5.91,
+        "delta_pct": 0.9,
+        "rmse_m": 0.1,
+        "height_m": 21.5,
+        "floors": 6,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "সুপ্রিয়া বসু (Supriya Bose)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e5da892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-006-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43,
+              22.57165
+            ],
+            [
+              88.4308,
+              22.57165
+            ],
+            [
+              88.4308,
+              22.57237
+            ],
+            [
+              88.43,
+              22.57237
+            ],
+            [
+              88.43,
+              22.57165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94,
+      "properties": {
+        "id": 94,
+        "ulpin": "19031200010094",
+        "dag_no": "163/3",
+        "khasra_no": "163/3",
+        "khatian_no": "147",
+        "khata_no": "147",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 727.42,
+        "legal_area_katha": "10 কাঠা 14 ছটাক",
+        "physical_area_sqm": 727.42,
+        "delta_area_sqm": 0.0,
+        "delta_pct": 0.0,
+        "rmse_m": 0.14,
+        "height_m": 26.0,
+        "floors": 8,
+        "land_use": "বাণিজ্যিক পরিকাঠামো (Power Infrastructure)",
+        "owner_name": "ক্যালকাটা ইলেকট্রিক সাপ্লাই কর্পোরেশন (CESC) (CESC Power Receiving Station)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e5ea892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-007-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43095,
+              22.57165
+            ],
+            [
+              88.43175,
+              22.57165
+            ],
+            [
+              88.43175,
+              22.57237
+            ],
+            [
+              88.43095,
+              22.57237
+            ],
+            [
+              88.43095,
+              22.57165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
+      "properties": {
+        "id": 95,
+        "ulpin": "19031200010095",
+        "dag_no": "163/4",
+        "khasra_no": "163/4",
+        "khatian_no": "147",
+        "khata_no": "147",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 798.49,
+        "legal_area_katha": "11 কাঠা 15 ছটাক",
+        "physical_area_sqm": 805.68,
+        "delta_area_sqm": 7.19,
+        "delta_pct": 0.9,
+        "rmse_m": 0.18,
+        "height_m": 30.5,
+        "floors": 9,
+        "land_use": "দাতব্য প্রতিষ্ঠান (Institutional)",
+        "owner_name": "রবীন্দ্রনাথ ঠাকুর মেমোরিয়াল চ্যারিটেবল ট্রাস্ট (Rabindranath Tagore Memorial Trust)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e5fa892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-008-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4319,
+              22.57165
+            ],
+            [
+              88.4327,
+              22.57165
+            ],
+            [
+              88.4327,
+              22.57237
+            ],
+            [
+              88.4319,
+              22.57237
+            ],
+            [
+              88.4319,
+              22.57165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "properties": {
+        "id": 96,
+        "ulpin": "19031200010096",
+        "dag_no": "164/1",
+        "khasra_no": "164/1",
+        "khatian_no": "148",
+        "khata_no": "148",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 267.56,
+        "legal_area_katha": "4 কাঠা 0 ছটাক",
+        "physical_area_sqm": 272.38,
+        "delta_area_sqm": 4.82,
+        "delta_pct": 1.8,
+        "rmse_m": 0.06,
+        "height_m": 8.0,
+        "floors": 2,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "কৌশিক মজুমদার (Kaushik Majumdar)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e60a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-001-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43285,
+              22.57165
+            ],
+            [
+              88.43365,
+              22.57165
+            ],
+            [
+              88.43365,
+              22.57237
+            ],
+            [
+              88.43285,
+              22.57237
+            ],
+            [
+              88.43285,
+              22.57165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
+      "properties": {
+        "id": 97,
+        "ulpin": "19031200010097",
+        "dag_no": "164/2",
+        "khasra_no": "164/2",
+        "khatian_no": "148",
+        "khata_no": "148",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 338.63,
+        "legal_area_katha": "5 কাঠা 1 ছটাক",
+        "physical_area_sqm": 347.77,
+        "delta_area_sqm": 9.14,
+        "delta_pct": 2.7,
+        "rmse_m": 0.1,
+        "height_m": 12.5,
+        "floors": 3,
+        "land_use": "গ্যাস পাইপলাইন বাফার (Gas Pipeline Buffer)",
+        "owner_name": "বেঙ্গল গ্যাস কোম্পানি লিমিটেড (BGCL) (BGCL City Gas Distribution Hub)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e61a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-002-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4338,
+              22.57165
+            ],
+            [
+              88.4346,
+              22.57165
+            ],
+            [
+              88.4346,
+              22.57237
+            ],
+            [
+              88.4338,
+              22.57237
+            ],
+            [
+              88.4338,
+              22.57165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98,
+      "properties": {
+        "id": 98,
+        "ulpin": "19031200010098",
+        "dag_no": "164/3",
+        "khasra_no": "164/3",
+        "khatian_no": "149",
+        "khata_no": "149",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 409.7,
+        "legal_area_katha": "6 কাঠা 2 ছটাক",
+        "physical_area_sqm": 398.64,
+        "delta_area_sqm": -11.06,
+        "delta_pct": 2.7,
+        "rmse_m": 0.14,
+        "height_m": 17.0,
+        "floors": 5,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "তনুশ্রী ভট্টাচার্য (Tanushree Bhattacharya)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e62a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-003-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43475,
+              22.57165
+            ],
+            [
+              88.43555,
+              22.57165
+            ],
+            [
+              88.43555,
+              22.57237
+            ],
+            [
+              88.43475,
+              22.57237
+            ],
+            [
+              88.43475,
+              22.57165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "properties": {
+        "id": 99,
+        "ulpin": "19031200010099",
+        "dag_no": "164/4",
+        "khasra_no": "164/4",
+        "khatian_no": "149",
+        "khata_no": "149",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "VERIFIED",
+        "legal_area_sqm": 480.77,
+        "legal_area_katha": "7 কাঠা 3 ছটাক",
+        "physical_area_sqm": 472.12,
+        "delta_area_sqm": -8.65,
+        "delta_pct": 1.8,
+        "rmse_m": 0.18,
+        "height_m": 21.5,
+        "floors": 6,
+        "land_use": "নয়ানজুলি / জলাভূমি (Wetlands Conservation)",
+        "owner_name": "পূর্ব কলকাতা জলাভূমি সংরক্ষণ কর্তৃপক্ষ (East Kolkata Wetlands Management Authority)",
+        "co_owners": "যৌথ অংশীদার (Joint Shareholder)",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e63a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-004-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4357,
+              22.57165
+            ],
+            [
+              88.4365,
+              22.57165
+            ],
+            [
+              88.4365,
+              22.57237
+            ],
+            [
+              88.4357,
+              22.57237
+            ],
+            [
+              88.4357,
+              22.57165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "properties": {
+        "id": 100,
+        "ulpin": "19031200010100",
+        "dag_no": "165/1",
+        "khasra_no": "165/1",
+        "khatian_no": "150",
+        "khata_no": "150",
+        "mouza": "Bidhannagar (JL No. 12)",
+        "village": "Sector V (Salt Lake / KMC Ward 65)",
+        "state_code": "19",
+        "state_name": "West Bengal (পশ্চিমবঙ্গ)",
+        "district": "Kolkata / North 24 Parganas",
+        "status": "ADJUDICATED",
+        "legal_area_sqm": 551.84,
+        "legal_area_katha": "8 কাঠা 4 ছটাক",
+        "physical_area_sqm": 546.87,
+        "delta_area_sqm": -4.97,
+        "delta_pct": 0.9,
+        "rmse_m": 0.06,
+        "height_m": 26.0,
+        "floors": 8,
+        "land_use": "বাস্তু (Bastu / Residential)",
+        "owner_name": "সিদ্ধার্থ শঙ্কর রায় (Siddhartha Sankar Roy)",
+        "co_owners": "None",
+        "crs": "EPSG:7755 (Survey of India LCC) / EPSG:4326",
+        "merkle_root": "e64a892147dc5e8103f56a0994cb11ef8d402379d46059286d9a04f2c7d2e01a",
+        "last_mutation": "2026-005-10",
+        "has_conflict": false,
+        "conflict_id": null,
+        "conflict_type": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.43665,
+              22.57165
+            ],
+            [
+              88.43745,
+              22.57165
+            ],
+            [
+              88.43745,
+              22.57237
+            ],
+            [
+              88.43665,
+              22.57237
+            ],
+            [
+              88.43665,
+              22.57165
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

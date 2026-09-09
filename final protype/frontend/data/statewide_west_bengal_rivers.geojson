@@ -1,0 +1,190 @@
+{
+  "type": "FeatureCollection",
+  "name": "Jal_Shakti_Waterways_WB",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.345,
+            22.48
+          ],
+          [
+            88.352,
+            22.54
+          ],
+          [
+            88.361,
+            22.58
+          ],
+          [
+            88.368,
+            22.63
+          ],
+          [
+            88.375,
+            22.7
+          ]
+        ]
+      },
+      "properties": {
+        "waterbody_name": "Hooghly (Ganges) River",
+        "waterbody_classification": "MAJOR_RIVER",
+        "statutory_green_buffer_m": 50.0,
+        "high_flood_line_buffer_m": 100.0,
+        "governing_authority": "Ministry of Jal Shakti / State Irrigation & Waterways Dept",
+        "legal_mandate": "National Green Tribunal (NGT) Blue Line Orders & River Basin Protection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.405,
+            22.585
+          ],
+          [
+            88.42,
+            22.588
+          ],
+          [
+            88.445,
+            22.592
+          ],
+          [
+            88.47,
+            22.598
+          ]
+        ]
+      },
+      "properties": {
+        "waterbody_name": "Kestopur (Krishnapur) Canal",
+        "waterbody_classification": "NAVIGATIONAL_CANAL",
+        "statutory_green_buffer_m": 9.0,
+        "high_flood_line_buffer_m": 18.0,
+        "governing_authority": "Ministry of Jal Shakti / State Irrigation & Waterways Dept",
+        "legal_mandate": "National Green Tribunal (NGT) Blue Line Orders & River Basin Protection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.425,
+            22.56
+          ],
+          [
+            88.435,
+            22.566
+          ],
+          [
+            88.442,
+            22.574
+          ],
+          [
+            88.448,
+            22.582
+          ]
+        ]
+      },
+      "properties": {
+        "waterbody_name": "Eastern Drainage Channel (Salt Lake)",
+        "waterbody_classification": "NATURAL_DRAIN_NALA",
+        "statutory_green_buffer_m": 9.0,
+        "high_flood_line_buffer_m": 18.0,
+        "governing_authority": "Ministry of Jal Shakti / State Irrigation & Waterways Dept",
+        "legal_mandate": "National Green Tribunal (NGT) Blue Line Orders & River Basin Protection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.33,
+            22.5
+          ],
+          [
+            88.342,
+            22.515
+          ],
+          [
+            88.355,
+            22.53
+          ]
+        ]
+      },
+      "properties": {
+        "waterbody_name": "Tolly's Nullah (Adi Ganga)",
+        "waterbody_classification": "TIDAL_WATERBODY",
+        "statutory_green_buffer_m": 9.0,
+        "high_flood_line_buffer_m": 18.0,
+        "governing_authority": "Ministry of Jal Shakti / State Irrigation & Waterways Dept",
+        "legal_mandate": "National Green Tribunal (NGT) Blue Line Orders & River Basin Protection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.45,
+            26.65
+          ],
+          [
+            88.52,
+            26.75
+          ],
+          [
+            88.6,
+            26.85
+          ]
+        ]
+      },
+      "properties": {
+        "waterbody_name": "Teesta River (North Bengal Basin)",
+        "waterbody_classification": "MAJOR_RIVER",
+        "statutory_green_buffer_m": 50.0,
+        "high_flood_line_buffer_m": 100.0,
+        "governing_authority": "Ministry of Jal Shakti / State Irrigation & Waterways Dept",
+        "legal_mandate": "National Green Tribunal (NGT) Blue Line Orders & River Basin Protection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            87.25,
+            23.48
+          ],
+          [
+            87.32,
+            23.51
+          ],
+          [
+            87.4,
+            23.53
+          ]
+        ]
+      },
+      "properties": {
+        "waterbody_name": "Damodar River (Durgapur Basin)",
+        "waterbody_classification": "MAJOR_RIVER",
+        "statutory_green_buffer_m": 50.0,
+        "high_flood_line_buffer_m": 100.0,
+        "governing_authority": "Ministry of Jal Shakti / State Irrigation & Waterways Dept",
+        "legal_mandate": "National Green Tribunal (NGT) Blue Line Orders & River Basin Protection"
+      }
+    }
+  ]
+}

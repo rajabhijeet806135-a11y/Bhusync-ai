@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "pipeline_status": "COMPLETED",
+    "execution_time_seconds": 0.13,
+    "ingested_parcels_count": 0,
+    "ingested_buildings_count": 200,
+    "matched_gcps_count": 6,
+    "gcp_rmse_pixels": 2.1784933309039075e-06,
+    "sam_extracted_polygons": 1,
+    "conflated_parcels_count": 1,
+    "mean_vertex_displacement_m": 0.7148526906967163,
+    "detected_temporal_changes": 1,
+    "parsed_ror_records_count": 10
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "conflated-parcel-1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.67442532792656,
+              18.49498383957379
+            ],
+            [
+              74.58319854736328,
+              18.60283660888672
+            ],
+            [
+              73.12033081054688,
+              18.404342651367188
+            ],
+            [
+              73.67442532792656,
+              18.49498383957379
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "khasra_index": 1,
+        "mean_vertex_disp_m": 0.715,
+        "area_delta_pct": 1119289.91,
+        "status": "CONFLATED",
+        "crs": "EPSG:7755"
+      }
+    }
+  ]
+}

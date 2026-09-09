@@ -1,0 +1,198 @@
+{
+  "type": "FeatureCollection",
+  "name": "KMDA_Sanctioned_DP_Roads_WB",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.395,
+            22.51
+          ],
+          [
+            88.4005,
+            22.535
+          ],
+          [
+            88.406,
+            22.56
+          ],
+          [
+            88.412,
+            22.575
+          ]
+        ]
+      },
+      "properties": {
+        "road_name": "Eastern Metropolitan (EM) Bypass",
+        "sanctioned_width_m": 60.0,
+        "right_of_way_buffer_m": 30.0,
+        "statutory_authority": "KMDA / WBHIDCO / KMC Town Planning",
+        "statutory_act": "West Bengal Town & Country (Planning and Development) Act 1979",
+        "zero_encroachment_invariant": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.435,
+            22.565
+          ],
+          [
+            88.448,
+            22.578
+          ],
+          [
+            88.462,
+            22.592
+          ],
+          [
+            88.475,
+            22.61
+          ]
+        ]
+      },
+      "properties": {
+        "road_name": "Biswa Bangla Sarani (Major Arterial Road)",
+        "sanctioned_width_m": 45.0,
+        "right_of_way_buffer_m": 22.5,
+        "statutory_authority": "KMDA / WBHIDCO / KMC Town Planning",
+        "statutory_act": "West Bengal Town & Country (Planning and Development) Act 1979",
+        "zero_encroachment_invariant": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.402,
+            22.595
+          ],
+          [
+            88.42,
+            22.615
+          ],
+          [
+            88.435,
+            22.635
+          ],
+          [
+            88.445,
+            22.645
+          ]
+        ]
+      },
+      "properties": {
+        "road_name": "VIP Road (Kazi Nazrul Islam Sarani)",
+        "sanctioned_width_m": 36.0,
+        "right_of_way_buffer_m": 18.0,
+        "statutory_authority": "KMDA / WBHIDCO / KMC Town Planning",
+        "statutory_act": "West Bengal Town & Country (Planning and Development) Act 1979",
+        "zero_encroachment_invariant": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.36,
+            22.65
+          ],
+          [
+            88.39,
+            22.645
+          ],
+          [
+            88.42,
+            22.64
+          ],
+          [
+            88.445,
+            22.645
+          ]
+        ]
+      },
+      "properties": {
+        "road_name": "Belghoria Expressway (NH-12 to NH-19 Link)",
+        "sanctioned_width_m": 45.0,
+        "right_of_way_buffer_m": 22.5,
+        "statutory_authority": "KMDA / WBHIDCO / KMC Town Planning",
+        "statutory_act": "West Bengal Town & Country (Planning and Development) Act 1979",
+        "zero_encroachment_invariant": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.428,
+            22.568
+          ],
+          [
+            88.438,
+            22.568
+          ],
+          [
+            88.438,
+            22.578
+          ],
+          [
+            88.428,
+            22.578
+          ],
+          [
+            88.428,
+            22.568
+          ]
+        ]
+      },
+      "properties": {
+        "road_name": "Sector V Ring Road (Ring Street 18)",
+        "sanctioned_width_m": 24.0,
+        "right_of_way_buffer_m": 12.0,
+        "statutory_authority": "KMDA / WBHIDCO / KMC Town Planning",
+        "statutory_act": "West Bengal Town & Country (Planning and Development) Act 1979",
+        "zero_encroachment_invariant": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.431,
+            22.572
+          ],
+          [
+            88.436,
+            22.572
+          ],
+          [
+            88.436,
+            22.576
+          ]
+        ]
+      },
+      "properties": {
+        "road_name": "College More to SDF Building Link Road",
+        "sanctioned_width_m": 18.0,
+        "right_of_way_buffer_m": 9.0,
+        "statutory_authority": "KMDA / WBHIDCO / KMC Town Planning",
+        "statutory_act": "West Bengal Town & Country (Planning and Development) Act 1979",
+        "zero_encroachment_invariant": true
+      }
+    }
+  ]
+}

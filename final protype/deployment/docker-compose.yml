@@ -1,0 +1,208 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# BhuSynch AI — Production Docker Compose
+# Full-stack deployment: API, Frontend, PostgreSQL/PostGIS, Redis,
+# MinIO, Martin Tile Server, Keycloak OIDC
+# ──────────────────────────────────────────────────────────────────────────────
+
+version: "3.9"
+
+x-common-env: &common-env
+  TZ: Asia/Kolkata
+
+services:
+  # ─────────────────── PostgreSQL 16 + PostGIS 3.4 ───────────────────
+  postgres:
+    image: postgis/postgis:16-3.4-alpine
+    container_name: bhusynch-postgres
+    restart: unless-stopped
+    environment:
+      <<: *common-env
+      POSTGRES_DB: bhusynch_cadastral
+      POSTGRES_USER: ${POSTGRES_USER:-bhusynch}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD required}
+      POSTGRES_INITDB_ARGS: "--encoding=UTF-8 --lc-collate=en_US.UTF-8 --lc-ctype=en_US.UTF-8"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql/init.sql:/docker-entrypoint-initdb.d/01_init.sql:ro
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-bhusynch} -d bhusynch_cadastral"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    networks:
+      - bhusynch-net
+
+  # ─────────────────── Redis (Celery Broker & Cache) ───────────────────
+  redis:
+    image: redis:7-alpine
+    container_name: bhusynch-redis
+    restart: unless-stopped
+    environment:
+      <<: *common-env
+    command: redis-server --requirepass ${REDIS_PASSWORD:-bhusynch_redis} --maxmemory 512mb --maxmemory-policy allkeys-lru
+    volumes:
+      - redis_data:/data
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD:-bhusynch_redis}", "ping"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    networks:
+      - bhusynch-net
+
+  # ─────────────────── MinIO Object Storage (S3 API) ───────────────────
+  minio:
+    image: minio/minio:latest
+    container_name: bhusynch-minio
+    restart: unless-stopped
+    environment:
+      <<: *common-env
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-bhusynch_minio}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?MINIO_ROOT_PASSWORD required}
+    command: server /data --console-address ":9001"
+    volumes:
+      - minio_data:/data
+    ports:
+      - "${MINIO_API_PORT:-9000}:9000"
+      - "${MINIO_CONSOLE_PORT:-9001}:9001"
+    healthcheck:
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - bhusynch-net
+
+  # ─────────────────── Martin Vector Tile Server ───────────────────
+  martin:
+    image: ghcr.io/maplibre/martin:latest
+    container_name: bhusynch-martin
+    restart: unless-stopped
+    environment:
+      <<: *common-env
+      DATABASE_URL: postgres://${POSTGRES_USER:-bhusynch}:${POSTGRES_PASSWORD}@postgres:5432/bhusynch_cadastral
+    ports:
+      - "${MARTIN_PORT:-3000}:3000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - bhusynch-net
+
+  # ─────────────────── Keycloak OIDC Identity Server ───────────────────
+  keycloak:
+    image: quay.io/keycloak/keycloak:24.0
+    container_name: bhusynch-keycloak
+    restart: unless-stopped
+    environment:
+      <<: *common-env
+      KEYCLOAK_ADMIN: ${KEYCLOAK_ADMIN:-admin}
+      KEYCLOAK_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD:?KEYCLOAK_ADMIN_PASSWORD required}
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://postgres:5432/bhusynch_cadastral
+      KC_DB_USERNAME: ${POSTGRES_USER:-bhusynch}
+      KC_DB_PASSWORD: ${POSTGRES_PASSWORD}
+      KC_HOSTNAME_STRICT: "false"
+      KC_HTTP_ENABLED: "true"
+    command: start-dev
+    ports:
+      - "${KEYCLOAK_PORT:-8080}:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - bhusynch-net
+
+  # ─────────────────── FastAPI Backend API ───────────────────
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: bhusynch-api
+    restart: unless-stopped
+    environment:
+      <<: *common-env
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-bhusynch}:${POSTGRES_PASSWORD}@postgres:5432/bhusynch_cadastral
+      REDIS_URL: redis://:${REDIS_PASSWORD:-bhusynch_redis}@redis:6379/0
+      MINIO_ENDPOINT: minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ROOT_USER:-bhusynch_minio}
+      MINIO_SECRET_KEY: ${MINIO_ROOT_PASSWORD}
+      KEYCLOAK_URL: http://keycloak:8080
+      KEYCLOAK_REALM: bhusynch
+      MARTIN_URL: http://martin:3000
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost,http://localhost:80}
+    ports:
+      - "${API_PORT:-8000}:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - api_uploads:/app/uploads
+      - api_temp:/app/temp
+    networks:
+      - bhusynch-net
+
+  # ─────────────────── Celery Worker (GeoAI & Geodesy Tasks) ───────────────────
+  worker:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: bhusynch-worker
+    restart: unless-stopped
+    environment:
+      <<: *common-env
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-bhusynch}:${POSTGRES_PASSWORD}@postgres:5432/bhusynch_cadastral
+      REDIS_URL: redis://:${REDIS_PASSWORD:-bhusynch_redis}@redis:6379/0
+      MINIO_ENDPOINT: minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ROOT_USER:-bhusynch_minio}
+      MINIO_SECRET_KEY: ${MINIO_ROOT_PASSWORD}
+    command: celery -A app.workers.celery_app worker --loglevel=info --concurrency=4 -Q geodesy,geoai,document_ai,conflation,topology
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - api_uploads:/app/uploads
+      - api_temp:/app/temp
+    networks:
+      - bhusynch-net
+
+  # ─────────────────── Frontend (NGINX) ───────────────────
+  frontend:
+    build:
+      context: .
+      dockerfile: deployment/Dockerfile.frontend
+    container_name: bhusynch-frontend
+    restart: unless-stopped
+    environment:
+      <<: *common-env
+    ports:
+      - "${FRONTEND_PORT:-80}:80"
+    depends_on:
+      - api
+    networks:
+      - bhusynch-net
+
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+  minio_data:
+    driver: local
+  api_uploads:
+    driver: local
+  api_temp:
+    driver: local
+
+networks:
+  bhusynch-net:
+    driver: bridge
+    name: bhusynch-network

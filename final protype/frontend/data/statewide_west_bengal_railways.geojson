@@ -1,0 +1,130 @@
+{
+  "type": "FeatureCollection",
+  "name": "Ministry_of_Railways_Corridors_WB",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.34,
+            22.585
+          ],
+          [
+            88.345,
+            22.62
+          ],
+          [
+            88.35,
+            22.68
+          ],
+          [
+            88.355,
+            22.75
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_name": "Eastern Railway Main Line (Howrah Division)",
+        "transit_type": "HEAVY_RAIL_BROAD_GAUGE",
+        "exclusion_zone_m": 15.0,
+        "deep_foundation_setback_m": 30.0,
+        "statutory_act": "Indian Railways Act 1989 & Metro Railways (Construction of Works) Act 1978"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.37,
+            22.568
+          ],
+          [
+            88.38,
+            22.61
+          ],
+          [
+            88.39,
+            22.66
+          ],
+          [
+            88.4,
+            22.72
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_name": "Eastern Railway Main Line (Sealdah Division)",
+        "transit_type": "HEAVY_RAIL_BROAD_GAUGE",
+        "exclusion_zone_m": 15.0,
+        "deep_foundation_setback_m": 30.0,
+        "statutory_act": "Indian Railways Act 1989 & Metro Railways (Construction of Works) Act 1978"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.435,
+            22.58
+          ],
+          [
+            88.41,
+            22.575
+          ],
+          [
+            88.38,
+            22.568
+          ],
+          [
+            88.35,
+            22.585
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_name": "Kolkata Metro Line 2 (East-West Green Line / Salt Lake Sector V to Howrah)",
+        "transit_type": "RAPID_TRANSIT_METRO",
+        "exclusion_zone_m": 15.0,
+        "deep_foundation_setback_m": 15.0,
+        "statutory_act": "Indian Railways Act 1989 & Metro Railways (Construction of Works) Act 1978"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.36,
+            22.655
+          ],
+          [
+            88.362,
+            22.58
+          ],
+          [
+            88.355,
+            22.51
+          ],
+          [
+            88.385,
+            22.46
+          ]
+        ]
+      },
+      "properties": {
+        "corridor_name": "Kolkata Metro Line 1 (North-South Blue Line / Dakshineswar to Kavi Subhash)",
+        "transit_type": "RAPID_TRANSIT_METRO",
+        "exclusion_zone_m": 15.0,
+        "deep_foundation_setback_m": 15.0,
+        "statutory_act": "Indian Railways Act 1989 & Metro Railways (Construction of Works) Act 1978"
+      }
+    }
+  ]
+}

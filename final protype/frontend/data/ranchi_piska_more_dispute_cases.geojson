@@ -1,0 +1,265 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "CONF-JH-RNC-PSK-101",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.294,
+              23.3818
+            ],
+            [
+              85.2952,
+              23.382
+            ],
+            [
+              85.295,
+              23.3812
+            ],
+            [
+              85.2938,
+              23.381
+            ],
+            [
+              85.294,
+              23.3818
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "case_id": "CONF-JH-RNC-PSK-101",
+        "conflict_type": "RATU_ROAD_NH75_ROW_ENCROACHMENT",
+        "severity": "CRITICAL",
+        "title": "Piska More Chowk Commercial RoW Encroachment (Ratu Road)",
+        "ulpin": "20340204000101",
+        "dag_no": "201",
+        "khasra_no": "201",
+        "khatian_no": "401",
+        "mouza": "Piska More Chowk (Thana No. 202)",
+        "circle": "Ranchi Town / Sukhdeonagar",
+        "district": "Ranchi",
+        "state_code": "20",
+        "statutory_law": "Control of National Highways (Land and Traffic) Act, 2002 / NH-75 RoW",
+        "description": "Multi-storey commercial shopping complex and parking portico extending 34.20 m\u00b2 (0.85 Decimal) into the statutory 30-meter PWD/NHAI Right-of-Way at Piska More Chowk intersection.",
+        "discrepancy_area_sqm": 34.2,
+        "discrepancy_area_decimal": 0.85,
+        "timestamp": "2026-09-07T15:10:00Z",
+        "recommended_action": "Issue Demolition Order for encroaching frontage; Realign commercial setback to NH-75 building line"
+      }
+    },
+    {
+      "id": "CONF-JH-RNC-PSK-102",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.286,
+              23.375
+            ],
+            [
+              85.2872,
+              23.3752
+            ],
+            [
+              85.287,
+              23.3742
+            ],
+            [
+              85.2858,
+              23.374
+            ],
+            [
+              85.286,
+              23.375
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "case_id": "CONF-JH-RNC-PSK-102",
+        "conflict_type": "CNT_ACT_SEC46_HEHAL_TRIBAL_ALIENATION",
+        "severity": "CRITICAL",
+        "title": "Mouza Hehal CNT Act Sec 46 Tribal Raiyati Alienation",
+        "ulpin": "20340204000102",
+        "dag_no": "202",
+        "khasra_no": "202",
+        "khatian_no": "402",
+        "mouza": "Hehal (Thana No. 204, ITI Road)",
+        "circle": "Hehal / Ranchi Sadar",
+        "district": "Ranchi",
+        "state_code": "20",
+        "statutory_law": "Chota Nagpur Tenancy Act, 1908 (Section 46 / 71A)",
+        "description": "Attempted alienation of tribal Bakast land from Somra Oraon (ST raiyat) for private commercial warehousing on ITI Road without Deputy Commissioner Ranchi prior sanction.",
+        "discrepancy_area_sqm": 68.4,
+        "discrepancy_area_decimal": 1.69,
+        "timestamp": "2026-09-07T14:40:00Z",
+        "recommended_action": "Issue Eviction & Restoration Order u/s 71A CNT Act; Freeze Mutation in Jharbhoomi"
+      }
+    },
+    {
+      "id": "CONF-JH-RNC-PSK-103",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.278,
+              23.388
+            ],
+            [
+              85.2795,
+              23.3882
+            ],
+            [
+              85.2792,
+              23.387
+            ],
+            [
+              85.2778,
+              23.3868
+            ],
+            [
+              85.278,
+              23.388
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "case_id": "CONF-JH-RNC-PSK-103",
+        "conflict_type": "PANDRA_KRISHI_BAZAAR_LEASE_OVERLAP",
+        "severity": "HIGH",
+        "title": "Pandra Krishi Bazaar Samiti Yard Lease Boundary Overlap",
+        "ulpin": "20340204000103",
+        "dag_no": "203",
+        "khasra_no": "203",
+        "khatian_no": "403",
+        "mouza": "Pandra (Thana No. 203)",
+        "circle": "Hehal",
+        "district": "Ranchi",
+        "state_code": "20",
+        "statutory_law": "Jharkhand Agricultural Produce Markets Act / RMC Regulations",
+        "description": "Private wholesale cold-storage godown boundary wall overlapping 44.50 m\u00b2 (1.10 Decimal) of government Mandi terminal yard land.",
+        "discrepancy_area_sqm": 44.5,
+        "discrepancy_area_decimal": 1.1,
+        "timestamp": "2026-09-07T13:20:00Z",
+        "recommended_action": "Resurvey with DGPS CORS RNC1 and restore Krishi Bazaar Samiti lease boundary"
+      }
+    },
+    {
+      "id": "CONF-JH-RNC-PSK-104",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.289,
+              23.384
+            ],
+            [
+              85.2902,
+              23.3842
+            ],
+            [
+              85.29,
+              23.3832
+            ],
+            [
+              85.2888,
+              23.383
+            ],
+            [
+              85.289,
+              23.384
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "case_id": "CONF-JH-RNC-PSK-104",
+        "conflict_type": "BAJRA_DRAINAGE_NALLAH_OBSTRUCTION",
+        "severity": "MEDIUM",
+        "title": "Bajra Nallah Stormwater Drainage Corridor Infringement",
+        "ulpin": "20340204000104",
+        "dag_no": "204",
+        "khasra_no": "204",
+        "khatian_no": "404",
+        "mouza": "Bajra (Thana No. 201)",
+        "circle": "Hehal",
+        "district": "Ranchi",
+        "state_code": "20",
+        "statutory_law": "Jharkhand Municipal Act 2011 Section 214",
+        "description": "Boundary wall and concrete loading slab encroaching 22.80 m\u00b2 into the Bajra drainage nallah corridor leading to waterlogging during monsoons.",
+        "discrepancy_area_sqm": 22.8,
+        "discrepancy_area_decimal": 0.56,
+        "timestamp": "2026-09-07T11:00:00Z",
+        "recommended_action": "Ranchi Municipal Corporation (RMC) clearance of unauthorized slab"
+      }
+    },
+    {
+      "id": "CONF-JH-RNC-PSK-105",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.302,
+              23.38
+            ],
+            [
+              85.3032,
+              23.3802
+            ],
+            [
+              85.303,
+              23.3792
+            ],
+            [
+              85.3018,
+              23.379
+            ],
+            [
+              85.302,
+              23.38
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "case_id": "CONF-JH-RNC-PSK-105",
+        "conflict_type": "SUKHDEONAGAR_AREA_CONFLATION",
+        "severity": "LOW",
+        "title": "Sukhdeonagar High-Density Urban Cadastral Conflation",
+        "ulpin": "20340204000105",
+        "dag_no": "205",
+        "khasra_no": "205",
+        "khatian_no": "405",
+        "mouza": "Sukhdeonagar (Thana No. 206)",
+        "circle": "Sukhdeonagar",
+        "district": "Ranchi",
+        "state_code": "20",
+        "statutory_law": "DILRMP Technical Guidelines / NAKSHA Standard",
+        "description": "Dense residential plot boundary deviates 1.45% (-8.20 m\u00b2) from 1932 RS Khatiyan ledger, within 2.0% allowable tolerance.",
+        "discrepancy_area_sqm": -8.2,
+        "discrepancy_area_decimal": -0.2,
+        "timestamp": "2026-09-07T09:30:00Z",
+        "recommended_action": "Auto-conflate boundary using CORS RNC1 RTK baseline; issue updated Bhu-Aadhaar certificate"
+      }
+    }
+  ],
+  "metadata": {
+    "region": "Piska More, Ranchi",
+    "total_cases": 5,
+    "authority": "Department of Revenue, Registration & Land Reforms, Jharkhand + RMC"
+  }
+}

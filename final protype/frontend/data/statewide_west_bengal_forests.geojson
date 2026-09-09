@@ -1,0 +1,162 @@
+{
+  "type": "FeatureCollection",
+  "name": "MoEFCC_Protected_Forests_WB",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.75,
+              21.65
+            ],
+            [
+              89.15,
+              21.65
+            ],
+            [
+              89.15,
+              22.05
+            ],
+            [
+              88.75,
+              22.05
+            ],
+            [
+              88.75,
+              21.65
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "forest_name": "Sundarbans National Park & Biosphere Reserve",
+        "designation": "UNESCO_WORLD_HERITAGE_TIGER_RESERVE",
+        "district": "South 24 Parganas",
+        "area_sqkm": 2585.0,
+        "cadastral_status": "NON_ALIENABLE_EXCLUSION_ZONE",
+        "statutory_act": "Forest (Conservation) Act 1980 & Wildlife Protection Act 1972",
+        "private_mutation_allowed": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              89.55,
+              26.65
+            ],
+            [
+              89.85,
+              26.65
+            ],
+            [
+              89.85,
+              26.85
+            ],
+            [
+              89.55,
+              26.85
+            ],
+            [
+              89.55,
+              26.65
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "forest_name": "Buxa Tiger Reserve & National Park",
+        "designation": "TIGER_RESERVE_NATIONAL_PARK",
+        "district": "Alipurduar",
+        "area_sqkm": 760.0,
+        "cadastral_status": "NON_ALIENABLE_EXCLUSION_ZONE",
+        "statutory_act": "Forest (Conservation) Act 1980 & Wildlife Protection Act 1972",
+        "private_mutation_allowed": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.75,
+              26.7
+            ],
+            [
+              88.85,
+              26.7
+            ],
+            [
+              88.85,
+              26.8
+            ],
+            [
+              88.75,
+              26.8
+            ],
+            [
+              88.75,
+              26.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "forest_name": "Gorumara National Park (Dooars)",
+        "designation": "NATIONAL_PARK",
+        "district": "Jalpaiguri",
+        "area_sqkm": 79.9,
+        "cadastral_status": "NON_ALIENABLE_EXCLUSION_ZONE",
+        "statutory_act": "Forest (Conservation) Act 1980 & Wildlife Protection Act 1972",
+        "private_mutation_allowed": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.05,
+              27.05
+            ],
+            [
+              88.15,
+              27.05
+            ],
+            [
+              88.15,
+              27.2
+            ],
+            [
+              88.05,
+              27.2
+            ],
+            [
+              88.05,
+              27.05
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "forest_name": "Singalila National Park",
+        "designation": "HIGH_ALTITUDE_NATIONAL_PARK",
+        "district": "Darjeeling",
+        "area_sqkm": 78.6,
+        "cadastral_status": "NON_ALIENABLE_EXCLUSION_ZONE",
+        "statutory_act": "Forest (Conservation) Act 1980 & Wildlife Protection Act 1972",
+        "private_mutation_allowed": false
+      }
+    }
+  ]
+}

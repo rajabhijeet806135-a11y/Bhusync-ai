@@ -1,0 +1,114 @@
+{
+  "type": "FeatureCollection",
+  "name": "Three_Truths_Spatial_Conflicts_WB",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.435,
+          22.5685
+        ]
+      },
+      "properties": {
+        "id": "CONF-WB-2026-0001",
+        "ulpin": "19010410010004",
+        "khasra_no": "101/4",
+        "mouza": "Bidhannagar Sector V",
+        "conflict_type": "DP_ROAD_ROW_ENCROACHMENT",
+        "severity": "CRITICAL",
+        "discrepancy_area_sqm": 26.8,
+        "lead_ministry": "MoHUA / KMDA",
+        "description": "Boundary wall and guard pavilion extend 3.2m into sanctioned 24m DP Road Right-of-Way along Ring Street 18.",
+        "statutory_act": "West Bengal Town & Country Planning Act 1979",
+        "adjudication_status": "PENDING_OFFICER_HEARING",
+        "coords": [
+          88.435,
+          22.5685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.438,
+          22.571
+        ]
+      },
+      "properties": {
+        "id": "CONF-WB-2026-0002",
+        "ulpin": "19010410010012",
+        "khasra_no": "103/4",
+        "mouza": "Bidhannagar Sector V",
+        "conflict_type": "GAS_PIPELINE_SAFETY_VIOLATION",
+        "severity": "CRITICAL",
+        "discrepancy_area_sqm": 18.5,
+        "lead_ministry": "MoPNG / PNGRB & BGCL",
+        "description": "Temporary commercial cafeteria structure built directly inside the mandatory 5.0m buffer of 16-bar High Pressure Gas Main.",
+        "statutory_act": "Petroleum Pipelines Act 1956",
+        "adjudication_status": "EMERGENCY_NOTICE_SERVED",
+        "coords": [
+          88.438,
+          22.571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.398,
+          22.522
+        ]
+      },
+      "properties": {
+        "id": "CONF-WB-2026-0003",
+        "ulpin": "19010410010025",
+        "khasra_no": "107/1",
+        "mouza": "Kasba (KMC Ward 65)",
+        "conflict_type": "WATERBODY_BLUE_LINE_INTRUSION",
+        "severity": "HIGH",
+        "discrepancy_area_sqm": 42.1,
+        "lead_ministry": "Ministry of Jal Shakti / I&WD",
+        "description": "Private land boundary intersects the statutory 9.0m green buffer of Eastern Drainage Channel.",
+        "statutory_act": "National Green Tribunal Act 2010 (River Blue Line Order)",
+        "adjudication_status": "REVENUE_OFFICER_REVIEW",
+        "coords": [
+          88.398,
+          22.522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.442,
+          22.581
+        ]
+      },
+      "properties": {
+        "id": "CONF-WB-2026-0004",
+        "ulpin": "19010410010049",
+        "khasra_no": "113/1",
+        "mouza": "New Town Action Area I",
+        "conflict_type": "METRO_SETBACK_RESTRICTION",
+        "severity": "MEDIUM",
+        "discrepancy_area_sqm": 35.0,
+        "lead_ministry": "Ministry of Railways / Metro Railway Kolkata",
+        "description": "Basement excavation planned within 15.0m structural protection zone of East-West Green Line viaduct.",
+        "statutory_act": "Metro Railways (Construction of Works) Act 1978",
+        "adjudication_status": "ENGINEERING_CLEARANCE_REQUIRED",
+        "coords": [
+          88.442,
+          22.581
+        ]
+      }
+    }
+  ]
+}

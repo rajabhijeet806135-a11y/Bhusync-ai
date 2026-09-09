@@ -1,0 +1,132 @@
+{
+  "type": "FeatureCollection",
+  "name": "Survey_of_India_CORS_Network_WB",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.3697,
+          22.5697
+        ]
+      },
+      "properties": {
+        "station_id": "CORS-KOL1",
+        "station_name": "Survey of India Geodetic Base KOL1 (Kolkata HQ)",
+        "elevation_ellipsoidal_m": 9.2,
+        "frequency_bands": "Dual (L1/L2/L5)",
+        "network_status": "ONLINE_RTK",
+        "standard": "Survey of India ITRF2014 / EPSG:7755 Reference Frame",
+        "horizontal_precision_mm": 5.0,
+        "vertical_precision_mm": 8.0,
+        "statutory_mandate": "National Geospatial Policy (NGP 2022)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.3953,
+          26.7271
+        ]
+      },
+      "properties": {
+        "station_id": "CORS-SLG1",
+        "station_name": "Survey of India Regional Station SLG1 (Siliguri)",
+        "elevation_ellipsoidal_m": 122.0,
+        "frequency_bands": "Dual (L1/L2/L5)",
+        "network_status": "ONLINE_RTK",
+        "standard": "Survey of India ITRF2014 / EPSG:7755 Reference Frame",
+        "horizontal_precision_mm": 5.0,
+        "vertical_precision_mm": 8.0,
+        "statutory_mandate": "National Geospatial Policy (NGP 2022)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.3119,
+          23.5204
+        ]
+      },
+      "properties": {
+        "station_id": "CORS-DUR1",
+        "station_name": "Survey of India Industrial Station DUR1 (Durgapur)",
+        "elevation_ellipsoidal_m": 68.5,
+        "frequency_bands": "Dual (L1/L2/L5)",
+        "network_status": "ONLINE_RTK",
+        "standard": "Survey of India ITRF2014 / EPSG:7755 Reference Frame",
+        "horizontal_precision_mm": 5.0,
+        "vertical_precision_mm": 8.0,
+        "statutory_mandate": "National Geospatial Policy (NGP 2022)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.1411,
+          25.0108
+        ]
+      },
+      "properties": {
+        "station_id": "CORS-MLDA1",
+        "station_name": "Survey of India Northern Base MLDA1 (Malda)",
+        "elevation_ellipsoidal_m": 31.0,
+        "frequency_bands": "Dual (L1/L2/L5)",
+        "network_status": "ONLINE_RTK",
+        "standard": "Survey of India ITRF2014 / EPSG:7755 Reference Frame",
+        "horizontal_precision_mm": 5.0,
+        "vertical_precision_mm": 8.0,
+        "statutory_mandate": "National Geospatial Policy (NGP 2022)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.3105,
+          22.3149
+        ]
+      },
+      "properties": {
+        "station_id": "CORS-KGP1",
+        "station_name": "Survey of India Tech Base KGP1 (IIT Kharagpur)",
+        "elevation_ellipsoidal_m": 45.0,
+        "frequency_bands": "Dual (L1/L2/L5)",
+        "network_status": "ONLINE_RTK",
+        "standard": "Survey of India ITRF2014 / EPSG:7755 Reference Frame",
+        "horizontal_precision_mm": 5.0,
+        "vertical_precision_mm": 8.0,
+        "statutory_mandate": "National Geospatial Policy (NGP 2022)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.2678,
+          24.0988
+        ]
+      },
+      "properties": {
+        "station_id": "CORS-BHD1",
+        "station_name": "Survey of India Central Base BHD1 (Berhampore)",
+        "elevation_ellipsoidal_m": 19.5,
+        "frequency_bands": "Dual (L1/L2/L5)",
+        "network_status": "ONLINE_RTK",
+        "standard": "Survey of India ITRF2014 / EPSG:7755 Reference Frame",
+        "horizontal_precision_mm": 5.0,
+        "vertical_precision_mm": 8.0,
+        "statutory_mandate": "National Geospatial Policy (NGP 2022)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bhusynch-api
+  namespace: bhusynch-ai
+  labels:
+    app: bhusynch-api
+    tier: api
+    version: v1
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: bhusynch-api
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: bhusynch-api
+        tier: api
+        version: v1
+    spec:
+      serviceAccountName: bhusynch-api-sa
+      containers:
+        - name: fastapi
+          image: registry.nic.in/bhusynch/api:latest
+          ports:
+            - containerPort: 8000
+              name: http
+              protocol: TCP
+          env:
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: bhusynch-db-secret
+                  key: database-url
+            - name: REDIS_URL
+              value: "redis://bhusynch-redis:6379/0"
+            - name: MINIO_ENDPOINT
+              value: "bhusynch-minio:9000"
+            - name: MINIO_ACCESS_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: bhusynch-minio-secret
+                  key: access-key
+            - name: MINIO_SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: bhusynch-minio-secret
+                  key: secret-key
+            - name: KEYCLOAK_SERVER_URL
+              value: "http://bhusynch-keycloak:8080"
+            - name: KEYCLOAK_REALM
+              value: "bhusynch"
+            - name: CORS_ORIGINS
+              value: "*"
+            - name: LOG_LEVEL
+              value: "info"
+          resources:
+            requests:
+              cpu: "500m"
+              memory: "1Gi"
+            limits:
+              cpu: "2000m"
+              memory: "4Gi"
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 15
+            periodSeconds: 20
+            timeoutSeconds: 5
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 10
+            timeoutSeconds: 3
+          volumeMounts:
+            - name: tmp-volume
+              mountPath: /tmp
+      volumes:
+        - name: tmp-volume
+          emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: bhusynch-api
+  namespace: bhusynch-ai
+  labels:
+    app: bhusynch-api
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8000
+      targetPort: 8000
+      protocol: TCP
+      name: http
+  selector:
+    app: bhusynch-api
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: bhusynch-api-sa
+  namespace: bhusynch-ai

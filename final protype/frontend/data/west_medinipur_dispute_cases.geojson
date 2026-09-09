@@ -1,0 +1,190 @@
+{
+  "type": "FeatureCollection",
+  "name": "West_Medinipur_Statutory_Disputes",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "CONF-WB-PMED-101",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.31,
+              22.385
+            ],
+            [
+              87.31060000000001,
+              22.3851
+            ],
+            [
+              87.3105,
+              22.3857
+            ],
+            [
+              87.3099,
+              22.3856
+            ],
+            [
+              87.31,
+              22.385
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "CONF-WB-PMED-101",
+        "ulpin": "191833372909",
+        "dag_no": 101,
+        "khatian_no": 301,
+        "conflict_type": "NH-16_GOLDEN_QUADRILATERAL_ROW_ENCROACHMENT",
+        "severity": "CRITICAL",
+        "discrepancy_area_sqm": 42.5,
+        "lead_ministry": "MoRTH / NHAI Project Implementation Unit (PIU) Kharagpur",
+        "description": "Boundary perimeter and concrete loading ramp extend 3.8m into the 60m sanctioned Right-of-Way of NH-16 (Golden Quadrilateral Corridor).",
+        "statutory_act": "National Highways Act 1956 & Control of National Highways (Land and Traffic) Act 2002",
+        "adjudication_status": "STATUTORY_NOTICE_SERVED",
+        "mouza": "Inda / Kharagpur",
+        "owner": "Tata Metaliks Ancillary Logistics Hub"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CONF-WB-PMED-102",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.315,
+              22.389000000000003
+            ],
+            [
+              87.3156,
+              22.389100000000003
+            ],
+            [
+              87.3155,
+              22.3897
+            ],
+            [
+              87.3149,
+              22.3896
+            ],
+            [
+              87.315,
+              22.389000000000003
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "CONF-WB-PMED-102",
+        "ulpin": "191833763160",
+        "dag_no": 102,
+        "khatian_no": 302,
+        "conflict_type": "KANGSABATI_RIVER_EMBANKMENT_BUFFER_VIOLATION",
+        "severity": "CRITICAL",
+        "discrepancy_area_sqm": 78.2,
+        "lead_ministry": "Irrigation & Waterways Directorate, Govt of West Bengal",
+        "description": "Commercial brick-kiln compound encroaches 8.5m into the designated 20m high-flood embankment buffer of Kangsabati (Kasai) River.",
+        "statutory_act": "Bengal Embankment Act 1882 & West Bengal Irrigation Act 1976",
+        "adjudication_status": "PENDING_HEARING",
+        "mouza": "Medinipur Town (Kasai Riverfront)",
+        "owner": "Kasai Riverfront Brickfield Consortium"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CONF-WB-PMED-103",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.32000000000001,
+              22.393
+            ],
+            [
+              87.32060000000001,
+              22.3931
+            ],
+            [
+              87.32050000000001,
+              22.3937
+            ],
+            [
+              87.3199,
+              22.3936
+            ],
+            [
+              87.32000000000001,
+              22.393
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "CONF-WB-PMED-103",
+        "ulpin": "191834132992",
+        "dag_no": 103,
+        "khatian_no": 303,
+        "conflict_type": "WBIDC_INDUSTRIAL_PARK_LEASE_OVERLAP",
+        "severity": "MEDIUM",
+        "discrepancy_area_sqm": 31.4,
+        "lead_ministry": "Commerce & Industries Dept, Govt of West Bengal / WBIDC",
+        "description": "Adjoining engineering fabrication unit fence overlaps 1.8m with WBIDC Sector 2 Nimpura Industrial Growth Centre common utility corridor.",
+        "statutory_act": "West Bengal Land Reforms Act 1955 Section 49",
+        "adjudication_status": "JOINT_SURVEY_ORDERED",
+        "mouza": "Nimpura Industrial (J.L. 156)",
+        "owner": "Nimpura Precision Engineering Works"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CONF-WB-PMED-104",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.325,
+              22.397000000000002
+            ],
+            [
+              87.32560000000001,
+              22.397100000000002
+            ],
+            [
+              87.3255,
+              22.3977
+            ],
+            [
+              87.3249,
+              22.3976
+            ],
+            [
+              87.325,
+              22.397000000000002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "CONF-WB-PMED-104",
+        "ulpin": "191834073007",
+        "dag_no": 104,
+        "khatian_no": 304,
+        "conflict_type": "SOUTH_EASTERN_RAILWAY_TRACK_SAFETY_BUFFER",
+        "severity": "CRITICAL",
+        "discrepancy_area_sqm": 54.0,
+        "lead_ministry": "Ministry of Railways / South Eastern Railway KGP Division",
+        "description": "Unauthorized commercial shed constructed within 15m mandatory safety clearance from Kharagpur-Tatanagar main rail track corridor.",
+        "statutory_act": "Railways Act 1989 Section 147",
+        "adjudication_status": "EVICTION_PROCEEDINGS_INITIATED",
+        "mouza": "Hijli / Kharagpur",
+        "owner": "Railway Siding Commercial Traders"
+      }
+    }
+  ]
+}

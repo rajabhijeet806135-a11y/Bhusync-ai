@@ -1,0 +1,107 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# BhuSynch AI — Development Docker Compose Override
+# Adds hot-reload, debug tools, and volume mounts for local development
+# Usage: docker compose -f docker-compose.yml -f docker-compose.dev.yml up
+# ──────────────────────────────────────────────────────────────────────────────
+
+version: "3.9"
+
+services:
+  # Override API for development (hot-reload)
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload --log-level debug
+    volumes:
+      - ./backend:/app:cached
+      - api_uploads:/app/uploads
+      - api_temp:/app/temp
+    environment:
+      DEBUG: "true"
+      LOG_LEVEL: DEBUG
+      CORS_ORIGINS: "http://localhost,http://localhost:5500,http://127.0.0.1:5500,http://localhost:3001"
+
+  # Override worker for development
+  worker:
+    command: celery -A app.workers.celery_app worker --loglevel=debug --concurrency=2 -Q geodesy,geoai,document_ai,conflation,topology
+    volumes:
+      - ./backend:/app:cached
+      - api_uploads:/app/uploads
+      - api_temp:/app/temp
+    environment:
+      DEBUG: "true"
+      LOG_LEVEL: DEBUG
+
+  # Override postgres — expose for local tools
+  postgres:
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: dev_password_123
+
+  # Override redis — no password for dev
+  redis:
+    command: redis-server --maxmemory 256mb --maxmemory-policy allkeys-lru
+    ports:
+      - "6379:6379"
+
+  # Override MinIO
+  minio:
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+
+  # Keycloak dev mode
+  keycloak:
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+    ports:
+      - "8080:8080"
+
+  # Frontend — mount local files for live editing
+  frontend:
+    volumes:
+      - ./frontend:/usr/share/nginx/html:cached
+      - ./mobile-pwa:/usr/share/nginx/html/mobile:cached
+    ports:
+      - "80:80"
+
+  # ─────────────── Dev-only services ───────────────
+
+  # pgAdmin for database management
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: bhusynch-pgadmin
+    restart: unless-stopped
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL:-admin@bhusynch.in}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD:-admin}
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    networks:
+      - bhusynch-net
+
+  # Redis Commander for cache inspection
+  redis-commander:
+    image: rediscommander/redis-commander:latest
+    container_name: bhusynch-redis-commander
+    restart: unless-stopped
+    environment:
+      REDIS_HOSTS: local:redis:6379
+    ports:
+      - "8081:8081"
+    depends_on:
+      - redis
+    networks:
+      - bhusynch-net
+
+volumes:
+  api_uploads:
+  api_temp:

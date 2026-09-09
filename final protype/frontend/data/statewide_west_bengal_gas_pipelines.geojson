@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "name": "MoPNG_PNGRB_Gas_Pipelines_WB",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.398,
+            22.52
+          ],
+          [
+            88.41,
+            22.55
+          ],
+          [
+            88.43,
+            22.57
+          ],
+          [
+            88.45,
+            22.585
+          ]
+        ]
+      },
+      "properties": {
+        "pipeline_id": "BGCL-MAIN-16BAR-01",
+        "pipeline_name": "BGCL High-Pressure Steel Trunk Main (EM Bypass to New Town)",
+        "material": "API 5L Grade B Carbon Steel",
+        "diameter_mm": 200,
+        "operating_pressure_bar": 16.0,
+        "depth_of_cover_m": 1.5,
+        "statutory_safety_buffer_m": 5.0,
+        "regulatory_body": "Petroleum & Natural Gas Regulatory Board (PNGRB) / BGCL",
+        "statutory_act": "Petroleum Pipelines Act 1956",
+        "alert_rule": "CRITICAL_SAFETY_VIOLATION on any permanent structural intersection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.43,
+            22.568
+          ],
+          [
+            88.435,
+            22.571
+          ],
+          [
+            88.44,
+            22.575
+          ],
+          [
+            88.442,
+            22.579
+          ]
+        ]
+      },
+      "properties": {
+        "pipeline_id": "BGCL-MDPE-4BAR-SEC5",
+        "pipeline_name": "Bidhannagar Sector V MDPE Distribution Gas Grid",
+        "material": "PE100 High-Density Polyethylene",
+        "diameter_mm": 125,
+        "operating_pressure_bar": 4.0,
+        "depth_of_cover_m": 1.2,
+        "statutory_safety_buffer_m": 2.0,
+        "regulatory_body": "Petroleum & Natural Gas Regulatory Board (PNGRB) / BGCL",
+        "statutory_act": "Petroleum Pipelines Act 1956",
+        "alert_rule": "CRITICAL_SAFETY_VIOLATION on any permanent structural intersection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.388,
+            22.515
+          ],
+          [
+            88.395,
+            22.52
+          ],
+          [
+            88.402,
+            22.528
+          ]
+        ]
+      },
+      "properties": {
+        "pipeline_id": "BGCL-MDPE-4BAR-KMC65",
+        "pipeline_name": "KMC Ward 65 Kasba City Gas Feeder Line",
+        "material": "PE100 MDPE",
+        "diameter_mm": 90,
+        "operating_pressure_bar": 4.0,
+        "depth_of_cover_m": 1.2,
+        "statutory_safety_buffer_m": 2.0,
+        "regulatory_body": "Petroleum & Natural Gas Regulatory Board (PNGRB) / BGCL",
+        "statutory_act": "Petroleum Pipelines Act 1956",
+        "alert_rule": "CRITICAL_SAFETY_VIOLATION on any permanent structural intersection"
+      }
+    }
+  ]
+}
