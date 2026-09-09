@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BhuSynch AI — Launching Console...</title>
+    <meta http-equiv="refresh" content="0; url=frontend/index.html">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background-color: #0F172A;
+            color: #F8FAFC;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .loader {
+            width: 48px;
+            height: 48px;
+            border: 4px solid rgba(56, 189, 248, 0.2);
+            border-top-color: #38BDF8;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        a {
+            color: #38BDF8;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover { text-decoration: underline; }
+    </style>
+    <script>
+        window.location.replace("frontend/index.html" + window.location.search + window.location.hash);
+    </script>
+</head>
+<body>
+    <div class="loader"></div>
+    <p>Opening BhuSynch AI 3D Web-GIS Console...</p>
+    <p style="font-size: 0.85rem; color: #94A3B8;">If you are not redirected automatically, <a href="frontend/index.html">click here to proceed</a>.</p>
+</body>
+</html>

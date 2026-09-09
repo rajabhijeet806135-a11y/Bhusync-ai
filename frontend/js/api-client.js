@@ -4,11 +4,35 @@
  */
 
 const ApiClient = {
-    baseUrl: 'http://localhost:8000',
+    getBaseUrl() {
+        if (typeof window === 'undefined') return 'http://localhost:8000';
+        const urlParam = new URLSearchParams(window.location.search).get('api');
+        if (urlParam) return urlParam.replace(/\/+$/, '');
+        if (window.BHUSYNCH_API_URL) return window.BHUSYNCH_API_URL.replace(/\/+$/, '');
+        try {
+            const saved = localStorage.getItem('bhusynch_api_url');
+            if (saved) return saved.replace(/\/+$/, '');
+        } catch (e) {}
+        // When running on HTTPS (like GitHub Pages or Vercel), avoid mixed-content calls to http://localhost
+        if (window.location.protocol === 'https:' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+            return '';
+        }
+        return 'http://localhost:8000';
+    },
+
+    get baseUrl() {
+        return this.getBaseUrl();
+    },
 
     async request(path, options = {}) {
+        const base = this.baseUrl;
+        if (!base && window.location.protocol === 'https:' && !path.startsWith('/api') && !path.startsWith('/ogc')) {
+            // Standalone static cloud mode - fall back directly to static datasets
+            return null;
+        }
         try {
-            const response = await fetch(`${this.baseUrl}${path}`, {
+            const targetUrl = base ? `${base}${path}` : path;
+            const response = await fetch(targetUrl, {
                 headers: { 'Content-Type': 'application/json', ...options.headers },
                 ...options,
             });
