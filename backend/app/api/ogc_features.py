@@ -77,9 +77,9 @@ def _load_geojson_fallback(collection_id: str, state_code: Optional[str] = None)
         elif state_code == "19_rishra":
             target_files = [WB_RISHRA_PARCELS_PATH, WB_STATEWIDE_PARCELS_PATH]
         elif state_code in ["19", "19_statewide", "WB"]:
-            target_files = [WB_WEST_MEDINIPUR_PARCELS_PATH, WB_RISHRA_PARCELS_PATH, WB_STATEWIDE_PARCELS_PATH, WB_LOCAL_PARCELS_PATH, DATA_DIR / "statewide_west_bengal_cadastral_parcels.geojson"]
+            target_files = [WB_WEST_MEDINIPUR_PARCELS_PATH, WB_RISHRA_PARCELS_PATH, WB_STATEWIDE_PARCELS_PATH, WB_LOCAL_PARCELS_PATH, LOCAL_DATA_DIR / "statewide_west_bengal_cadastral_parcels.geojson"]
         elif state_code in ["27", "MH"]:
-            target_files = [PUNE_PARCELS_PATH, DATA_DIR / "real_pune_ward_14_cadastral_parcels.geojson"]
+            target_files = [PUNE_PARCELS_PATH, LOCAL_DATA_DIR / "real_pune_ward_14_cadastral_parcels.geojson"]
         else:
             # Include Piska More, Ranchi, West Medinipur, Rishra, West Bengal and Maharashtra parcels if no state filter
             target_files = [JH_PISKA_PARCELS_PATH, JH_RANCHI_PARCELS_PATH, WB_WEST_MEDINIPUR_PARCELS_PATH, WB_RISHRA_PARCELS_PATH, PUNE_PARCELS_PATH, WB_STATEWIDE_PARCELS_PATH, WB_LOCAL_PARCELS_PATH]
@@ -93,7 +93,7 @@ def _load_geojson_fallback(collection_id: str, state_code: Optional[str] = None)
         elif state_code == "19_rishra":
             target_files = [WB_RISHRA_CONFLICTS_PATH, WB_STATEWIDE_CONFLICTS_PATH]
         elif state_code in ["19", "19_statewide", "WB"]:
-            target_files = [WB_WEST_MEDINIPUR_CONFLICTS_PATH, WB_RISHRA_CONFLICTS_PATH, WB_STATEWIDE_CONFLICTS_PATH, WB_LOCAL_CONFLICTS_PATH, DATA_DIR / "statewide_west_bengal_spatial_conflicts.geojson"]
+            target_files = [WB_WEST_MEDINIPUR_CONFLICTS_PATH, WB_RISHRA_CONFLICTS_PATH, WB_STATEWIDE_CONFLICTS_PATH, WB_LOCAL_CONFLICTS_PATH, LOCAL_DATA_DIR / "statewide_west_bengal_spatial_conflicts.geojson"]
         elif state_code in ["27", "MH"]:
             target_files = [PUNE_CONFLICTS_PATH, LOCAL_DATA_DIR / "real_pune_ward_14_spatial_conflicts.geojson"]
         else:

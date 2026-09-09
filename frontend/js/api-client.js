@@ -11,7 +11,9 @@ const ApiClient = {
         if (window.BHUSYNCH_API_URL) return window.BHUSYNCH_API_URL.replace(/\/+$/, '');
         try {
             const saved = localStorage.getItem('bhusynch_api_url');
-            if (saved) return saved.replace(/\/+$/, '');
+            if (saved && saved.trim() && (saved.startsWith('http://') || saved.startsWith('https://'))) {
+                return saved.replace(/\/+$/, '');
+            }
         } catch (e) {}
         // Default live cloud backend on Render
         if (window.location.protocol === 'https:' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {

@@ -2,11 +2,11 @@
   "type": "FeatureCollection",
   "properties": {
     "pipeline_status": "COMPLETED",
-    "execution_time_seconds": 0.13,
+    "execution_time_seconds": 0.07,
     "ingested_parcels_count": 0,
     "ingested_buildings_count": 200,
     "matched_gcps_count": 6,
-    "gcp_rmse_pixels": 2.1784933309039075e-06,
+    "gcp_rmse_pixels": 2.178493324706821e-06,
     "sam_extracted_polygons": 1,
     "conflated_parcels_count": 1,
     "mean_vertex_displacement_m": 0.7148526906967163,

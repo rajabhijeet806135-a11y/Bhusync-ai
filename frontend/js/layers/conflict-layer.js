@@ -48,11 +48,11 @@ const ConflictLayer = {
             type: 'symbol',
             source: 'conflicts',
             layout: {
-                'text-field': ['concat', '⚠️ ', ['coalesce', ['get', 'conflict_type'], ['get', 'type'], 'Dispute']],
+                'text-field': ['concat', '[!] ', ['coalesce', ['get', 'conflict_type'], ['get', 'type'], 'Dispute']],
                 'text-size': 11,
                 'text-offset': [0, -1],
                 'text-anchor': 'bottom',
-                'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+                'text-font': ['Noto Sans Regular'],
             },
             paint: {
                 'text-color': '#FEF08A',

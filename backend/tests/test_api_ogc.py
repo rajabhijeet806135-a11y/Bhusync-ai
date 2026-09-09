@@ -109,9 +109,9 @@ class TestOGCFeaturesAPI:
         pt_4326 = feat_4326["geometry"]["coordinates"][0][0]
         pt_7755 = feat_7755["geometry"]["coordinates"][0][0]
 
-        # WGS84 coordinates in Pune are around lon=73.85, lat=18.52
-        assert 70.0 < pt_4326[0] < 80.0
-        assert 15.0 < pt_4326[1] < 25.0
+        # WGS84 coordinates in India (Pune, Ranchi, Bengal)
+        assert 68.0 < pt_4326[0] < 95.0
+        assert 15.0 < pt_4326[1] < 30.0
 
         # EPSG:7755 (India LCC) coordinates are in projected meters (millions)
         assert pt_7755[0] > 1000000
