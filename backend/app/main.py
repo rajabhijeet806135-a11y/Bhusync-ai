@@ -10,7 +10,7 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import ORJSONResponse
+from fastapi.responses import JSONResponse
 
 import structlog
 
@@ -45,7 +45,7 @@ app = FastAPI(
         "Problem Statement ID: SIH 26013"
     ),
     version=settings.APP_VERSION,
-    default_response_class=ORJSONResponse,
+    default_response_class=JSONResponse,
     lifespan=lifespan,
     docs_url="/docs",
     redoc_url="/redoc",

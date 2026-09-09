@@ -15,7 +15,7 @@ const ApiClient = {
         } catch (e) {}
         // Default live cloud backend on Render
         if (window.location.protocol === 'https:' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
-            return 'https://bhusync-api.onrender.com';
+            return 'https://bhusync-api-25dk.onrender.com';
         }
         return 'http://localhost:8000';
     },
