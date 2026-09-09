@@ -6,9 +6,9 @@ data paths, model registry, and deployment parameters.
 """
 
 from pathlib import Path
-from typing import Optional
+from typing import Any, Optional
 
-from pydantic import Field
+from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -130,7 +130,24 @@ class Settings(BaseSettings):
     MARTIN_URL: str = "http://localhost:3000"
 
     # ── CORS & API ───────────────────────────────────────────────────
-    CORS_ORIGINS: list[str] = ["http://localhost:3000", "http://localhost:8080", "*"]
+    cors_origins_raw: Any = Field(default=["http://localhost:3000", "http://localhost:8080", "*"], alias="CORS_ORIGINS")
+
+    @property
+    def CORS_ORIGINS(self) -> list[str]:
+        v = self.cors_origins_raw
+        if isinstance(v, str):
+            val = v.strip()
+            if val.startswith("[") and val.endswith("]"):
+                try:
+                    import json
+                    return json.loads(val)
+                except Exception:
+                    pass
+            return [i.strip() for i in val.split(",") if i.strip()]
+        elif isinstance(v, (list, tuple)):
+            return list(v)
+        return ["*"]
+
     API_PREFIX: str = ""
 
     # ── Cryptographic Provenance ─────────────────────────────────────
