@@ -13,9 +13,9 @@ const ApiClient = {
             const saved = localStorage.getItem('bhusynch_api_url');
             if (saved) return saved.replace(/\/+$/, '');
         } catch (e) {}
-        // When running on HTTPS (like GitHub Pages or Vercel), avoid mixed-content calls to http://localhost
+        // Default live cloud backend on Render
         if (window.location.protocol === 'https:' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
-            return '';
+            return 'https://bhusync-api.onrender.com';
         }
         return 'http://localhost:8000';
     },
