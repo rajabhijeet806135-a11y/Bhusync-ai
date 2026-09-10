@@ -149,8 +149,8 @@ const ParcelLayer = {
             // Immediately display the first parcel in inspector
             if (geojson.features && geojson.features.length > 0) {
                 const first = geojson.features[0];
-                if (window.MapEngine && first.properties && first.properties.id) {
-                    MapEngine.highlightParcel(first.properties.id);
+                if (window.MapEngine) {
+                    MapEngine.highlightParcel(first);
                 }
                 if (window.ParcelInspector && first.properties) {
                     ParcelInspector.show(first.properties);

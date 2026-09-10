@@ -63,7 +63,7 @@ const ParcelInspector = {
                     coords = geom.coordinates;
                 }
                 MapEngine.flyTo(coords[0], coords[1], 17.5);
-                MapEngine.highlightParcel(found.properties.id || found.id);
+                MapEngine.highlightParcel(found);
             }
             this.show(found.properties);
             return;
@@ -147,7 +147,7 @@ const ParcelInspector = {
             }
             if (typeof MapEngine !== 'undefined') {
                 MapEngine.flyTo(coords[0], coords[1], 17.5);
-                MapEngine.highlightParcel(target.properties.id || target.id);
+                MapEngine.highlightParcel(target);
             }
             this.show(target.properties);
             if (typeof Toast !== 'undefined') {

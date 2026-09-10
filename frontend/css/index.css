@@ -194,6 +194,8 @@ a:hover { color: var(--color-gold); }
     align-items: center;
     gap: var(--space-md);
     text-decoration: none;
+    flex-shrink: 0;
+    white-space: nowrap;
 }
 
 .header__logo, .brand-logo-wrap, .brand-logo {
@@ -216,6 +218,8 @@ a:hover { color: var(--color-gold); }
 .header__title, .brand-title-wrap {
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
+    min-width: 0;
 }
 
 .header__title h1, .brand-title, .header-brand h1 {
@@ -228,6 +232,7 @@ a:hover { color: var(--color-gold); }
     display: flex;
     align-items: center;
     gap: 6px;
+    white-space: nowrap;
 }
 
 .header__subtitle, .brand-subtitle {
@@ -235,6 +240,9 @@ a:hover { color: var(--color-gold); }
     color: var(--color-text-on-dark-subtle);
     font-weight: 500;
     letter-spacing: 0.03em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* Header Navigation Links */
@@ -295,6 +303,9 @@ a:hover { color: var(--color-gold); }
     outline: none;
     cursor: pointer;
     transition: all 0.2s ease;
+    max-width: 280px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .header__jurisdiction-dropdown:hover, .jurisdiction-select:hover {
     background: rgba(255, 255, 255, 0.14);
@@ -303,6 +314,23 @@ a:hover { color: var(--color-gold); }
 .header__jurisdiction-dropdown option, .jurisdiction-select option {
     background: #2B1810;
     color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+    .header, .header-bar, .app-header {
+        padding: 0 var(--space-sm);
+        gap: var(--space-xs);
+    }
+    .header__subtitle, .brand-subtitle {
+        display: none !important;
+    }
+    .header__jurisdiction-dropdown {
+        max-width: 170px;
+    }
+    .header__link, .nav-link {
+        padding: 5px 10px;
+        font-size: 0.76rem;
+    }
 }
 
 .header__crs-badge, .crs-badge {

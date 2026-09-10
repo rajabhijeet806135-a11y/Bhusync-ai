@@ -94,16 +94,20 @@ const MapEngine = {
             map.on('click', 'parcel-fill', (e) => {
                 if (e.features && e.features.length > 0) {
                     const feature = e.features[0];
-                    this.highlightParcel(feature.properties.id);
+                    this.highlightParcel(feature);
                     if (typeof MultiSourceProofLayer !== 'undefined') {
                         MultiSourceProofLayer.showProofForFeature(feature);
                     }
-                    ParcelInspector.show(feature.properties);
+                    if (typeof ParcelInspector !== 'undefined') {
+                        ParcelInspector.show(feature.properties);
+                    }
 
-                    new maplibregl.Popup({ closeOnClick: true, maxWidth: '320px', className: 'bhusynch-popup' })
-                        .setLngLat(e.lngLat)
-                        .setHTML(ParcelLayer.createPopupHTML(feature.properties))
-                        .addTo(map);
+                    if (typeof ParcelLayer !== 'undefined' && ParcelLayer.createPopupHTML) {
+                        new maplibregl.Popup({ closeOnClick: true, maxWidth: '320px', className: 'bhusynch-popup' })
+                            .setLngLat(e.lngLat)
+                            .setHTML(ParcelLayer.createPopupHTML(feature.properties))
+                            .addTo(map);
+                    }
                 }
             });
 
@@ -111,11 +115,13 @@ const MapEngine = {
             map.on('click', 'parcel-extrusion', (e) => {
                 if (e.features && e.features.length > 0) {
                     const feature = e.features[0];
-                    this.highlightParcel(feature.properties.id);
+                    this.highlightParcel(feature);
                     if (typeof MultiSourceProofLayer !== 'undefined') {
                         MultiSourceProofLayer.showProofForFeature(feature);
                     }
-                    ParcelInspector.show(feature.properties);
+                    if (typeof ParcelInspector !== 'undefined') {
+                        ParcelInspector.show(feature.properties);
+                    }
                 }
             });
 
@@ -129,11 +135,13 @@ const MapEngine = {
             setTimeout(() => {
                 if (window.BhuSynchApp && window.BhuSynchApp.loadedParcels && window.BhuSynchApp.loadedParcels.features.length > 0) {
                     const first = window.BhuSynchApp.loadedParcels.features[0];
-                    MapEngine.highlightParcel(first.properties.id || first.id);
+                    MapEngine.highlightParcel(first);
                     if (typeof MultiSourceProofLayer !== 'undefined') {
                         MultiSourceProofLayer.showProofForFeature(first);
                     }
-                    ParcelInspector.show(first.properties);
+                    if (typeof ParcelInspector !== 'undefined') {
+                        ParcelInspector.show(first.properties);
+                    }
                 }
             }, 800);
         });
@@ -192,9 +200,54 @@ const MapEngine = {
         }
     },
 
-    highlightParcel(parcelId) {
+    highlightParcel(featureOrId) {
         if (!this.map || !this.map.getLayer('parcel-highlight')) return;
-        this.map.setFilter('parcel-highlight', ['==', ['get', 'id'], parcelId]);
+        if (!featureOrId) {
+            try {
+                this.map.setFilter('parcel-highlight', ['==', ['get', 'id'], '']);
+            } catch (e) {}
+            return;
+        }
+
+        let targetId = null;
+        let targetUlpin = null;
+        let targetDag = null;
+
+        if (typeof featureOrId === 'object') {
+            const p = featureOrId.properties || featureOrId;
+            targetId = p.id || featureOrId.id || null;
+            targetUlpin = p.ulpin || null;
+            targetDag = p.dag_no || p.khasra_no || p.plot_no || null;
+        } else {
+            targetId = featureOrId;
+            targetUlpin = String(featureOrId);
+        }
+
+        const conditions = ['any'];
+        if (targetId !== null && targetId !== undefined && targetId !== '') {
+            conditions.push(['==', ['get', 'id'], targetId]);
+            conditions.push(['==', ['id'], targetId]);
+            if (typeof targetId === 'number') {
+                conditions.push(['==', ['get', 'id'], String(targetId)]);
+            } else if (!isNaN(Number(targetId))) {
+                conditions.push(['==', ['get', 'id'], Number(targetId)]);
+                conditions.push(['==', ['id'], Number(targetId)]);
+            }
+        }
+        if (targetUlpin) {
+            conditions.push(['==', ['get', 'ulpin'], String(targetUlpin)]);
+        }
+        if (targetDag) {
+            conditions.push(['==', ['get', 'dag_no'], String(targetDag)]);
+            conditions.push(['==', ['get', 'khasra_no'], String(targetDag)]);
+            conditions.push(['==', ['get', 'plot_no'], String(targetDag)]);
+        }
+
+        try {
+            this.map.setFilter('parcel-highlight', conditions.length > 1 ? conditions : ['==', ['get', 'id'], '']);
+        } catch (err) {
+            console.warn('[MapEngine] Could not set parcel-highlight filter:', err);
+        }
     },
 
     flyTo(lng, lat, zoom = 17) {
