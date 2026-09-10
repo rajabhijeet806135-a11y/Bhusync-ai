@@ -57,21 +57,24 @@
             <div class="header__jurisdiction-selector" style="display: flex; align-items: center; gap: 8px; margin-right: 8px;">
                 <label for="jurisdiction-select" style="font-size: 0.75rem; color: #625B54; font-weight: 600;">Jurisdiction:</label>
                 <select id="jurisdiction-select" class="header__jurisdiction-dropdown">
-                    <option value="20_ranchi_piska" selected>Jharkhand — Ranchi: Piska More & Ratu Road Hub (Hehal/Pandra)</option>
+                    <option value="19" selected>West Bengal — Bidhannagar Sector V / KMC (State 19)</option>
+                    <option value="20_ranchi_piska">Jharkhand — Ranchi: Piska More & Ratu Road Hub (Hehal/Pandra)</option>
                     <option value="20_ranchi">Jharkhand — Ranchi Capital City (Morabadi/Dhurwa/Main Rd)</option>
                     <option value="19_west_medinipur">West Bengal — West Medinipur (Midnapore & Kharagpur)</option>
                     <option value="19_rishra">West Bengal — Rishra & Serampore (Hooghly District)</option>
                     <option value="19_statewide">West Bengal — All 23 Districts (Statewide Cadastre)</option>
-                    <option value="19">West Bengal — Bidhannagar & KMC Ward 65 (Kolkata Metro)</option>
                     <option value="19_darjeeling">West Bengal — Darjeeling & Siliguri (North Bengal)</option>
                     <option value="19_bardhaman">West Bengal — Paschim Bardhaman (Asansol-Durgapur)</option>
                     <option value="19_sundarbans">West Bengal — South 24 Parganas & Sundarbans</option>
                     <option value="27">Maharashtra — Pune Ward 14 (State 27)</option>
                 </select>
             </div>
+            <button id="btn-sih-proof" class="btn-sih-proof" onclick="ParcelInspector.launchSihLiveProof()" title="Launch 5-Source Conflation Demo" style="margin-right: 8px;">
+                <span class="btn-pulse"></span>⚡ 5-Source Conflation
+            </button>
             <div class="header__status" aria-label="CORS connection status">
                 <span class="status-dot status-dot--online" aria-hidden="true"></span>
-                <span id="cors-status-label">CORS RNC1 Active (Survey of India Ranchi)</span>
+                <span id="cors-status-label">CORS KOL1 Active (Survey of India Kolkata)</span>
             </div>
             <div class="header__crs-badge" id="crs-badge" aria-label="Coordinate Reference System: EPSG 7755">EPSG:7755 (India 45N)</div>
         </div>
@@ -123,6 +126,10 @@
                 <label class="layer-toggle" id="toggle-heatmap">
                     <input type="checkbox" aria-label="Toggle Conflict Heatmap layer"> <span class="toggle-slider"></span>
                     <span class="toggle-label">Conflict Heatmap</span>
+                </label>
+                <label class="layer-toggle" id="toggle-multisource">
+                    <input type="checkbox" checked onchange="MapEngine.toggleLayer('multisource', this.checked)" aria-label="Toggle 5-Source Raw Overlays"> <span class="toggle-slider"></span>
+                    <span class="toggle-label" style="color: #926E17; font-weight: 700;">5-Source Raw Overlays (Before)</span>
                 </label>
             </div>
 
@@ -245,7 +252,10 @@
         <!-- ─── RIGHT PANEL (Inspector) ─── -->
         <aside id="inspector-panel" class="inspector" style="display: none;" role="region" aria-label="Parcel inspector panel">
             <div class="inspector__header">
-                <h3 id="inspector-title">Cadastral Dossier</h3>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <h3 id="inspector-title">Cadastral Dossier</h3>
+                    <button id="btn-toggle-expand" class="chip" onclick="ParcelInspector.toggleExpanded()" style="background: #FAF7F2; border: 1px solid var(--color-border); font-size: 0.7rem; padding: 2px 7px; cursor: pointer; border-radius: 4px; font-weight: 700; color: var(--color-primary);" title="Toggle Wide/Compact Inspector View">⤢</button>
+                </div>
                 <button id="inspector-close" class="inspector__close" aria-label="Close inspector panel">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
                 </button>
@@ -269,6 +279,7 @@
     <script src="js/layers/conflict-layer.js?v=20260909_live"></script>
     <script src="js/layers/error-ellipse-layer.js?v=20260909_live"></script>
     <script src="js/layers/heatmap-layer.js?v=20260909_live"></script>
+    <script src="js/layers/multi-source-proof-layer.js?v=20260910_proof"></script>
     <script src="js/map-engine.js?v=20260909_live"></script>
     <script src="js/parcel-inspector.js?v=20260909_live"></script>
     <script src="js/conflict-viewer.js?v=20260909_live"></script>

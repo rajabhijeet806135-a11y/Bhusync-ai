@@ -8,3 +8,4 @@ env/
 venv/
 node_modules/
 .pytest_cache/
+docs/SIH26013_BEFORE_AFTER_IMPLEMENTATION_AND_CODE_CHANGES.md

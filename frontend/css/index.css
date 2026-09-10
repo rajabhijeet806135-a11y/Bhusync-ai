@@ -725,11 +725,11 @@ a:hover { color: var(--color-gold); }
 
 .map { width: 100%; height: 100%; }
 
-/* ── Cadastral Dossier Panel (Right 20-25%) ─────────────────── */
+/* ── Cadastral Dossier Panel (Right 24-38% Expandable) ────────── */
 .inspector, .right-dossier {
-    width: 24%;
-    min-width: 320px;
-    max-width: 380px;
+    width: 28%;
+    min-width: 360px;
+    max-width: 440px;
     flex-shrink: 0;
     background: var(--bg-panel);
     border: 1.5px solid var(--color-border);
@@ -738,6 +738,13 @@ a:hover { color: var(--color-gold); }
     overflow-y: auto;
     display: flex;
     flex-direction: column;
+    transition: width 0.25s cubic-bezier(0.16, 1, 0.3, 1), max-width 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.inspector.inspector--expanded {
+    width: 38%;
+    min-width: 480px;
+    max-width: 580px;
 }
 
 .inspector__header {
@@ -1105,3 +1112,363 @@ a:hover { color: var(--color-gold); }
     .map-container { height: 450px; min-height: 450px; }
     .inspector, .right-dossier { width: 100%; max-width: none; }
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   5-Source Conflation Proof & Before/After Styles
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Top Header 5-Source Live Proof Button */
+.btn-sih-proof {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: linear-gradient(135deg, #C59B27 0%, #926E17 100%);
+    color: #FFFFFF;
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    padding: 5px 12px;
+    border-radius: 6px;
+    border: 1px solid #E8D397;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(197, 155, 39, 0.35);
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-sih-proof:hover {
+    transform: translateY(-1.5px);
+    box-shadow: 0 4px 14px rgba(197, 155, 39, 0.5);
+    filter: brightness(1.08);
+}
+.btn-sih-proof .btn-pulse {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    animation: btn-pulse-anim 1.8s infinite;
+}
+@keyframes btn-pulse-anim {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7); }
+    70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(255, 255, 255, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
+}
+
+/* Proof Container inside Inspector */
+.proof-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.proof-header-banner {
+    background: linear-gradient(135deg, #2B1810 0%, #4A2E18 100%);
+    color: #FAF8F5;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #C59B27;
+    box-shadow: 0 3px 10px rgba(43, 24, 16, 0.2);
+}
+.proof-header-badge {
+    display: inline-block;
+    background: #C59B27;
+    color: #2B1810;
+    font-size: 0.64rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    letter-spacing: 0.05em;
+}
+.proof-header-title {
+    font-size: 0.85rem;
+    font-weight: 800;
+    line-height: 1.3;
+    color: #FFFFFF;
+}
+.proof-header-sub {
+    font-size: 0.72rem;
+    color: #D6CCC2;
+    margin-top: 2px;
+}
+
+/* Map Overlays Switcher */
+.proof-layer-switcher {
+    display: flex;
+    gap: 6px;
+    background: #F2EFE9;
+    padding: 4px;
+    border-radius: 6px;
+    border: 1px solid var(--color-border);
+}
+.proof-switcher-btn {
+    flex: 1;
+    padding: 5px 8px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    font-family: var(--font-sans);
+    border: none;
+    background: transparent;
+    color: var(--color-text-secondary);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.proof-switcher-btn.active {
+    background: #FFFFFF;
+    color: var(--color-primary);
+    font-weight: 800;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Header (BEFORE / AFTER / PIPELINE) */
+.proof-section-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.76rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-primary);
+    border-bottom: 1.5px solid var(--color-border);
+    padding-bottom: 4px;
+    margin-top: 4px;
+}
+
+/* 5 Raw Sources Grid */
+.sources-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.source-card {
+    background: #FFFFFF;
+    border: 1.5px solid var(--color-border);
+    border-radius: 8px;
+    padding: 9px 11px;
+    border-left: 4px solid #CBD5E1;
+    transition: all 0.2s ease;
+}
+.source-card:hover {
+    box-shadow: var(--shadow-sm);
+    border-color: var(--color-primary-hover);
+}
+.source-card--cadastral { border-left-color: #F59E0B; }
+.source-card--municipal { border-left-color: #06B6D4; }
+.source-card--drone     { border-left-color: #84CC16; }
+.source-card--building  { border-left-color: #8B5CF6; }
+.source-card--cors      { border-left-color: #EAB308; }
+
+.source-card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.source-card-title {
+    font-size: 0.78rem;
+    font-weight: 800;
+    color: var(--color-text-primary);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.source-crs-badge {
+    font-size: 0.65rem;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 3px;
+    background: #F1F5F9;
+    color: #475569;
+    border: 1px solid #E2E8F0;
+}
+.source-stat-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.74rem;
+    padding: 2px 0;
+}
+.source-stat-label { color: var(--color-text-secondary); font-weight: 600; }
+.source-stat-val { font-family: var(--font-mono); font-weight: 700; color: var(--color-text-primary); }
+.source-anomaly-tag {
+    font-size: 0.68rem;
+    padding: 3px 6px;
+    border-radius: 4px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 600;
+}
+.source-anomaly-tag.warning { background: #FFFBEB; color: #B45309; border: 1px solid #FDE68A; }
+.source-anomaly-tag.info    { background: #EFF6FF; color: #1D4ED8; border: 1px solid #BFDBFE; }
+.source-anomaly-tag.success { background: #F0FDF4; color: #15803D; border: 1px solid #BBF7D0; }
+
+/* 11-Stage Visible Processing Pipeline Stepper */
+.pipeline-stepper {
+    background: #FAF7F2;
+    border: 1.5px solid var(--color-border);
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.pipeline-step {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.72rem;
+    padding: 4px 6px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid #EDE8E1;
+}
+.pipeline-step-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #15803D;
+    color: #FFFFFF;
+    font-size: 0.62rem;
+    font-weight: 800;
+    flex-shrink: 0;
+}
+.pipeline-step-name {
+    flex: 1;
+    font-weight: 700;
+    color: var(--color-text-primary);
+}
+.pipeline-step-desc {
+    font-size: 0.66rem;
+    color: #15803D;
+    font-weight: 700;
+    font-family: var(--font-mono);
+}
+
+/* Intermediate Concordance Metrics Ribbon */
+.metrics-ribbon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+}
+.metric-box {
+    background: #FFFFFF;
+    border: 1.5px solid var(--color-border);
+    border-radius: 6px;
+    padding: 8px 10px;
+    text-align: center;
+}
+.metric-box-val {
+    font-size: 1.05rem;
+    font-weight: 800;
+    font-family: var(--font-mono);
+    line-height: 1.1;
+}
+.metric-box-val.success { color: #15803D; }
+.metric-box-val.info    { color: #1D4ED8; }
+.metric-box-val.gold    { color: #926E17; }
+.metric-box-lbl {
+    font-size: 0.66rem;
+    color: var(--color-text-secondary);
+    font-weight: 700;
+    margin-top: 3px;
+    text-transform: uppercase;
+}
+
+/* AFTER Harmonized Parcel Card */
+.after-harmonized-card {
+    background: linear-gradient(135deg, #F0FDF4 0%, #DCFCE7 100%);
+    border: 2px solid #16A34A;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 4px 12px rgba(22, 163, 74, 0.15);
+}
+.after-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.after-title {
+    font-size: 0.88rem;
+    font-weight: 800;
+    color: #14532D;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.after-status-badge {
+    background: #16A34A;
+    color: #FFFFFF;
+    font-size: 0.68rem;
+    font-weight: 800;
+    padding: 3px 8px;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+}
+.after-area-hero {
+    font-size: 1.4rem;
+    font-weight: 800;
+    font-family: var(--font-mono);
+    color: #14532D;
+    margin-bottom: 8px;
+}
+.after-sources-check-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+    margin-top: 6px;
+    padding-top: 6px;
+    border-top: 1px dashed rgba(22, 163, 74, 0.4);
+}
+.after-source-check {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #15803D;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* Selection Rationale Box ("Why the system selected this result") */
+.selection-rationale-box {
+    background: #FFFFFF;
+    border: 1.5px solid #C59B27;
+    border-radius: 8px;
+    padding: 11px;
+    box-shadow: 0 3px 10px rgba(197, 155, 39, 0.12);
+}
+.rationale-title {
+    font-size: 0.76rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #926E17;
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 6px;
+}
+.rationale-item {
+    font-size: 0.72rem;
+    color: var(--color-text-primary);
+    line-height: 1.45;
+    margin-bottom: 6px;
+    padding-left: 12px;
+    position: relative;
+}
+.rationale-item::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #C59B27;
+    font-weight: 800;
+}
+

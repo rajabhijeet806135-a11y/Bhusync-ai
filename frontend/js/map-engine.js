@@ -86,12 +86,18 @@ const MapEngine = {
             ConflictLayer.init(map);
             ErrorEllipseLayer.init(map);
             HeatmapLayer.init(map);
+            if (typeof MultiSourceProofLayer !== 'undefined') {
+                MultiSourceProofLayer.init(map);
+            }
 
             // Parcel selection click event
             map.on('click', 'parcel-fill', (e) => {
                 if (e.features && e.features.length > 0) {
                     const feature = e.features[0];
                     this.highlightParcel(feature.properties.id);
+                    if (typeof MultiSourceProofLayer !== 'undefined') {
+                        MultiSourceProofLayer.showProofForFeature(feature);
+                    }
                     ParcelInspector.show(feature.properties);
 
                     new maplibregl.Popup({ closeOnClick: true, maxWidth: '320px', className: 'bhusynch-popup' })
@@ -106,6 +112,9 @@ const MapEngine = {
                 if (e.features && e.features.length > 0) {
                     const feature = e.features[0];
                     this.highlightParcel(feature.properties.id);
+                    if (typeof MultiSourceProofLayer !== 'undefined') {
+                        MultiSourceProofLayer.showProofForFeature(feature);
+                    }
                     ParcelInspector.show(feature.properties);
                 }
             });
@@ -121,6 +130,9 @@ const MapEngine = {
                 if (window.BhuSynchApp && window.BhuSynchApp.loadedParcels && window.BhuSynchApp.loadedParcels.features.length > 0) {
                     const first = window.BhuSynchApp.loadedParcels.features[0];
                     MapEngine.highlightParcel(first.properties.id || first.id);
+                    if (typeof MultiSourceProofLayer !== 'undefined') {
+                        MultiSourceProofLayer.showProofForFeature(first);
+                    }
                     ParcelInspector.show(first.properties);
                 }
             }, 800);
@@ -139,6 +151,14 @@ const MapEngine = {
             'error-ellipses': ['error-ellipse-layer', 'error-ellipse-center'],
             'heatmap': ['heatmap-layer'],
             'satellite': ['base-satellite'],
+            'multisource': [
+                'proof-cadastral-line', 'proof-cadastral-fill',
+                'proof-municipal-line', 'proof-municipal-fill',
+                'proof-drone-line',
+                'proof-building-fill', 'proof-building-line',
+                'proof-cors-circle',
+                'proof-harmonized-line', 'proof-harmonized-fill'
+            ],
         };
 
         const layers = layerMappings[layerName] || [];

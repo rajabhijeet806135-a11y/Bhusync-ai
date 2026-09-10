@@ -7,8 +7,8 @@
     "type": "FeatureCollection",
     "feature_count": 35,
     "geom_types": [
-      "MultiPolygon",
-      "Polygon"
+      "Polygon",
+      "MultiPolygon"
     ],
     "bbox": [
       68.1862,
@@ -76,8 +76,8 @@
     "type": "FeatureCollection",
     "feature_count": 250,
     "geom_types": [
-      "LineString",
-      "Polygon"
+      "Polygon",
+      "LineString"
     ],
     "bbox": [
       88.4194,
@@ -104,8 +104,8 @@
     "type": "FeatureCollection",
     "feature_count": 23,
     "geom_types": [
-      "MultiPolygon",
-      "Polygon"
+      "Polygon",
+      "MultiPolygon"
     ],
     "bbox": [
       85.8197,
@@ -209,8 +209,8 @@
     "type": "FeatureCollection",
     "feature_count": 387,
     "geom_types": [
-      "LineString",
-      "Point"
+      "Point",
+      "LineString"
     ],
     "bbox": [
       85.2371,
@@ -315,8 +315,8 @@
     "type": "FeatureCollection",
     "feature_count": 500,
     "geom_types": [
-      "LineString",
-      "Point"
+      "Point",
+      "LineString"
     ],
     "bbox": [
       85.261,
@@ -377,8 +377,8 @@
     "type": "FeatureCollection",
     "feature_count": 3372,
     "geom_types": [
-      "LineString",
-      "Polygon"
+      "Polygon",
+      "LineString"
     ],
     "bbox": [
       88.3789,
@@ -406,8 +406,8 @@
     "type": "FeatureCollection",
     "feature_count": 431,
     "geom_types": [
-      "Point",
-      "Polygon"
+      "Polygon",
+      "Point"
     ],
     "bbox": [
       73.8373,
@@ -486,8 +486,8 @@
     "type": "FeatureCollection",
     "feature_count": 17,
     "geom_types": [
-      "LineString",
-      "Polygon"
+      "Polygon",
+      "LineString"
     ],
     "bbox": [
       73.511,
@@ -535,8 +535,8 @@
     "type": "FeatureCollection",
     "feature_count": 1109,
     "geom_types": [
-      "LineString",
-      "Polygon"
+      "Polygon",
+      "LineString"
     ],
     "bbox": [
       73.8409,
@@ -670,8 +670,8 @@
     "type": "FeatureCollection",
     "feature_count": 400,
     "geom_types": [
-      "LineString",
-      "Point"
+      "Point",
+      "LineString"
     ],
     "bbox": [
       88.3234,
@@ -1041,8 +1041,8 @@
     "type": "FeatureCollection",
     "feature_count": 400,
     "geom_types": [
-      "LineString",
-      "Point"
+      "Point",
+      "LineString"
     ],
     "bbox": [
       87.0186,

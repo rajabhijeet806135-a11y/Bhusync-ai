@@ -8,7 +8,7 @@
 
 const BhuSynchApp = {
     map: null,
-    currentState: '20_ranchi_piska', // Default: Ranchi Piska More & Ratu Road Hub (State 20)
+    currentState: '19', // Default: West Bengal — Bidhannagar Sector V / KMC (State 19)
     config: {
         apiBaseUrl: 'http://localhost:8000',
         states: {
@@ -98,7 +98,7 @@ const BhuSynchApp = {
                 zoom: 16.8,
                 pitch: 42,
                 bearing: -10,
-                corsName: 'CORS KOL1 Active',
+                corsName: 'CORS KOL1 Active (Survey of India Kolkata)',
                 crsBadge: 'EPSG:7755 (India 45N)',
                 stats: { totalParcels: 200, verified: 185, conflicts: 15, avgRmse: 0.048 },
                 chips: [
@@ -180,7 +180,7 @@ const BhuSynchApp = {
             this.currentState = select.value;
         }
 
-        const defaultState = this.config.states[this.currentState] || this.config.states['20_ranchi_piska'];
+        const defaultState = this.config.states[this.currentState] || this.config.states['19'];
 
         // Initialize map
         this.map = MapEngine.init('map', {
