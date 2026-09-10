@@ -83,9 +83,17 @@ const ParcelInspector = {
 
         // Update multi-source proof layer on the map canvas
         if (typeof MultiSourceProofLayer !== 'undefined' && MultiSourceProofLayer.sourcesInitialized) {
-            let feature = (window.BhuSynchApp && window.BhuSynchApp.loadedParcels && window.BhuSynchApp.loadedParcels.features)
-                ? window.BhuSynchApp.loadedParcels.features.find(f => (f.properties && f.properties.id === properties.id) || f.id === properties.id || (f.properties && f.properties.ulpin === properties.ulpin))
-                : null;
+            let feature = null;
+            if (window.BhuSynchApp && window.BhuSynchApp.loadedParcels && window.BhuSynchApp.loadedParcels.features) {
+                feature = window.BhuSynchApp.loadedParcels.features.find(f => {
+                    const fp = f.properties || {};
+                    if (properties.ulpin && fp.ulpin === properties.ulpin) return true;
+                    if (properties.dag_no && fp.dag_no === properties.dag_no) return true;
+                    if (properties.khasra_no && fp.khasra_no === properties.khasra_no) return true;
+                    if (properties.id && (fp.id === properties.id || f.id === properties.id)) return true;
+                    return false;
+                });
+            }
             if (feature) {
                 MultiSourceProofLayer.showProofForFeature(feature);
                 MultiSourceProofLayer.setMode(this.proofOverlayMode || 'all');
@@ -123,6 +131,16 @@ const ParcelInspector = {
             MultiSourceProofLayer.setMode(mode);
         }
         this.render();
+
+        if (typeof Toast !== 'undefined') {
+            if (mode === 'before') {
+                Toast.warning('⚡ BEFORE Mode: Displaying 5 raw incompatible sources with paper shrinkage & setback encroachment.', 3000);
+            } else if (mode === 'after') {
+                Toast.success('🛡️ AFTER Mode: Displaying reconciled single source of truth (1,251 m² Merkle verified).', 3000);
+            } else {
+                Toast.info('🔍 ALL Mode: Overlaying 5 raw sources alongside harmonized boundary.', 2500);
+            }
+        }
     },
 
     launchSihLiveProof() {

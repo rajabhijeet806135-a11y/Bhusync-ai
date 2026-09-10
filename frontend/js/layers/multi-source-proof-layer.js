@@ -40,7 +40,7 @@ const MultiSourceProofLayer = {
                 source: 'proof-cadastral-source',
                 paint: {
                     'line-color': '#F59E0B', // Amber
-                    'line-width': 2.5,
+                    'line-width': 3.8,
                     'line-dasharray': [4, 2],
                 },
             });
@@ -49,21 +49,21 @@ const MultiSourceProofLayer = {
                 type: 'fill',
                 source: 'proof-cadastral-source',
                 paint: {
-                    'fill-color': 'rgba(245, 158, 11, 0.08)',
+                    'fill-color': 'rgba(245, 158, 11, 0.22)',
                 },
             });
         }
 
-        // 2. Municipal GIS (Cyan dashed line: +11m² overreach into road setback)
+        // 2. Municipal GIS (Red-Cyan dashed line: road setback encroachment)
         if (!map.getLayer('proof-municipal-line')) {
             map.addLayer({
                 id: 'proof-municipal-line',
                 type: 'line',
                 source: 'proof-municipal-source',
                 paint: {
-                    'line-color': '#06B6D4', // Cyan
-                    'line-width': 2.5,
-                    'line-dasharray': [2, 2],
+                    'line-color': '#EF4444', // Red-Orange warning
+                    'line-width': 3.5,
+                    'line-dasharray': [3, 2],
                 },
             });
             map.addLayer({
@@ -71,7 +71,7 @@ const MultiSourceProofLayer = {
                 type: 'fill',
                 source: 'proof-municipal-source',
                 paint: {
-                    'fill-color': 'rgba(6, 182, 212, 0.08)',
+                    'fill-color': 'rgba(239, 68, 68, 0.20)',
                 },
             });
         }
@@ -84,7 +84,7 @@ const MultiSourceProofLayer = {
                 source: 'proof-drone-source',
                 paint: {
                     'line-color': '#84CC16', // Lime Green
-                    'line-width': 2.2,
+                    'line-width': 3.5,
                 },
             });
         }
@@ -96,7 +96,7 @@ const MultiSourceProofLayer = {
                 type: 'fill',
                 source: 'proof-building-source',
                 paint: {
-                    'fill-color': 'rgba(139, 92, 246, 0.35)', // Violet
+                    'fill-color': 'rgba(139, 92, 246, 0.45)', // Violet
                 },
             });
             map.addLayer({
@@ -104,8 +104,8 @@ const MultiSourceProofLayer = {
                 type: 'line',
                 source: 'proof-building-source',
                 paint: {
-                    'line-color': '#7C3AED',
-                    'line-width': 1.8,
+                    'line-color': '#6D28D9',
+                    'line-width': 2.5,
                 },
             });
         }
@@ -117,9 +117,9 @@ const MultiSourceProofLayer = {
                 type: 'circle',
                 source: 'proof-cors-source',
                 paint: {
-                    'circle-radius': 6,
+                    'circle-radius': 7.5,
                     'circle-color': '#F59E0B',
-                    'circle-stroke-width': 2.5,
+                    'circle-stroke-width': 3,
                     'circle-stroke-color': '#FFFFFF',
                 },
             });
@@ -132,7 +132,7 @@ const MultiSourceProofLayer = {
                 type: 'fill',
                 source: 'proof-harmonized-source',
                 paint: {
-                    'fill-color': 'rgba(16, 185, 129, 0.22)',
+                    'fill-color': 'rgba(16, 185, 129, 0.32)',
                 },
             });
             map.addLayer({
@@ -141,7 +141,7 @@ const MultiSourceProofLayer = {
                 source: 'proof-harmonized-source',
                 paint: {
                     'line-color': '#10B981', // Emerald
-                    'line-width': 4.0,
+                    'line-width': 5.5,
                 },
             });
         }
@@ -168,39 +168,47 @@ const MultiSourceProofLayer = {
             return;
         }
 
-        // Calculate centroid
+        // Calculate centroid and bounding box dimensions for proportional visual shifts
         let sumLon = 0, sumLat = 0;
+        let minLon = coords[0][0], maxLon = coords[0][0];
+        let minLat = coords[0][1], maxLat = coords[0][1];
         const n = coords.length - 1;
         for (let i = 0; i < n; i++) {
             sumLon += coords[i][0];
             sumLat += coords[i][1];
+            if (coords[i][0] < minLon) minLon = coords[i][0];
+            if (coords[i][0] > maxLon) maxLon = coords[i][0];
+            if (coords[i][1] < minLat) minLat = coords[i][1];
+            if (coords[i][1] > maxLat) maxLat = coords[i][1];
         }
         const centerLon = sumLon / n;
         const centerLat = sumLat / n;
+        const spanLon = maxLon - minLon || 0.0005;
+        const spanLat = maxLat - minLat || 0.0005;
 
         // 1. Drone ORI = Ground-truth physical compound wall geometry
         const droneCoords = coords.map(c => [c[0], c[1]]);
 
-        // 2. Cadastral = Legacy scan with ~1.8m eastward affine distortion and slight scale shrinkage
-        const shiftLon = 0.000019;
-        const shiftLat = 0.000011;
+        // 2. Cadastral = Legacy paper scan with clearly noticeable eastward shift & shrinkage
+        const shiftLon = spanLon * 0.075;
+        const shiftLat = spanLat * 0.045;
         const cadastralCoords = coords.map(c => {
             const relLon = c[0] - centerLon;
             const relLat = c[1] - centerLat;
             return [
-                centerLon + relLon * 0.9976 + shiftLon,
-                centerLat + relLat * 0.9976 + shiftLat
+                centerLon + relLon * 0.985 + shiftLon,
+                centerLat + relLat * 0.985 + shiftLat
             ];
         });
 
-        // 3. Municipal GIS = Includes unauthorized 1.2m front extension into municipal setback
+        // 3. Municipal GIS = Extends into front road setback / Street buffer by ~10%
         const municipalCoords = coords.map((c, idx) => {
             const relLon = c[0] - centerLon;
             const relLat = c[1] - centerLat;
-            const frontExtension = (idx < coords.length / 2) ? 0.000014 : 0.0;
+            const frontExtension = (idx < coords.length / 2) ? (spanLon * 0.12) : 0.0;
             return [
-                centerLon + relLon * 1.0044 + frontExtension,
-                centerLat + relLat * 1.0044
+                centerLon + relLon * 1.015 + frontExtension,
+                centerLat + relLat * 1.015
             ];
         });
 
@@ -209,8 +217,8 @@ const MultiSourceProofLayer = {
             const relLon = c[0] - centerLon;
             const relLat = c[1] - centerLat;
             return [
-                centerLon + relLon * 0.72,
-                centerLat + relLat * 0.72
+                centerLon + relLon * 0.65,
+                centerLat + relLat * 0.65
             ];
         });
 
@@ -240,6 +248,9 @@ const MultiSourceProofLayer = {
         if (corsSource) {
             corsSource.setData({ type: 'FeatureCollection', features: corsPoints });
         }
+
+        const mode = (window.ParcelInspector && window.ParcelInspector.proofOverlayMode) ? window.ParcelInspector.proofOverlayMode : 'all';
+        this.setMode(mode);
     },
 
     updateSourceData(sourceId, coords) {
@@ -258,6 +269,7 @@ const MultiSourceProofLayer = {
     setMode(mode) {
         if (!this.map) return;
         if (mode === 'before') {
+            // Show all 5 raw incompatible layers
             this.setLayerVis('proof-cadastral-line', 'visible');
             this.setLayerVis('proof-cadastral-fill', 'visible');
             this.setLayerVis('proof-municipal-line', 'visible');
@@ -266,21 +278,40 @@ const MultiSourceProofLayer = {
             this.setLayerVis('proof-building-fill', 'visible');
             this.setLayerVis('proof-building-line', 'visible');
             this.setLayerVis('proof-cors-circle', 'visible');
+
+            // Hide harmonized unified layers
             this.setLayerVis('proof-harmonized-line', 'none');
             this.setLayerVis('proof-harmonized-fill', 'none');
+
+            // Dim baseline parcel fill & hide highlight so raw discrepant lines pop out
+            this.setLayerVis('parcel-highlight', 'none');
+            if (this.map.getLayer('parcel-fill')) {
+                try { this.map.setPaintProperty('parcel-fill', 'fill-opacity', 0.15); } catch (e) {}
+            }
         } else if (mode === 'after') {
+            // Hide raw conflicting layers (scan warp & setback encroachment disappear!)
             this.setLayerVis('proof-cadastral-line', 'none');
             this.setLayerVis('proof-cadastral-fill', 'none');
             this.setLayerVis('proof-municipal-line', 'none');
             this.setLayerVis('proof-municipal-fill', 'none');
             this.setLayerVis('proof-drone-line', 'none');
+
+            // Keep structural plinth & CORS
             this.setLayerVis('proof-building-fill', 'visible');
             this.setLayerVis('proof-building-line', 'visible');
             this.setLayerVis('proof-cors-circle', 'visible');
+
+            // Show unified harmonized emerald boundary
             this.setLayerVis('proof-harmonized-line', 'visible');
             this.setLayerVis('proof-harmonized-fill', 'visible');
+
+            // Restore baseline parcel highlight
+            this.setLayerVis('parcel-highlight', 'visible');
+            if (this.map.getLayer('parcel-fill')) {
+                try { this.map.setPaintProperty('parcel-fill', 'fill-opacity', 0.75); } catch (e) {}
+            }
         } else {
-            // 'all' overlay mode
+            // 'all' overlay comparison mode
             this.setLayerVis('proof-cadastral-line', 'visible');
             this.setLayerVis('proof-cadastral-fill', 'visible');
             this.setLayerVis('proof-municipal-line', 'visible');
@@ -291,11 +322,16 @@ const MultiSourceProofLayer = {
             this.setLayerVis('proof-cors-circle', 'visible');
             this.setLayerVis('proof-harmonized-line', 'visible');
             this.setLayerVis('proof-harmonized-fill', 'visible');
+
+            this.setLayerVis('parcel-highlight', 'none');
+            if (this.map.getLayer('parcel-fill')) {
+                try { this.map.setPaintProperty('parcel-fill', 'fill-opacity', 0.25); } catch (e) {}
+            }
         }
     },
 
     setLayerVis(layerId, vis) {
-        if (this.map.getLayer(layerId)) {
+        if (this.map && this.map.getLayer(layerId)) {
             this.map.setLayoutProperty(layerId, 'visibility', vis);
         }
     },
